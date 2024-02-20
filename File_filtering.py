@@ -2,6 +2,7 @@ import pandas as pd
 import langid
 import regex as re
 from opencc import OpenCC
+from langdetect import detect
 
 
 # Define default source path
@@ -52,12 +53,30 @@ df_review_english.head(2)
 
 df_review_english.to_csv('eng_data.csv', index=False, encoding='utf-8')
 def convert_to_simplified_chinese(text):
+    # 判断每一列是否存在日文字符
 
     cc = OpenCC('t2s')
     return cc.convert(text)
 
+def is_japanese(text):
+    if pd.isna(text):
+        return False  # if value is null, return False
+    lang, _ = langid.classify(text)
+    return lang == "ja"
+
+
+
 chinese_pattern = re.compile(r'[\p{Han}]')
 df_review['content'] = df_review['content'].apply(convert_to_simplified_chinese)
-df_review_chinese = df_review[df_review['content'].apply(lambda x: bool(chinese_pattern.search(x)))]
 
+# Create a new column "is_english" to indicate whether the review is wrote in English
+df_review.loc[:, "is_japanese"] = df_review["content"].apply(is_japanese)
+
+# Keep English reviews and save into df_review_english dataset
+df_review_no_japanese = df_review[df_review["is_japanese"]==False]
+df_review_no_japanese = df_review_no_japanese.reset_index(drop=True)
+
+df_review_chinese = df_review_no_japanese[df_review_no_japanese['content'].apply(lambda x: bool(chinese_pattern.search(x)))]
 df_review_chinese.to_csv('Chinese.csv', index=False, encoding='utf-8')
+
+print('successful')
