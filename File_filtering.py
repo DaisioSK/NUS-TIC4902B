@@ -6,7 +6,7 @@ from langdetect import detect
 
 
 # Define default source path
-SRC_PATH = "./"
+SRC_PATH = "./src/"
 
 # Load dataset
 df_review = pd.read_csv(SRC_PATH + "Tripcom_reviews_details.csv")
