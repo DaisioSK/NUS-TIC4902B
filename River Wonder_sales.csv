@@ -1,0 +1,34 @@
+ticket_name,price,currency,ticket_count,revenue,more_info
+Adult Ticket,38,SGD,191,7258,River Wonders Admission Ticket Adult Ticket (Singapore Residents)
+Adult Ticket,42,SGD,21585,906570,River Wonders Admission Ticket Adult Ticket (Non-Singapore Residents)
+Child Ticket,28.5,SGD,44,1232,River Wonders Admission Ticket Child Ticket (Singapore Residents)
+Child Ticket,30,SGD,8442,253260,River Wonders Admission Ticket Child Ticket (Non-Singapore Residents)
+Family Ticket (2 Adults + 1 Child),114,SGD,138,15732,River Wonders Admission Ticket Family Ticket (2 Adults + 1 Child) (Non-Singapore residents)
+Family Ticket (1 Adult + 1 Child),72,SGD,47,3384,River Wonders Admission Ticket Family Ticket (1 Adult + 1 Child) (Non-Singapore residents)
+Adult Ticket,42,SGD,1297,54474,River Wonders Admission Ticket + Boat Ride Adult Ticket
+Child Ticket,35,SGD,339,11865,River Wonders Admission Ticket + Boat Ride Child Ticket
+Adult Ticket,91.5,SGD,254,23114,Night Safari + River Wonders 2-Park Admission Adult Ticket (Non-Singapore Residents)
+Child Ticket,65.99,SGD,532,34580,Night Safari + River Wonders 2-Park Admission Child Ticket (Non-Singapore Residents)
+Family Ticket (1 Adult + 1 Child),159.5,SGD,15,2385,Night Safari + River Wonders 2-Park Admission Family Ticket (1 Adult + 1 Child)
+Family Ticket (2 Adults + 1 Child),251,SGD,40,10040,Night Safari + River Wonders 2-Park Admission Family Ticket (2 Adults + 1 Child)
+Adult Ticket,118,SGD,17,2006,Singapore Zoo + River Wonders + Bird Paradise + Night Safari Park Hopper Ticket Adult Ticket (Singapore Residents)
+Child Ticket,90,SGD,2,180,Singapore Zoo + River Wonders + Bird Paradise + Night Safari Park Hopper Ticket Child Ticket (Singapore Residents)
+Adult Ticket,118,SGD,2569,303142,Singapore Zoo + River Wonders + Bird Paradise + Night Safari Park Hopper Ticket Adult Ticket (Non-Singapore Residents)
+Child Ticket,90,SGD,920,82800,Singapore Zoo + River Wonders + Bird Paradise + Night Safari Park Hopper Ticket Child Ticket (Non-Singapore Residents)
+Adult Ticket,90,SGD,54,4860,River Wonders + Bird Paradise Admission Ticket Adult Ticket (Non-SG Residents)
+Child Ticket,63,SGD,21,1323,River Wonders + Bird Paradise Admission Ticket Child Ticket (Non-SG Residents)
+Adult Ticket,136.5,SGD,92,12512,Singapore Zoo + River Wonders + Night Safari 3-in-1 ParkHopper Admission Adult Ticket (Non-Singapore Residents)
+Child Ticket,90,SGD,186,16740,Singapore Zoo + River Wonders + Night Safari 3-in-1 ParkHopper Admission Child Ticket (Non-Singapore Residents)
+Adult Ticket,83.6,SGD,1,83,Singapore Zoo + River Wonders 2-Park Admission Adult Ticket (SG Residents)
+Child Ticket,59.85,SGD,0,0,Singapore Zoo + River Wonders 2-Park Admission Child Ticket (SG Residents)
+Family Ticket (1 Adult + 1 Child),153,SGD,16,2448,Singapore Zoo + River Wonders 2-Park Admission Family Ticket (1 Adult + 1 Child)
+Family Ticket (2 Adults + 1 Child),240,SGD,66,15840,Singapore Zoo + River Wonders 2-Park Admission Family Ticket (2 Adults + 1 Child)
+Adult Ticket,87,SGD,206,17922,Singapore Zoo + River Wonders 2-Park Admission Adult Ticket (Non-Singapore Residents)
+Child Ticket,62.99,SGD,256,15872,Singapore Zoo + River Wonders 2-Park Admission Child Ticket (Non-Singapore Residents)
+Adult Ticket,125,SGD,8,1000,River Wonders + Universal Studios Singapore Ticket Adult Ticket
+Child Ticket,92,SGD,2,184,River Wonders + Universal Studios Singapore Ticket Child Ticket
+Adult Ticket,82,SGD,2,164,Adventure Cove Waterpark + River Wonders Ticket Adult Ticket
+Child Ticket,62,SGD,0,0,Adventure Cove Waterpark + River Wonders Ticket Child Ticket
+Standard Ticket,320,SGD,4,1280,River Wonders River Discovery Walking Tour Standard Ticket
+Standard Ticket,94.72,SGD,60,5640,River Wonders Manatee Mania Backstage Pass Standard Ticket
+Standard Ticket,5,SGD,23079,115395,River Wonders Amazon River Quest Cruise Ticket Standard Ticket
