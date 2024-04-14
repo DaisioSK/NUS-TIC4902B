@@ -12,7 +12,14 @@ from textblob import Word
 import spacy
 from bs4 import BeautifulSoup
 
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.cluster import KMeans, AgglomerativeClustering
+from collections import Counter
+
 from ref_list import CONTRACTION_MAP_EN
+
+
 
 
 nlp = spacy.load('en_core_web_sm')
@@ -208,6 +215,97 @@ def normalize_corpus(dataframe, raw_column, clean_column,
 
 
 
+
+# Keywords Extraction
+
+# Function to count word frequency
+def get_word_frequency(texts):
+    vectorizer = CountVectorizer()
+    X = vectorizer.fit_transform(texts)
+    word_freq = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
+    return word_freq
+
+
+# Function to extract TF-IDF keyword
+def get_tfidf_keywords(texts, n):
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(texts)
+    feature_names = vectorizer.get_feature_names_out()
+    tfidf_df = pd.DataFrame(X.toarray(), columns=feature_names)
+    keywords = tfidf_df.sum().sort_values(ascending=False)[:n]  # Extract the top n keywords
+    return keywords
+
+
+# Function to extract key phrases
+def extract_phrases(texts, n_words):
+    vectorizer = TfidfVectorizer(ngram_range=(n_words, n_words))
+    X = vectorizer.fit_transform(texts)
+    phrases = vectorizer.get_feature_names_out()
+    return phrases
+
+def extract_phrases(texts, n_words):
+    vectorizer = TfidfVectorizer(ngram_range=(n_words, n_words))
+    X = vectorizer.fit_transform(texts)
+    phrases = vectorizer.get_feature_names_out()
+    
+    # Sort by frequency in descending order
+    phrase_counts = Counter(phrases)
+    sorted_phrases = sorted(phrase_counts.items(), key=lambda x: x[1], reverse=True)
+    sorted_phrases = [phrase for phrase, count in sorted_phrases]
+    return sorted_phrases
+
+
+
+
+# Similarity Matching
+
+# Function to clustering by cosine_similarity
+def cluster_similar_texts(texts, threshold):
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(texts)
+
+    # Calculate similarity matrix
+    similarity_matrix = cosine_similarity(X)
+
+    # Classify
+    classified_texts = {}
+    for i in range(len(texts)):
+        if i not in classified_texts:
+            similar_indices = [j for j, similarity_score in enumerate(similarity_matrix[i]) if similarity_score > threshold]
+            similar_texts = [texts[j] for j in similar_indices]
+            classified_texts[i] = similar_texts
+
+    return classified_texts
+
+
+
+
+# Clustering Analysis
+
+# Function to Kmeans clustering
+def cluster_kmeans(texts, num_clusters):
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(texts)
+    
+    kmeans = KMeans(n_clusters=num_clusters)
+    kmeans.fit(X)
+    
+    return kmeans.labels_
+
+
+# Function to hierarchical clustering
+def cluster_hierarchical(texts, num_clusters):
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(texts)
+    
+    hierarchical_clustering = AgglomerativeClustering(n_clusters=num_clusters)
+    cluster_labels = hierarchical_clustering.fit_predict(X.toarray())  # Convert sparse matrix to dense array
+    
+    return cluster_labels
+
+
+
+
 # Word2vec Embeddings
 
 # Function to calculate the average word vector for a given set of words
@@ -232,6 +330,7 @@ def averaged_word_vectorizer(corpus, model, num_features):
                 for valid_words in valid_corpuses]
     
     return np.array(features)
+
 
 
 
@@ -288,3 +387,17 @@ def topic_model_coherence_generator(model_name,
             print('-'*50)
 
     return models, coherence_scores
+
+
+
+# Define Formatting
+
+# Define for bold and remove bold
+bold = "\033[1m"
+reset = "\033[0m"
+
+# Function to check NULL values in dataframe
+def check_null(df, df_name):
+    print(f"{bold}{df_name}:{reset}")
+    print(df.isnull().sum())
+    print(f"{bold}Total rows in {df_name}:{reset}", len(df), "\n")
