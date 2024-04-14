@@ -1,0 +1,585 @@
+source,hotel_id,hotel_name,hotel_address,hotel_postal_code,lat,lon,total_reviews,overall_rating,overall_rating_category,rating_location,rating_service,rating_cleanliness,rating_room_comfort_and_quality,rating_value_for_money,rating_facilities
+Agoda,408551,Dorsett Singapore,"333 New Bridge Road, Chinatown, Singapore, Singapore, 088765",088765,1.2796,103.84,10337,8.2,Excellent,9.0,8.4,8.3,8.1,8.1,7.9
+Agoda,1635,M Hotel Singapore,"81 Anson Road, CBD, Singapore, Singapore, 079908",079908,1.2737,103.8451,9034,8.1,Excellent,8.2,8.1,8.5,8.2,8.0,8.0
+Agoda,10672643,Dusit Thani Laguna Singapore,"11 Laguna Golf Green, Changi, Singapore, Singapore, 488047",488047,1.3236,103.9627,3149,8.6,Excellent,7.8,9.0,9.3,7.6,8.6,8.9
+Agoda,51381,Hotel Royal @ Queens,"12 Queen Street, Bugis, Singapore, Singapore, 188553",188553,1.2976,103.8522,5140,8.2,Excellent,8.9,8.3,8.2,7.6,8.1,7.7
+Agoda,10604,Singapore Marriott Tang Plaza Hotel,"320 Orchard Road, Orchard, Singapore, Singapore, 238865",238865,1.305,103.833,1131,8.6,Excellent,9.5,8.6,8.8,8.5,7.7,8.5
+Agoda,5227,Village Hotel Changi by Far East Hospitality,"1 Netheravon Road, Changi, Singapore, Singapore, 508502",508502,1.3904,103.9861,13412,7.9,Very Good,7.8,8.1,8.1,7.9,7.9,7.8
+Agoda,1105091,Hotel Boss,"500 Jalan Sultan Road, Kallang, Singapore, Singapore, 199020",199020,1.3058,103.8604,26294,7.8,Very Good,8.5,7.8,8.0,7.6,7.7,7.5
+Agoda,10600,Rendezvous Hotel Singapore by Far East Hospitality,"9 Bras Basah Road, Bugis, Singapore, Singapore, 189559",189559,1.2986,103.8493,5634,8.4,Excellent,9.0,8.5,8.6,8.1,8.2,8.1
+Agoda,6593699,"Capri by Fraser China Square, Singapore","181 South Bridge Road, Singapore, CBD, Singapore, Singapore, 058743",058743,1.284,103.8471,2494,8.8,Excellent,9.3,8.8,9.3,7.6,8.8,8.8
+Agoda,522329,One Farrer Hotel,"1 Farrer Park Station Road, Little India, Singapore, Singapore, 217562",217562,1.3126,103.8539,9073,9.0,Exceptional,8.9,9.1,9.3,9.0,9.0,9.1
+Agoda,1192785,M Social Singapore,"90 Robertson Quay, Clarke Quay, Singapore, Singapore, 238259",238259,1.2908,103.8373,8526,8.1,Excellent,8.2,8.2,8.6,7.6,8.0,7.9
+Agoda,165693,Studio M Hotel,"3 Nanson Road , Clarke Quay, Singapore, Singapore, 238910",238910,1.2908,103.8392,21839,7.7,Very Good,8.0,7.9,8.0,7.8,7.7,7.7
+Agoda,10593,Grand Copthorne Waterfront Hotel,"392 Havelock Road , Clarke Quay, Singapore, Singapore, 169663",169663,1.2903,103.8351,9822,7.9,Very Good,7.9,8.1,8.3,8.0,7.8,7.9
+Agoda,335555,Capri by Fraser Changi City. Singapore,"3 Changi Business Park Central 1, Changi, Singapore, Singapore, 486037",486037,1.3342,103.9636,10456,8.6,Excellent,8.6,8.7,9.1,9.0,8.6,8.7
+Agoda,6840955,Village Hotel Sentosa by Far East Hospitality,"10 Artillery Avenue, Sentosa, Singapore, Singapore, 099951",099951,1.2523,103.82,3411,8.8,Excellent,9.1,9.0,9.2,7.6,8.6,9.0
+Agoda,2256959,YOTEL Singapore Orchard Road,"366 Orchard Road, Orchard, Singapore, Singapore, 238904",238904,1.3063,103.8313,21225,8.8,Excellent,9.4,8.8,9.2,7.6,8.5,8.4
+Agoda,920797,Aqueen Hotel Paya Lebar,"33 Jalan Afifi Singapore , Geylang, Singapore, Singapore, 409180",409180,1.3221,103.8917,4205,8.0,Excellent,8.2,8.4,8.5,8.5,8.1,7.5
+Agoda,254056,V Hotel Lavender,"70 Jellicoe Road, Kallang, Singapore, Singapore, 208767",208767,1.3078,103.8626,47270,7.7,Very Good,9.0,7.5,7.6,7.2,7.5,7.3
+Agoda,10617,Royal Plaza on Scotts Hotel,"25 Scotts Road, Orchard, Singapore, Singapore, 228220",228220,1.3073,103.8322,16737,8.5,Excellent,9.3,8.6,8.7,8.5,8.2,8.2
+Agoda,96909,Hotel Royal,"36 Newton Road, Novena, Singapore, Singapore, 307964",307964,1.3168,103.8419,10233,7.4,Very Good,8.0,7.3,7.4,6.9,7.6,7.0
+Agoda,10602,Hilton Singapore Orchard,"333 Orchard Road, Orchard, Singapore, Singapore, 238867",238867,1.3021,103.8363,3883,9.0,Exceptional,9.7,9.2,9.5,7.6,8.7,9.1
+Agoda,77323,Robertson Quay Hotel (SG Clean Certified),"15 Merbau Road, Clarke Quay, Singapore, Singapore, 239032",239032,1.2912,103.842,12095,6.8,Good,8.1,6.6,6.8,6.4,6.7,6.1
+Agoda,185945,Marina Bay Sands,"10 Bayfront Avenue, Marina Bay, Singapore, Singapore, 018956",018956,1.2824,103.8584,32861,8.7,Excellent,9.1,8.9,9.2,8.6,7.9,9.2
+Agoda,10577,Village Hotel Albert Court by Far East Hospitality,"180 Albert Street, Bugis, Singapore, Singapore, 189971",189971,1.3042,103.851,4439,7.9,Very Good,8.4,8.0,8.1,7.8,7.7,7.4
+Agoda,1411720,Hotel G Singapore,"200 Middle Road, Bugis, Singapore, Singapore, 188980",188980,1.3009,103.8515,15690,8.5,Excellent,8.9,8.7,8.9,7.6,8.4,8.0
+Agoda,873564,Hotel Chancellor@Orchard,"28 Cavenagh Road, Orchard, Singapore, Singapore, 229635",229635,1.3015,103.8419,10736,7.4,Very Good,8.6,7.3,7.4,6.6,7.4,6.9
+Agoda,89722,Amara Sanctuary Resort Sentosa,"1 Larkhill Road, Sentosa, Singapore, Singapore, 099394",099394,1.2521,103.822,9120,7.6,Very Good,7.9,7.8,7.7,7.9,7.3,7.5
+Agoda,10611,Orchard Rendezvous Hotel by Far East Hospitality,"1 Tanglin Road, Orchard, Singapore, Singapore, 247905",247905,1.3066,103.8278,8687,8.0,Excellent,8.7,8.1,8.1,7.7,7.8,7.7
+Agoda,2402698,Mercure Singapore on Stevens,"Orchard District, 28 Stevens Road, #01-02, Orchard, Singapore, Singapore, 257878",257878,1.3139,103.8286,4135,8.3,Excellent,8.1,8.6,8.9,7.6,8.4,8.5
+Agoda,2402693,Novotel Singapore On Stevens,"28 Stevens Road, #01-01, Orchard, Singapore, Singapore, 257878",257878,1.3139,103.8286,2428,8.5,Excellent,8.1,8.6,8.9,7.6,8.5,8.6
+Agoda,410039,Park Avenue Changi Hotel,"2 Changi Business Park Avenue 1, Changi, Singapore, Singapore, 486015",486015,1.3358,103.9631,4532,8.2,Excellent,8.4,8.3,8.7,8.2,8.1,8.0
+Agoda,35668940,Momentus Hotel Alexandra,"323 Alexandra Rd, HarbourFront, Singapore, Singapore, 159972",159972,1.2875,103.8054,1000,8.5,Excellent,8.3,8.7,9.1,7.6,8.6,8.6
+Agoda,10595,Grand Park City Hall Hotel,"10 Coleman Street, City Hall, Singapore, Singapore, 179809",179809,1.2927,103.8502,2292,8.6,Excellent,9.3,8.8,9.0,7.6,8.5,8.4
+Agoda,344614,Champion Hotel,"60 Joo Chiat Road, East Coast, Singapore, Singapore, 427726",427726,1.3147,103.8984,8396,7.7,Very Good,7.5,8.0,8.0,8.2,8.1,7.2
+Agoda,10580,Carlton Hotel Singapore,"76 Bras Basah Road, City Hall, Singapore, Singapore, 189558",189558,1.2957,103.853,31332,8.6,Excellent,9.2,8.5,8.8,8.1,8.2,8.4
+Agoda,1122442,ibis Styles Singapore On Macpherson,"401 Macpherson Road, Serangoon, Singapore, Singapore, 368125",368125,1.3318,103.8794,2321,7.2,Very Good,6.8,7.5,7.6,7.6,7.3,7.0
+Agoda,1177515,Holiday Inn Express Singapore Katong,"88 East Coast Road, East Coast, Singapore, Singapore, 423371",423371,1.3047,103.9047,3096,8.4,Excellent,8.3,8.6,8.8,7.6,8.5,8.0
+Agoda,159109,Value Hotel Thomson,"592 Balestier Road #01-01 S, Novena, Singapore, Singapore, 329901",329901,1.3269,103.8427,16341,6.9,Good,7.1,6.9,7.2,6.8,7.1,6.6
+Agoda,65156,Oxford Hotel,"218 Queen Street, Bugis, Singapore, Singapore, 188549",188549,1.298,103.8518,4436,7.4,Very Good,8.7,7.6,7.0,6.2,7.4,6.4
+Agoda,10627,York Hotel,"21 Mount Elizabeth, Orchard, Singapore, Singapore, 228516",228516,1.3073,103.8356,21879,7.9,Very Good,8.4,7.9,8.0,7.5,7.8,7.6
+Agoda,10598,InterContinental Singapore,"80 Middle Road , Bugis, Singapore, Singapore, 188966",188966,1.2985,103.8549,3023,8.9,Excellent,9.4,9.0,9.2,8.8,8.5,8.8
+Agoda,240232,Hotel 1900 @ Chinatown,"48 Mosque Street, Chinatown, Singapore, Singapore, 059526",059526,1.2842,103.8443,1263,8.5,Excellent,9.3,8.8,8.9,7.6,8.3,8.0
+Agoda,10592,Goodwood Park Hotel,"22 Scotts Road, Orchard, Singapore, Singapore, 228221",228221,1.308,103.8345,7618,8.6,Excellent,9.0,8.8,8.7,8.5,8.3,8.3
+Agoda,460426,Carlton City Hotel Singapore,"1 Gopeng Street, CBD, Singapore, Singapore, 078862",078862,1.276,103.8437,8983,8.7,Excellent,9.1,8.7,9.0,8.8,8.5,8.5
+Agoda,41737232,Arena eSports @ Orchard,"29a Cuppage Road, Level 2, Orchard, Singapore, Singapore, 229456",229456,1.3021,103.8403,299,7.8,Very Good,8.9,7.8,7.7,7.6,7.8,7.6
+Agoda,773983,Genting Hotel Jurong,"2 Town Hall Link, Jurong West, Singapore, Singapore, 608516",608516,1.3315,103.7393,4765,7.8,Very Good,8.0,8.0,8.4,7.6,7.6,7.6
+Agoda,109878,Value Hotel Balestier,"218 Balestier Road, Novena, Singapore, Singapore, 329684",329684,1.3212,103.8533,9684,7.1,Very Good,7.5,7.3,7.4,7.1,7.4,6.5
+Agoda,1184356,Oasia Hotel Downtown Singapore by Far East Hospitality,"100 Peck Seah Street, CBD, Singapore, Singapore, 079333",079333,1.2759,103.8443,2324,8.7,Excellent,9.3,8.9,9.0,7.6,8.3,8.4
+Agoda,296332,Travelodge Harbourfront Singapore,"50 Telok Blangah Road, HarbourFront, Singapore, Singapore, 098829",098829,1.2662,103.8234,10746,8.0,Excellent,8.7,8.1,8.2,7.3,7.7,7.6
+Agoda,97550,Hotel Mi Bencoolen,"41 Bencoolen Street, Bugis, Singapore, Singapore, 189626",189626,1.2992,103.8501,7454,8.3,Excellent,9.1,8.6,8.5,7.6,8.0,7.7
+Agoda,10586,Vibe Hotel Singapore Orchard,"24 Mount Elizabeth, Orchard, Singapore, Singapore, 228518",228518,1.3082,103.8358,1890,8.6,Excellent,8.6,9.1,9.0,7.6,8.7,8.5
+Agoda,10610,Orchard Hotel Singapore,"442 Orchard Road , Orchard, Singapore, Singapore, 238879",238879,1.3076,103.8284,11583,8.1,Excellent,8.6,8.2,8.3,7.8,7.9,8.0
+Agoda,1193642,7 Wonders Hostel,"257 Jalan Besar, Little India, Singapore, Singapore, 208930",208930,1.3102,103.8582,1838,7.9,Very Good,8.1,8.3,7.7,7.6,8.1,7.4
+Agoda,96903,Hotel Bencoolen,"47 Bencoolen Street, Bugis, Singapore, Singapore, 189626",189626,1.2992,103.8501,9213,7.4,Very Good,8.5,7.6,7.1,6.8,7.2,6.6
+Agoda,10623,Furama RiverFront,"405 Havelock Road, Clarke Quay, Singapore, Singapore, 169633",169633,1.2877,103.8362,13592,7.7,Very Good,7.6,7.9,7.9,7.7,7.8,7.6
+Agoda,33762307,Beverly Hotels Elements,"48 Horne Road, Kallang, Singapore, Singapore, 209069",209069,1.3094,103.8619,2070,8.4,Excellent,9.0,9.0,9.0,7.6,8.3,7.7
+Agoda,461545,ONE15 Marina Sentosa Cove Singapore,"#01-01, 11 Cove Drive, Sentosa Cove, Sentosa, Singapore, Singapore, 098497",098497,1.2464,103.8389,4670,8.1,Excellent,7.9,8.4,8.4,8.3,8.1,8.2
+Agoda,44923,Copthorne King's Hotel Singapore on Havelock,"403 Havelock Road, Clarke Quay, Singapore, Singapore, 169632",169632,1.2883,103.8367,5450,7.6,Very Good,7.6,7.7,7.8,7.5,7.5,7.4
+Agoda,65157,Holiday Inn Express And Suites Singapore Novena,"201 Balestier Road, Novena, Singapore, Singapore, 329926",329926,1.3201,103.8525,615,8.5,Excellent,8.3,9.1,9.1,7.6,8.7,8.5
+Agoda,446168,"Pan Pacific Serviced Suites Beach Road, Singapore","7500B Beach Road, City Hall, Singapore, Singapore, 199592",199592,1.2998,103.8608,4740,8.8,Excellent,8.7,8.9,9.1,9.3,8.7,8.7
+Agoda,98946,Siloso Beach Resort Sentosa,"51 Imbiah Walk Sentosa, Sentosa, Singapore, Singapore, 099538",099538,1.2544,103.8148,10487,7.4,Very Good,8.4,7.4,7.1,7.1,7.3,7.4
+Agoda,542502,Changi Cove,"351 Cranwell Road, Changi, Singapore, Singapore, 509866",509866,1.3886,103.9757,5356,7.9,Very Good,7.3,8.5,8.5,8.3,8.0,7.5
+Agoda,37697227,Arena eSports Hotel @ Bugis Village,"Rochor Road, 166A, Level 2, Bugis, Singapore, Singapore, 188441",188441,1.3009,103.8552,1220,7.8,Very Good,9.0,7.9,7.9,7.6,7.6,7.4
+Agoda,2129,Hotel Grand Central,"22 Cavenagh Road/Orchard Road, Orchard, Singapore, Singapore, 229617",229617,1.3013,103.8418,10450,7.8,Very Good,8.8,7.6,7.8,7.6,7.7,7.2
+Agoda,237531,Hotel Fort Canning,"11 Canning Walk, Orchard, Singapore, Singapore, 178881",178881,1.296,103.8455,3881,8.4,Excellent,8.3,8.6,8.8,8.5,8.1,8.3
+Agoda,8024,Amara Singapore,"165 Tanjong Pagar Road, CBD, Singapore, Singapore, 088539",088539,1.2749,103.8436,9298,8.0,Excellent,8.6,8.1,8.1,7.9,7.8,7.8
+Agoda,488688,Village Hotel Katong by Far East Hospitality,"25 Marine Parade, East Coast, Singapore, Singapore, 449536",449536,1.3038,103.9029,4957,8.4,Excellent,8.3,8.8,8.7,8.8,8.5,8.3
+Agoda,109168,Quincy Hotel Singapore by Far East Hospitality - Adults Only,"22 Mount Elizabeth, Orchard, Singapore, Singapore, 228517",228517,1.3078,103.8357,3101,8.6,Excellent,8.5,9.0,9.0,8.7,8.4,8.6
+Agoda,10601,Concorde Hotel Singapore,"100 Orchard Road, Orchard, Singapore, Singapore, 238840",238840,1.3006,103.8422,10155,8.1,Excellent,8.8,8.3,8.2,7.9,7.9,7.9
+Agoda,33923588,"The Assembly Place, A Co-Living Hotel @ Mayo","9 Jalan Besar , Little India, Singapore, Singapore, 208786",208786,1.3039,103.8541,964,8.2,Excellent,9.0,8.4,8.2,7.6,8.3,7.6
+Agoda,567443,Strand Hotel,"25 Bencoolen Street, Bugis, Singapore, Singapore, 189619",189619,1.2987,103.8497,9205,8.0,Excellent,9.0,8.0,8.0,7.0,8.0,7.2
+Agoda,164221,Rest Bugis Hotel,"8 Jalan Kubor, Bugis, Singapore, Singapore, 199207",199207,1.3041,103.8594,6064,7.7,Very Good,8.2,7.7,7.9,7.4,7.7,7.4
+Agoda,289410,Park Avenue Rochester Hotel,"31 Rochester Drive, Queenstown, Singapore, Singapore, 138637",138637,1.3054,103.7883,5237,8.3,Excellent,8.4,8.6,8.7,8.2,8.2,8.1
+Agoda,148973,The Robertson House by The Crest Collection,"1 Unity Street, Clarke Quay, Singapore, Singapore, 237983",237983,1.2915,103.8423,153,8.4,Excellent,8.9,8.7,8.7,7.6,8.5,8.2
+Agoda,10587,"Peninsula Excelsior Singapore, A Wyndham Hotel","5 Coleman Street, City Hall, Singapore, Singapore, 179805",179805,1.292,103.8498,20617,7.8,Very Good,8.9,7.8,7.7,7.6,7.6,7.5
+Agoda,108593,Crowne Plaza Changi Airport,"75 Airport Boulevard (Terminal 3), Changi, Singapore, Singapore, 819664",819664,1.3587,103.988,9001,8.7,Excellent,9.2,8.8,9.2,8.7,8.0,8.8
+Agoda,28177510,The Snooze Hotel Marine Parade,"400 East Coast Rd, East Coast, Singapore, Singapore, 428996",428996,1.3087,103.912,2685,7.2,Very Good,7.6,7.7,7.4,7.6,7.3,6.6
+Agoda,5929049,Hotel 81 Orchid,"21 Lorong 8 Geylang, Geylang, Singapore, Singapore, 399090",399090,1.3112,103.8773,3192,7.7,Very Good,7.7,8.1,8.0,7.6,7.8,7.2
+Agoda,43385687,The Room Capsule Hotel,"77 Geylang Rd, Kallang, Singapore, Singapore, 389197",389197,1.3107,103.8728,321,8.2,Excellent,8.8,8.7,8.0,7.6,8.3,7.9
+Agoda,164241,Orchid Country Club,"1 Orchid Club Road, Woodlands, Singapore, Singapore, 769162",769162,1.4121,103.845,3030,7.9,Very Good,7.5,8.0,8.1,8.1,8.1,8.1
+Agoda,109247,Ibis Singapore on Bencoolen Hotel,"170 Bencoolen Street, Bugis, Singapore, Singapore, 189657",189657,1.3011,103.8525,13898,8.1,Excellent,8.6,8.2,8.5,8.0,7.8,7.6
+Agoda,45214534,Amrise Hotel Kitchener,"230 Jln Besar, Kallang, Singapore, Singapore, 208906",208906,1.3093,103.8581,382,7.6,Very Good,8.3,7.8,7.7,7.6,7.9,7.2
+Agoda,10621,Swissotel The Stamford,"2 Stamford Road, City Hall, Singapore, Singapore, 178882",178882,1.2933,103.8534,11708,8.6,Excellent,9.5,8.6,8.7,8.5,8.1,8.6
+Agoda,9796412,lyf Funan Singapore,"67 Hill Street, City Hall, Singapore, Singapore, 179370",179370,1.2916,103.8495,2091,8.8,Excellent,9.5,9.0,9.1,7.6,8.7,8.6
+Agoda,37957971,Mondrian Singapore Duxton,"16A Duxton Hill, Chinatown, Singapore, Singapore, 089970",089970,1.2789,103.8427,258,8.8,Excellent,9.2,9.1,9.3,7.6,8.5,8.8
+Agoda,41983953,Aqueen Prestige Hotel Jalan Besar,"29 Tyrwhitt Road, Little India, Singapore, Singapore, 207533",207533,1.3098,103.8587,221,8.6,Excellent,8.8,8.9,9.0,7.6,8.8,8.6
+Agoda,10625,Pan Pacific Singapore,"7 Raffles Blvd, Marina Bay, Singapore, Singapore, 039595",039595,1.2924,103.8588,7819,8.8,Excellent,9.2,8.9,9.1,8.9,8.4,8.8
+Agoda,97555,Hotel 81 Tristar,"1 Onan Road, East Coast, Singapore, Singapore, 424780",424780,1.3157,103.8974,4241,7.3,Very Good,7.9,7.4,7.0,7.1,7.6,7.0
+Agoda,237427,Park Regis Singapore,"23 Merchant Road, Clarke Quay, Singapore, Singapore, 058268",058268,1.2881,103.8445,6568,8.3,Excellent,8.9,8.4,8.6,8.1,7.9,8.0
+Agoda,535595,The Southbridge Hotel,"210 South Bridge Road, Chinatown, Singapore, Singapore, 058759",058759,1.2834,103.8457,4383,8.0,Excellent,9.0,8.0,8.3,7.4,7.9,7.3
+Agoda,6840830,The Outpost Hotel Sentosa by Far East Hospitality (Adult Only),"10 Artillery Avenue, #03-01, Sentosa Island, Sentosa, Singapore, Singapore, 099951",099951,1.2523,103.82,1963,8.9,Excellent,8.9,9.2,9.4,7.6,8.7,9.0
+Agoda,407120,"PARKROYAL COLLECTION Pickering, Singapore","3 Upper Pickering Street, CBD, Singapore, Singapore, 058289",058289,1.2856,103.8463,5455,8.9,Excellent,9.2,8.9,9.3,9.1,8.4,9.0
+Agoda,10603,"PARKROYAL COLLECTION Marina Bay, Singapore","6 Raffles Boulevard Marina Square, Marina Bay, Singapore, Singapore, 39594",039594,1.2913,103.8575,13468,8.6,Excellent,9.1,8.6,8.8,8.3,8.2,8.5
+Agoda,1077771,Hotel Bencoolen @ Hong Kong Street,"47 Hongkong Street, Clarke Quay, Singapore, Singapore, 059685",059685,1.2871,103.8477,3542,8.3,Excellent,9.0,8.7,8.5,8.9,8.2,7.6
+Agoda,1179189,Mercure Singapore Bugis,"122 Middle Road 188973, Bugis, Singapore, Singapore, 188973",188973,1.2996,103.8531,1978,8.3,Excellent,9.0,8.3,8.5,7.6,7.9,7.9
+Agoda,2115729,Dao by Dorsett AMTD Singapore,"6 Shenton Way, OUE Downtown 1, CBD, Singapore, Singapore, 068809",068809,1.2774,103.8486,2150,8.9,Excellent,9.0,9.1,9.3,7.6,8.8,8.9
+Agoda,256506,Oasia Hotel Novena Singapore by Far East Hospitality,"8 Sinaran Drive, Novena, Singapore, Singapore, 307470",307470,1.32,103.8448,8337,8.4,Excellent,8.8,8.5,8.8,8.5,8.0,8.2
+Agoda,20124944,Oasia Resort Sentosa by Far East Hospitality,"Beach View, Sentosa, Singapore, Singapore, 098679",098679,1.2532,103.8196,1739,8.8,Excellent,9.4,9.1,9.2,7.6,8.7,8.6
+Agoda,6587859,YOTELAIR Singapore Changi Airport at Jewel,"78 Airport Boulevard, Changi, Singapore, Singapore, 819666",819666,1.3601,103.9895,2726,8.1,Excellent,9.2,8.3,8.7,7.6,7.3,7.3
+Agoda,70328,ibis budget Singapore Selegie,"183 Selegie Road, Bugis, Singapore, Singapore, 188329",188329,1.3038,103.8499,1780,7.9,Very Good,8.2,8.3,8.1,7.6,7.8,7.4
+Agoda,2065138,InterContinental Singapore Robertson Quay,"1 Nanson Road, Clarke Quay, Singapore, Singapore, 238909",238909,1.29,103.8386,1323,8.8,Excellent,8.8,9.3,9.5,7.6,8.6,8.7
+Agoda,10596,Voco Orchard Singapore – An IHG Hotel,"581 Orchard Road, Orchard, Singapore, Singapore, 238883",238883,1.3059,103.8295,3510,8.5,Excellent,9.2,8.7,8.8,8.5,8.0,8.3
+Agoda,51377,Hotel 81 Premier Star,"31 Lorong 18 Geylang, Geylang, Singapore, Singapore",398828,1.3116,103.8809,6326,7.7,Very Good,7.5,7.9,7.9,7.4,8.1,7.3
+Agoda,6546310,South East Asia Hotel,"190 Waterloo St., Bugis, Singapore, Singapore, 187965",187965,1.3011,103.8531,1337,7.4,Very Good,8.7,7.7,7.1,7.6,7.3,6.4
+Agoda,502090,Holiday Inn Express Singapore Clarke Quay,"2 Magazine Road, Clarke Quay, Singapore, Singapore, 59573",059573,1.2892,103.842,3306,8.6,Excellent,8.5,8.9,9.0,8.2,8.4,8.5
+Agoda,10591,Village Hotel Bugis by Far East Hospitality,"390 Victoria Street, Bugis, Singapore, Singapore, 188061",188061,1.3019,103.8578,13017,7.9,Very Good,8.7,7.9,7.8,7.5,7.8,7.5
+Agoda,51383,Hotel Supreme,"15 Kramat Road, Orchard, Singapore, Singapore, 228750",228750,1.3013,103.8424,7350,6.5,Good,8.1,6.3,6.2,6.2,6.7,5.3
+Agoda,2007720,Hotel Traveltine,"700 Beach Road, Bugis, Singapore, Singapore, 199598",199598,1.3024,103.8642,3636,8.2,Excellent,8.4,8.3,8.5,7.6,8.1,7.9
+Agoda,10626,"The Ritz-Carlton, Millenia Singapore","7 Raffles Avenue, Marina Bay, Singapore, Singapore, 039799",039799,1.2907,103.8601,3159,9.1,Exceptional,9.4,9.4,9.5,9.3,8.7,9.2
+Agoda,159124,Value Hotel Nice,"302 Balestier Road, Novena, Singapore, Singapore, 329738",329738,1.3233,103.8525,2539,7.2,Very Good,7.5,7.3,7.4,7.1,7.4,6.6
+Agoda,276827,Sofitel Singapore Sentosa Resort And Spa,"2 Bukit Manis Road, Sentosa, Singapore, Singapore, 099891",099891,1.2459,103.8277,3444,8.1,Excellent,8.0,8.4,8.4,8.3,7.6,8.3
+Agoda,239470,Hotel 81 Kovan,"768 Upper Serangoon Road, Serangoon, Singapore, Singapore, 543636",543636,1.3545,103.8789,1953,6.7,Good,6.9,6.8,6.8,6.6,6.8,6.2
+Agoda,705396,Venue Hotel The Lily,"238 Joo Chiat Road, East Coast, Singapore, Singapore, 427495",427495,1.3115,103.9006,3340,7.7,Very Good,7.5,8.2,8.1,7.6,8.1,7.3
+Agoda,9965791,Ji Hotel Orchard Singapore,"101 Prince Charles Rise, Chinatown, Singapore, Singapore, 238485",238485,1.2977,103.8445,1715,8.7,Excellent,9.3,8.8,9.2,7.6,8.8,8.0
+Agoda,9383066,Hmlet Cantonment,"150 Cantonment Road, CBD, Singapore, Singapore, 089762",089762,1.274,103.8406,1067,8.6,Excellent,8.9,8.9,8.7,7.6,8.8,8.5
+Agoda,1515706,Hotel 81 Changi,"428 Changi Road, East Coast, Singapore, Singapore, 419871",419871,1.3187,103.9117,1710,7.0,Very Good,7.5,7.3,6.8,7.6,7.1,6.3
+Agoda,10615,Fairmont Singapore,"80 Bras Basah Road , City Hall, Singapore, Singapore, 189560",189560,1.294,103.8537,4990,8.8,Excellent,9.4,9.0,9.1,8.9,8.3,8.7
+Agoda,297130,Resorts World Sentosa - Equarius Hotel,"8 Sentosa Gateway, Resorts World, Sentosa, Singapore, Singapore, 098269",098269,1.2553,103.8203,8010,8.3,Excellent,8.0,8.5,9.0,9.0,8.1,8.2
+Agoda,410565,Hotel Clover 769 North Bridge Road,"769 NORTH BRIDGE ROAD, Bugis, Singapore, Singapore, 198737",198737,1.3037,103.8596,2147,8.2,Excellent,8.7,8.8,8.3,7.3,8.1,7.6
+Agoda,433173,V Hotel Bencoolen,"48 Bencoolen Street, Bugis, Singapore, Singapore, 189627",189627,1.2989,103.8508,12631,7.7,Very Good,8.5,7.9,7.9,6.8,7.5,7.4
+Agoda,1177140,Hotel Indigo Singapore Katong,"86 East Coast Road Katong Square, East Coast, Singapore, Singapore, 428788",428788,1.3051,103.9043,1208,8.9,Excellent,8.7,9.2,9.4,7.6,8.8,8.9
+Agoda,9924212,ST Signature Tanjong Pagar,"32 Tras Street, CBD, Singapore, Singapore, 078972",078972,1.2787,103.8443,1409,8.4,Excellent,9.1,8.4,8.7,7.6,8.4,8.0
+Agoda,3721,Summer View Hotel,"173 Bencoolen Street, Bugis, Singapore, Singapore, 189642",189642,1.3017,103.8522,6424,8.2,Excellent,8.9,8.5,8.6,7.6,8.2,7.5
+Agoda,478637,Holiday Inn Express Singapore Orchard Road,"20 Bideford Road, Orchard, Singapore, Singapore, 229921",229921,1.3032,103.8367,6329,8.6,Excellent,9.4,8.7,8.9,8.1,8.3,8.3
+Agoda,193528,Pullman Singapore Orchard,"270 Orchard Road, Orchard, Singapore, Singapore, 238857",238857,1.3031,103.8362,437,8.6,Excellent,9.5,8.7,8.9,7.6,8.2,8.5
+Agoda,6202109,Hotel 1888 Collection,"20 Trengannu Street, Chinatown, Singapore, Singapore, 058479",058479,1.2829,103.8439,1317,8.1,Excellent,9.1,8.5,8.2,7.6,8.0,7.5
+Agoda,48642,YWCA Fort Canning,"6 Fort Canning Road, Orchard, Singapore, Singapore, 179494",179494,1.2974,103.845,8650,7.8,Very Good,8.5,7.8,7.8,7.2,7.8,7.4
+Agoda,2190890,Hilton Garden Inn Singapore Serangoon,"3 Belilios Road, Little India, Singapore, Singapore, 219924",219924,1.3084,103.852,2146,8.3,Excellent,8.2,8.6,8.8,7.6,8.3,8.2
+Agoda,65158,The Scarlet Singapore Hotel,"33 Erskine Road, CBD, Singapore, Singapore, 069333",069333,1.2808,103.8454,3629,8.4,Excellent,8.9,8.7,8.7,8.3,8.0,7.7
+Agoda,35839267,Citadines Connect Rochester Singapore,"1 Rochester Park,, Queenstown, Singapore, Singapore, 139212",139212,1.305,103.7877,234,8.7,Excellent,8.6,9.1,9.3,7.6,8.6,8.6
+Agoda,10553601,Citadines Rochor Singapore,"2 Serangoon Road, Little India, Singapore, Singapore, 218227",218227,1.3051,103.8514,989,8.7,Excellent,8.8,9.0,9.2,7.6,8.7,8.7
+Agoda,36802316,Owen House by Hmlet,"2 Owen Road, Little India, Singapore, Singapore, 218842",218842,1.3117,103.855,1075,8.5,Excellent,9.2,9.0,8.6,7.6,8.5,7.8
+Agoda,8653,Venue Hotel,"305 Joo Chiat Road, East Coast, Singapore, Singapore, 427556",427556,1.3096,103.9024,4021,7.5,Very Good,7.6,8.0,7.7,7.2,7.7,7.0
+Agoda,5837054,Hotel Classic by Venue,"12 Joo Chiat Road, East Coast, Singapore, Singapore, 427353",427353,1.3156,103.8977,1786,8.4,Excellent,8.4,8.9,8.9,7.6,8.5,7.9
+Agoda,33899920,"Victoria Hotel, a NuVe Group Collection","87 Victoria Street, Bugis, Singapore, Singapore, 188016",188016,1.2971,103.8524,569,7.9,Very Good,8.8,8.4,8.1,7.6,7.7,7.4
+Agoda,286910,The Sultan,"101 Jalan Sultan, Bugis, Singapore, Singapore",199002,1.3032,103.861,1647,8.3,Excellent,8.6,8.7,8.6,7.9,8.1,7.7
+Agoda,1157006,Hotel Snow Lavender,"26 Cavan Road (Alight at Lavender MRT Station), Kallang, Singapore, Singapore, 209854",209854,1.3109,103.8618,1819,6.7,Good,7.5,7.3,6.1,7.3,6.8,5.6
+Agoda,461887,Hotel Miramar Singapore,"401 Havelock Road, Clarke Quay, Singapore, Singapore, 169631",169631,1.2882,103.8374,3606,7.8,Very Good,7.9,8.0,8.1,7.2,7.9,7.6
+Agoda,255503,Ibis Hotel Singapore Novena,"6 Irrawaddy Road, Novena, Singapore, Singapore, 329543",329543,1.3261,103.8455,3024,7.5,Very Good,7.4,7.8,8.0,7.6,7.5,7.1
+Agoda,1059222,Hotel Yan,"162 Tyrwhitt Road, Kallang, Singapore, Singapore, 207581",207581,1.3118,103.8606,2608,8.1,Excellent,8.1,8.7,8.5,7.8,8.1,7.5
+Agoda,2531587,30 Bencoolen,"30 Bencoolen Street, Bugis, Singapore, Singapore, S189621",189621,1.2985,103.8504,2878,8.8,Excellent,9.3,8.9,9.1,7.6,8.7,8.4
+Agoda,28251027,lyf one-north Singapore,"80 Nepal Park, Queenstown, Singapore, Singapore, 139409",139409,1.3011,103.7881,417,8.8,Excellent,8.9,9.1,9.2,7.6,8.7,8.9
+Agoda,1622759,Holiday Inn Singapore Little India,"10 Farrer Park Station Road, Little India, Singapore, Singapore, 217564",217564,1.312,103.8548,4196,8.5,Excellent,9.0,8.6,8.7,7.6,8.3,8.2
+Agoda,535824,J8 Hotel,"No.8 Townshend Road #01-01 (Along Maude Road), Kallang, Singapore, Singapore, 207606",207606,1.3076,103.8586,6472,7.7,Very Good,7.8,7.8,7.9,7.6,7.8,7.2
+Agoda,3198,Hotel 81 Premier Hollywood,"61 Lorong 8 Geylang, Geylang, Singapore, Singapore, 399121",399121,1.3101,103.8775,3656,7.4,Very Good,7.3,7.7,7.6,7.5,7.7,6.8
+Agoda,254008,Hotel Grand Pacific,"101 Victoria Street, Bugis, Singapore, Singapore, 188018",188018,1.2973,103.8526,8717,7.8,Very Good,8.7,7.9,7.7,7.5,7.7,7.3
+Agoda,399865,W Singapore - Sentosa Cove,"21 Ocean Way, Sentosa, Singapore, Singapore, 098374",098374,1.2462,103.8427,3108,8.6,Excellent,8.3,9.0,9.3,9.1,8.1,9.1
+Agoda,11098315,ST Signature Jalan Besar,"15 Upper Weld Road, Little India, Singapore, Singapore, 207372",207372,1.3054,103.8548,1243,8.2,Excellent,8.8,8.3,8.2,7.6,8.2,7.9
+Agoda,3821272,Spacepod@com,"6 Jalan Ayer, Kallang, Singapore, Singapore, 389143",389143,1.3111,103.8729,1746,8.6,Excellent,9.0,8.8,8.4,7.6,8.8,8.1
+Agoda,31566977,Paradox Singapore Merchant Court at Clarke Quay,"20 Merchant Road, Clarke Quay, Singapore, Singapore, 058281",058281,1.2882,103.8457,3266,8.8,Excellent,9.5,8.9,9.0,7.6,8.6,8.7
+Agoda,31220554,HI HOTEL BUGIS,"11 Jalan Klapa, Bugis, Singapore, Singapore, 199323",199323,1.3042,103.8597,152,5.1,Below Expectation,6.8,5.1,4.7,7.6,4.8,4.2
+Agoda,2159600,Orchard Point Serviced Apartments,"160 Orchard Road #06-01, Orchard, Singapore, Singapore, 238842",238842,1.3014,103.8405,942,8.5,Excellent,9.6,8.7,8.2,7.6,8.6,7.8
+Agoda,2550982,Hotel NuVe Urbane,"3 King George's Avenue, Kallang, Singapore, Singapore, 208582",208582,1.3073,103.8588,2318,8.2,Excellent,8.1,8.5,8.6,7.6,8.2,7.8
+Agoda,159262,Arianna Hotel,"83 Syed Alwi Road, Little India, Singapore, Singapore, 207662",207662,1.309,103.8559,4065,6.0,Good,7.7,5.9,5.6,6.0,6.0,5.1
+Agoda,313759,The Seacare Hotel,"52 Chin Swee Road (Off Jalan Kukoh), Clarke Quay, Singapore, Singapore, 169875",169875,1.2876,103.84,1795,7.7,Very Good,7.4,8.0,8.2,7.8,7.8,7.3
+Agoda,50026,ibis budget Singapore Ruby,"10 Lorong 20, Geylang, Singapore, Singapore, 398730",398730,1.3122,103.8811,10371,7.3,Very Good,7.3,7.5,7.5,7.0,7.8,6.9
+Agoda,1105187,Hotel Conforto,"16 Carpenter Street, Clarke Quay, Singapore, Singapore, 059905",059905,1.2883,103.8479,2540,7.7,Very Good,8.8,8.2,7.5,7.0,7.7,6.6
+Agoda,10581,Grand Mercure Singapore Roxy,"50 East Coast Road Roxy Square Marine Parade Road, East Coast, Singapore, Singapore, 428769",428769,1.3038,103.9044,5008,8.0,Excellent,8.1,8.2,8.3,8.0,7.9,8.0
+Agoda,5486265,Capsule@Hive Bugis,"7A Jalan Pinang, Bugis, Singapore, Singapore, 199139",199139,1.3027,103.8584,1506,8.7,Excellent,9.0,9.0,8.6,7.6,8.7,8.3
+Agoda,71556,Metropolitan YMCA Singapore,"60 Stevens Road, Orchard, Singapore, Singapore, 257854",257854,1.3165,103.8265,1635,7.6,Very Good,7.6,8.0,7.7,7.3,7.8,7.3
+Agoda,51376,Hotel 81 Chinatown,"181 New Bridge Road, Chinatown, Singapore, Singapore, 059418",059418,1.2846,103.8441,3772,7.1,Very Good,8.9,7.1,6.9,6.5,6.7,6.2
+Agoda,29267792,lyf Farrer Park Singapore,"2 Perumal Road,, Little India, Singapore, Singapore, 218773",218773,1.3129,103.8556,353,8.7,Excellent,9.2,9.0,8.8,7.6,8.7,8.6
+Agoda,10597,Holiday Inn Singapore Orchard City Centre,"11 Cavenagh Road, Orchard, Singapore, Singapore, 229616",229616,1.3023,103.8411,3373,8.5,Excellent,9.0,8.7,8.7,8.6,8.1,8.3
+Agoda,108811,ibis budget Singapore West Coast,"418 Pasir Panjang Road, HarbourFront, Singapore, Singapore, 118759",118759,1.2922,103.7689,1916,7.1,Very Good,7.4,7.3,7.4,6.5,7.1,6.6
+Agoda,9824166,Hotel NuVe Elements Clarke Quay,"41 Hong Kong Street, Clarke Quay, Singapore, Singapore, 059680",059680,1.2872,103.8475,609,7.7,Very Good,8.7,8.3,7.9,7.6,7.4,7.2
+Agoda,34735841,Hotel Telegraph,"35 Robinson Road , CBD, Singapore, Singapore, 068876",068876,1.2799,103.8497,1083,8.7,Excellent,9.4,9.1,8.9,7.6,8.4,8.5
+Agoda,10584,Conrad Centennial Singapore,"2 Temasek Boulevard, Marina Bay, Singapore, Singapore, 038982",038982,1.2935,103.8588,3072,9.0,Exceptional,9.2,9.2,9.3,9.1,8.6,9.0
+Agoda,298873,Yaju Hotel Pte Ltd,"No 12 Geylang Lorong 12, #01-00, Geylang, Singapore, Singapore, 398993",398993,1.3114,103.8781,3189,6.6,Good,6.8,6.9,6.3,5.9,7.0,6.3
+Agoda,165660,Hotel 81 Osaka,"1 Eng Hoon Street, Chinatown, Singapore, Singapore, 169753",169753,1.2834,103.835,3757,7.3,Very Good,7.7,7.2,7.7,7.3,7.4,6.6
+Agoda,10590,Furama City Centre Hotel,"60 Eu Tong Sen Street, Chinatown, Singapore, Singapore, 059804",059804,1.2865,103.8446,12629,7.8,Very Good,8.9,7.8,7.6,7.6,7.6,7.2
+Agoda,7910172,CapsulePod@Aljunied,"76A Lorong 27, Geylang, Singapore, Singapore, 388194",388194,1.3159,103.884,1993,8.6,Excellent,9.0,9.0,8.5,7.6,8.8,8.5
+Agoda,12441228,D’Hotel Singapore managed by The Ascott Limited,"231 Outram Road, Chinatown, Singapore, Singapore, 169040",169040,1.2843,103.835,414,8.3,Excellent,8.6,8.8,8.8,7.6,8.5,7.6
+Agoda,73493,Harbour Ville Hotel,"512 Kampong Bahru Road, Chinatown, Singapore, Singapore, 099448",099448,1.2726,103.8278,3748,6.9,Good,6.9,7.1,7.2,6.8,7.1,6.4
+Agoda,186993,Resorts World Sentosa - Hard Rock Hotel,"8 Sentosa Gateway, Sentosa, Singapore, Singapore, 098269",098269,1.2553,103.8203,11646,8.0,Excellent,8.6,8.1,8.1,8.0,7.4,8.3
+Agoda,4856426,Butternut Tree Hotel,"22 Teck Lim Road, Chinatown, Singapore, Singapore, 088392",088392,1.2806,103.8418,5604,8.0,Excellent,8.8,8.5,7.9,7.6,8.0,7.3
+Agoda,12003931,The Clan Hotel Singapore by Far East Hospitality,"10 Cross Street, CBD, Singapore, Singapore, 048417",048417,1.2827,103.8482,1367,9.1,Exceptional,9.6,9.4,9.6,7.6,8.9,9.1
+Agoda,32008190,Citadines Connect City Centre Singapore,"182 Clemenceau Ave, Orchard, Singapore, Singapore, 239923",239923,1.2978,103.8441,1099,8.8,Excellent,9.2,9.2,9.3,7.6,8.8,8.6
+Agoda,36715369,"The Assembly Place, A Co-Living Hotel @ Veerasamy","3 Veerasamy Road, Little India, Singapore, Singapore, 207309",207309,1.3078,103.8531,656,7.9,Very Good,8.3,8.3,8.0,7.6,8.2,7.5
+Agoda,1515704,Ascott Orchard Singapore,"11 Cairnhill Road, Orchard, Singapore, Singapore, 229724",229724,1.304,103.8372,2832,8.8,Excellent,9.3,8.7,9.1,7.6,8.5,8.7
+Agoda,71555,Fragrance Hotel - Rose,"263 Balestier Road, Novena, Singapore, Singapore, 329715",329715,1.3221,103.8526,2723,7.7,Very Good,7.8,8.1,7.8,6.8,7.9,7.2
+Agoda,108402,Hotel 81 Selegie,"161 Selegie Road, Bugis, Singapore, Singapore, 188318",188318,1.3033,103.8499,3121,7.0,Very Good,7.8,7.1,7.3,6.6,7.0,6.4
+Agoda,216234,Ibis Budget Singapore Bugis,"33 Middle Road, Bugis, Singapore, Singapore, 188942",188942,1.2969,103.8556,5518,7.3,Very Good,8.5,7.5,7.4,7.0,7.2,6.5
+Agoda,22562398,"ST Signature Bugis Beach, SHORT OVERNIGHT, 12 hours: check in 7PM or 9PM","85 Beach Road, Bugis, Singapore, Singapore, 189694",189694,1.2973,103.8566,601,7.1,Very Good,8.0,7.3,7.2,7.6,7.2,6.6
+Agoda,50024,ibis budget Singapore Emerald,"20 Lorong 6 Geylang, Geylang, Singapore, Singapore, 399174",399174,1.311,103.8763,3715,8.1,Excellent,7.9,8.3,8.4,6.4,8.4,7.5
+Agoda,97552,Hotel 81 Elegance,"30 Foch Road, Kallang, Singapore, Singapore, 209276",209276,1.3124,103.8603,3491,6.9,Good,7.3,7.1,6.9,6.6,7.0,6.4
+Agoda,5815465,Harbour Ville Hotel Hamilton,"40 Hamilton Road, Kallang, Singapore, Singapore, 209210",209210,1.3116,103.8615,641,7.2,Very Good,7.8,7.6,7.2,7.6,7.2,6.4
+Agoda,51374,ibis budget Singapore Joo Chiat,"219 Joo Chiat Road, East Coast, Singapore, Singapore, 427485",427485,1.3115,103.9012,2460,7.9,Very Good,7.7,8.2,8.3,7.6,8.3,7.4
+Agoda,33907821,Mountbatten Hotel,"759 Mountbatten Road, East Coast, Singapore, Singapore, 437761",437761,1.3006,103.8916,649,5.6,Below Expectation,5.9,5.8,5.4,7.6,5.8,4.9
+Agoda,165476,The Quay Hotel West Coast,"428 Pasir Panjang Rd., HarbourFront, Singapore, Singapore, 118769",118769,1.2924,103.7686,1749,7.2,Very Good,7.4,7.5,7.5,7.0,7.2,6.8
+Agoda,291267,Fragrance Hotel - Kovan,"760 Upper Serangoon Road, Serangoon, Singapore, Singapore, 534629",534629,1.3541,103.8788,742,7.4,Very Good,7.6,7.9,7.6,6.2,7.6,7.0
+Agoda,10613,"PARKROYAL on Beach Road, Singapore","7500 Beach Road, City Hall, Singapore, Singapore, 199591",199591,1.2997,103.8606,6616,8.3,Excellent,8.4,8.4,8.7,8.2,8.1,8.3
+Agoda,335140,Darlene Hotel,"32 Lorong 8, Geylang, Singapore, Singapore, 399096",399096,1.3109,103.877,1154,6.9,Good,7.3,7.1,6.4,5.4,7.4,6.3
+Agoda,50025,ibis budget Singapore Pearl,"21 Lorong 14 Geylang, Geylang, Singapore, Singapore, 398961",398961,1.3116,103.8793,3879,7.5,Very Good,7.3,7.8,7.7,7.2,8.0,7.2
+Agoda,25409452,Hotel Calmo Chinatown,"25 Trengganu Street, Chinatown, Singapore, Singapore, 058476",058476,1.2826,103.8442,3106,6.4,Good,8.3,6.5,5.8,7.6,6.3,5.6
+Agoda,186088,Asphodel Inn,"380 Race Course Road, Little India, Singapore, Singapore, 218702",218702,1.315,103.8573,1511,6.7,Good,7.5,6.9,6.6,6.9,6.8,5.9
+Agoda,22629223,K Hotel 1515,"15 Lorong 15 Geylang, Geylang, Singapore, Singapore, 388607",388607,1.3132,103.878,1718,6.2,Good,6.7,6.5,5.8,7.6,6.2,5.5
+Agoda,34227613,Coliwoo Hotel Gay World (Co-Living Style),"115 Geylang Rd, Kallang, Singapore, Singapore, 389218",389218,1.3112,103.8737,239,8.7,Excellent,9.0,8.8,9.0,7.6,8.7,8.4
+Agoda,6565974,JH Hotel,"No.8 Lorong 10 Geylang, Geylang, Singapore, Singapore, 399041",399041,1.3116,103.8775,477,6.9,Good,7.5,7.3,6.5,7.6,7.3,6.3
+Agoda,1620253,Hotel Mono,"18 Mosque Street #01-04, Chinatown, Singapore, Singapore, 059498",059498,1.2837,103.8446,3702,8.3,Excellent,9.2,8.5,8.3,7.6,8.2,7.5
+Agoda,10616,"Four Points by Sheraton Singapore, Riverview","382 Havelock Road, Clarke Quay, Singapore, Singapore, 169629",169629,1.2894,103.8366,3574,7.5,Very Good,7.7,7.6,7.7,7.3,7.2,7.2
+Agoda,10583,Holiday Inn Singapore Atrium,"317 Outram Rd, Clarke Quay, Singapore, Singapore, 169075",169075,1.2889,103.8342,2536,8.1,Excellent,7.8,8.4,8.4,8.1,8.0,8.1
+Agoda,10589,The Fullerton Hotel,"1 Fullerton Square, Marina Bay, Singapore, Singapore, 049178",049178,1.2862,103.853,5667,9.0,Exceptional,9.5,9.2,9.4,8.9,8.6,9.0
+Agoda,108571,Hotel 81 Dickson,"No 3 Dickson Road, Little India, Singapore, Singapore, 209530",209530,1.3049,103.8543,9537,7.2,Very Good,7.8,7.2,7.3,7.1,7.4,6.6
+Agoda,625134,Lloyds Inn,"2 Lloyd Road, Orchard, Singapore, Singapore, 239091",239091,1.2973,103.8404,1836,8.2,Excellent,8.4,8.7,8.6,8.7,8.1,7.8
+Agoda,185973,Hotel 81 Gold,"20 Lorong 20 Geylang, Geylang, Singapore, Singapore, 398738",398738,1.312,103.8811,3233,7.7,Very Good,7.6,8.0,8.1,7.6,7.9,7.1
+Agoda,50023,ibis budget Singapore Crystal,"50 Lorong 18 Geylang, Geylang, Singapore, Singapore, 398824",398824,1.3106,103.8806,3689,7.8,Very Good,7.4,8.1,8.2,7.8,8.3,7.4
+Agoda,108273,Hotel Re Pearl's Hill,"175A Chin Swee Road, Clarke Quay, Singapore, Singapore, 169879",169879,1.2858,103.8389,3092,7.4,Very Good,6.9,7.7,8.0,7.6,7.5,7.1
+Agoda,1270250,Oakwood Studios Singapore,"18 Mount Elizabeth, Orchard, Singapore, Singapore, 228514",228514,1.307,103.8362,467,8.7,Excellent,9.0,8.9,9.0,7.6,8.7,8.4
+Agoda,523011,Sandpiper Hotel,"63 Dunlop Street, Little India, Singapore, Singapore, 209391",209391,1.3048,103.8536,1346,6.4,Good,7.5,6.3,6.5,6.3,6.3,5.6
+Agoda,5874752,Holiday Inn Express Singapore Serangoon,"270 Jalan Besar, Little India, Singapore, Singapore, 209019",209019,1.3102,103.8586,716,8.6,Excellent,8.6,9.1,9.1,7.6,8.5,8.3
+Agoda,412082,Dash Living on Mackenzie,"15 Mackenzie Road, Bugis, Singapore, Singapore, 228677",228677,1.3044,103.8498,2278,7.3,Very Good,8.2,7.4,7.3,7.0,7.4,6.5
+Agoda,240207,Amrise Hotel,"112 Sims Avenue, Geylang, Singapore, Singapore, 387436",387436,1.3139,103.8779,5718,6.5,Good,7.1,6.5,6.2,6.6,6.9,5.7
+Agoda,185969,Hotel 81 Lucky,"23 Lorong 20 Geylang, Geylang, Singapore, Singapore, 398741",398741,1.3119,103.8815,3168,6.7,Good,7.0,7.0,6.5,6.6,7.2,6.2
+Agoda,292668,Santa Grand Hotel East Coast,"171 E Coast Rd, East Coast, Singapore, Singapore, 428877",428877,1.3068,103.9059,3817,7.9,Very Good,8.1,8.1,8.3,7.7,7.8,7.5
+Agoda,611406,Hotel Clover The Arts,"58 South Bridge Road, Clarke Quay, Singapore, Singapore, 058689",058689,1.2875,103.8481,1051,7.9,Very Good,8.7,8.2,8.2,7.3,7.5,7.1
+Agoda,36919209,Dream Chaser Boutique Capsule Hotel,"38 Sultan Gate, Bugis, Singapore, Singapore, 198486",198486,1.3017,103.8609,975,8.9,Excellent,9.2,9.3,9.0,7.6,9.0,8.8
+Agoda,1157083,The Noble Hotel,"407 Jalan Besar Road, Little India, Singapore, Singapore, 209012",209012,1.3138,103.8598,1287,6.6,Good,7.1,7.2,6.4,8.6,6.8,5.9
+Agoda,109267,Citadines Mount Sophia Singapore,"8 Wilkie Road #01-26 Wilkie Edge, Bugis, Singapore, Singapore, 228095",228095,1.3021,103.8495,736,8.2,Excellent,8.5,8.3,8.4,8.2,8.4,7.9
+Agoda,2651609,Andaz Singapore,"5 Fraser Street,, Bugis, Singapore, Singapore, 189354",189354,1.2992,103.8579,1493,9.0,Exceptional,9.4,9.1,9.5,7.6,8.6,9.0
+Agoda,165202,Nostalgia Hotel,"77 Tiong Bahru Road, Chinatown, Singapore, Singapore, 168727",168727,1.2851,103.8336,2227,8.1,Excellent,8.2,8.6,8.5,7.9,8.0,7.6
+Agoda,501816,Hotel 81 Fuji,"269 Balestier Road, Novena, Singapore, Singapore, 329720",329720,1.3222,103.8526,1076,6.7,Good,7.4,7.1,6.5,5.9,6.9,6.3
+Agoda,1766045,five/6 Hotel Splendour,"Located in five/6 Hotel Splendour, 5 Lor 6 Geylang, Singapore Singapore 399167, Geylang, Singapore, Singapore, 399167",399167,1.3109,103.8767,3495,8.2,Excellent,7.9,8.7,8.6,7.6,8.4,7.8
+Agoda,7469534,Circular House,"6 Circular Rd, Clarke Quay, Singapore, Singapore, 049362",049362,1.288,103.849,1811,7.8,Very Good,9.0,8.1,7.5,7.6,7.8,7.3
+Agoda,5655262,MET A Space Pod @ Arab Street,"56 Arab Street, Bugis, Singapore, Singapore, 199753",199753,1.3009,103.8596,925,8.4,Excellent,9.0,8.6,8.4,7.6,8.4,7.8
+Agoda,91713,The St. Regis Singapore,"29 Tanglin Road, Orchard, Singapore, Singapore, 247911",247911,1.3057,103.8261,1513,8.8,Excellent,8.7,9.1,9.4,9.4,8.5,8.9
+Agoda,470453,Jayleen 1918 Hotel,"42 Carpenter Street, Clarke Quay, Singapore, Singapore, 059921",059921,1.2878,103.8479,2006,7.4,Very Good,8.7,7.8,7.0,7.1,7.2,6.6
+Agoda,97554,Hotel 81 Rochor,"5 Jalan Besar, Little India, Singapore, Singapore, 208785",208785,1.3037,103.854,2504,7.2,Very Good,8.3,7.3,7.1,6.8,7.1,6.4
+Agoda,91266,Naumi Hotel Singapore,"41 Seah Street, City Hall, Singapore, Singapore, 188396",188396,1.2959,103.8552,2524,8.6,Excellent,9.1,8.9,9.0,8.9,8.1,8.3
+Agoda,26893133,"ST Signature Jalan Besar, DAYUSE, 7 hours: 9AM-4PM","15 Upper Weld Road, Little India, Singapore, Singapore, 207372",207372,1.3054,103.8548,214,8.1,Excellent,8.4,8.1,8.4,7.6,8.1,8.0
+Agoda,10691217,ST Signature Bugis Beach,"85 Beach Road, Bugis, Singapore, Singapore, 189694",189694,1.2973,103.8566,459,7.4,Very Good,8.4,7.8,7.3,7.6,7.2,6.7
+Agoda,41296904,Aqueen Prestige Hotel Lavender,"178 Tyrwhitt Road, Kallang, Singapore, Singapore, 207577",207577,1.3132,103.8608,113,8.5,Excellent,8.7,8.8,8.8,7.6,8.6,8.4
+Agoda,97551,Hotel 81 Bugis,"31 Middle Road, Bugis, Singapore, Singapore, 188995",188995,1.2969,103.8556,2515,7.0,Very Good,8.3,7.0,6.9,6.4,6.8,6.2
+Agoda,294327,Fragrance Hotel - Viva,"75 Wishart Road, HarbourFront, Singapore, Singapore, 098721",098721,1.2699,103.814,588,7.3,Very Good,7.7,7.8,7.5,6.7,7.3,6.8
+Agoda,569650,Hotel NuVe,"9A - 13 Jalan Pinang, Bugis, Singapore, Singapore, 199141",199141,1.3027,103.8583,3243,7.8,Very Good,8.5,8.3,7.9,7.2,7.7,7.2
+Agoda,630025,Mercure Singapore Tyrwhitt,"165 Tyrwhitt Road, Kallang, Singapore, Singapore, 207569",207569,1.3123,103.8606,7002,7.7,Very Good,7.6,8.1,8.1,7.9,7.8,7.4
+Agoda,6532523,Le Grove Serviced Residences,"32 Orange Grove Road, Orchard, Singapore, Singapore, 258354",258354,1.3134,103.8258,230,8.7,Excellent,8.2,8.8,9.1,7.6,8.9,8.8
+Agoda,22135416,"ST Signature Bugis Beach, DAYUSE, 8-9 hours: check in 8AM or 11AM","85 Beach Road, Bugis, Singapore, Singapore, 189694",189694,1.2973,103.8566,502,7.3,Very Good,8.0,7.8,7.6,7.6,7.4,7.1
+Agoda,1134511,Aerotel Singapore (Transit Hotel at Terminal 1),"Level 3, Departure/Transit Lounge, Terminal 1, Singapore Changi Airport, Singapore, Changi, Singapore, Singapore, 819642",819642,1.362,103.9903,3220,8.1,Excellent,8.9,8.2,8.8,7.6,7.3,8.0
+Agoda,294325,Fragrance Hotel - Classic,"418 Balestier Road, Novena, Singapore, Singapore, 329808",329808,1.3259,103.8496,891,7.7,Very Good,8.0,8.3,8.0,6.4,7.8,7.1
+Agoda,5803637,L Hotel Premier By Lion Peak,"23 Middle Road, Bugis, Singapore, Singapore, 188995",188995,1.2969,103.8556,2317,7.5,Very Good,8.7,7.8,7.2,7.6,7.3,6.6
+Agoda,412792,New Cape Inn,"3 Seng Poh Road, Chinatown, Singapore, Singapore, 168891",168891,1.2856,103.8341,2570,7.3,Very Good,7.8,7.5,7.1,7.6,7.6,6.7
+Agoda,648970,Penta Hotel,"33 Birch Road, Little India, Singapore, Singapore, 219894",219894,1.3112,103.8536,1533,7.3,Very Good,8.6,7.3,7.1,5.9,7.3,6.3
+Agoda,51379,RELC International Hotel,"30 Orange Grove Road, Orchard, Singapore, Singapore, 258352",258352,1.3129,103.8261,5024,7.4,Very Good,7.1,7.7,7.9,7.5,7.7,6.9
+Agoda,108813,Fragrance Hotel - Ocean View,"432 Pasir Panjang Road, HarbourFront, Singapore, Singapore, 118773",118773,1.2924,103.7685,724,6.8,Good,7.2,6.9,7.0,5.9,6.7,6.5
+Agoda,9765802,Citadines Balestier Singapore,"207 BALESTIER ROAD, Novena, Singapore, Singapore, 329683",329683,1.321,103.8524,307,8.8,Excellent,8.6,9.0,9.3,7.6,9.0,8.9
+Agoda,14651985,"ST Signature Jalan Besar, DAYUSE, 5 hours: 5PM-10PM","15 Upper Weld Road, Singapore, Bugis, Singapore, Singapore, 207372",207372,1.3054,103.8548,360,7.7,Very Good,8.2,7.9,8.2,7.6,7.9,7.3
+Agoda,25755146,The Great Madras by Hotel Calmo,"28 Madras Street, Little India, Singapore, Singapore, 208422",208422,1.3049,103.853,1560,6.5,Good,7.4,6.6,6.2,7.6,6.4,5.9
+Agoda,479243,The Pod @ Beach Road Boutique Capsule Hotel,"289 Beach Road, Bugis, Singapore, Singapore, 199552",199552,1.301,103.8606,6046,8.5,Excellent,8.6,8.8,8.7,8.4,8.5,8.3
+Agoda,13882263,"ST Signature Jalan Besar, SHORT OVERNIGHT, 8 hours: 11:59PM-8AM","15 Upper Weld Road, Singapore, Bugis, Singapore, Singapore, 207372",207372,1.3054,103.8548,435,7.5,Very Good,8.0,7.4,7.9,7.6,7.7,7.4
+Agoda,276945,Lion Peak Hotel Bugis,"103 Beach Road, Bugis, Singapore, Singapore",189704,1.2979,103.8571,7914,7.0,Very Good,8.6,7.0,7.0,6.7,6.8,6.2
+Agoda,147908,Hotel 81 Sakura,"181 Joo Chiat Road, East Coast, Singapore, Singapore, 427452",427452,1.3123,103.9005,2143,7.0,Very Good,7.1,7.3,7.2,6.7,7.3,6.6
+Agoda,567442,Classique Hotel,"240 Jalan Besar, Kallang, Singapore, Singapore, 208913",208913,1.3094,103.8582,1264,7.5,Very Good,8.1,7.7,7.7,7.3,7.6,6.9
+Agoda,186995,Resorts World Sentosa - Hotel Ora,"8 Sentosa Gateway, Sentosa, Singapore, Singapore, 098269",098269,1.2553,103.8203,303,8.7,Excellent,9.2,9.1,9.1,7.6,8.4,8.4
+Agoda,37172837,Hotel by Wassies,"5 Hongkong Street, Clarke Quay, Singapore, Singapore, 059648",059648,1.2875,103.8479,267,8.5,Excellent,9.4,9.1,8.3,7.6,8.4,7.8
+Agoda,985471,Arcadia Hotel,"32 Hamilton Road, Kallang, Singapore, Singapore, 209201",209201,1.3114,103.8614,943,8.1,Excellent,8.2,8.6,8.4,8.7,8.0,7.4
+Agoda,502713,Tai Hoe Hotel,"163 Kitchener Road, Little India, Singapore, Singapore, 208538",208538,1.3103,103.8566,4258,7.5,Very Good,8.9,7.7,7.2,6.7,7.6,6.6
+Agoda,25755196,The Daulat by Hotel Calmo,"16 Madras Street, Little India, Singapore, Singapore, 208413",208413,1.3048,103.8529,501,7.3,Very Good,8.1,7.6,7.1,7.6,7.4,6.8
+Agoda,51378,The Inn at Temple Street Hotel,"36 Temple Street, Chinatown, Singapore, Singapore, 058581",058581,1.2832,103.8439,3320,7.0,Very Good,8.8,7.1,6.7,6.9,6.8,6.0
+Agoda,590150,Chic Capsules,"13 Mosque Street, Chinatown, Singapore, Singapore, 059493",059493,1.2839,103.8443,3204,8.6,Excellent,9.4,9.3,8.4,8.7,8.6,7.8
+Agoda,1278161,CHECK-INN @LITTLE INDIA,"60 Kerbau Road, Little India, Singapore, Singapore, 219184",219184,1.3076,103.8507,2305,7.8,Very Good,8.7,8.3,7.9,7.6,7.8,6.9
+Agoda,26890104,"ST Signature Jalan Besar, SHORT OVERNIGHT, 13 hours: 6PM-7AM","15 upper weld Road, Singapore, Little India, Singapore, Singapore, 207372",207372,1.3054,103.8548,204,7.8,Very Good,8.5,8.0,7.9,7.6,8.0,7.7
+Agoda,17830840,K Space Inn 14,"14 Circular Road, Clarke Quay, Singapore, Singapore, 049370",049370,1.2876,103.849,633,6.9,Good,8.3,6.4,6.7,7.6,7.2,6.2
+Agoda,32342516,Atelier,"259 South Bridge Rd, Chinatown, Singapore, Singapore, 058808",058808,1.2821,103.8454,416,8.7,Excellent,9.5,9.4,8.4,7.6,8.6,8.3
+Agoda,284755,Orchid Hotel,"1 Tras Link, CBD, Singapore, Singapore, 078867",078867,1.2769,103.8438,5980,8.1,Excellent,8.9,8.2,8.2,8.1,8.0,7.6
+Agoda,239469,Hotel 81 Cosy,"8 Jiak Chuan Road, Chinatown, Singapore, Singapore, 089263",089263,1.2797,103.8419,1566,7.2,Very Good,8.0,7.7,7.2,6.6,7.2,6.6
+Agoda,128838,Capella Singapore Hotel,"1 The Knolls Sentosa Island, Sentosa, Singapore, Singapore, 098297",098297,1.2495,103.8244,2249,9.1,Exceptional,9.0,9.4,9.5,9.3,8.5,9.3
+Agoda,401178,Bliss Hotel Singapore,"62 Upper Cross Street, Chinatown, Singapore, Singapore, 058353",058353,1.2845,103.8443,3287,8.1,Excellent,9.2,8.3,8.4,7.6,7.8,7.5
+Agoda,1284,Hotel 81 Geylang,"20 Lorong 16 Geylang, Geylang, Singapore, Singapore, 398863",398863,1.3118,103.8796,2099,6.6,Good,6.8,6.8,6.4,6.5,7.1,6.1
+Agoda,2628378,New Orchid Hotel,"347 Balestier Road, Novena, Singapore, Singapore, 329777",329777,1.3243,103.851,283,6.0,Good,6.7,6.2,5.5,7.6,6.2,5.2
+Agoda,446036,Four Chain View Hotel,"757 Geylang Road Lorong 39, Geylang, Singapore, Singapore, 389659",389659,1.3151,103.891,1386,6.7,Good,7.8,7.0,6.2,5.5,6.9,6.0
+Agoda,286087,Hotel 81 Heritage,"71 Jalan Sultan, Bugis, Singapore, Singapore, 198985",198985,1.3027,103.8613,1668,7.3,Very Good,7.9,7.6,7.5,7.0,7.2,6.7
+Agoda,5816793,Campbell Inn,"Campbell Lane, Little India, Singapore, Singapore, 209922",209922,1.305,103.8526,971,6.2,Good,7.1,6.5,5.6,7.6,6.2,5.6
+Agoda,5835136,The Capitol Kempinski Hotel Singapore,"Stamford Road 15, City Hall, Singapore, Singapore, 178906",178906,1.2938,103.8513,999,9.1,Exceptional,9.6,9.5,9.5,7.6,8.7,8.8
+Agoda,14651979,"ST Signature Jalan Besar, DAYUSE, 5 hours: 10AM-3PM","15 upper Weld Road, Singapore, Bugis, Singapore, Singapore, 207372",207372,1.3054,103.8548,262,7.7,Very Good,8.3,7.9,8.4,7.6,8.0,7.7
+Agoda,97215,ibis budget Singapore Imperial,"28 Penhas Road, Kallang, Singapore, Singapore, 208187",208187,1.3096,103.8624,1296,8.2,Excellent,8.8,8.6,8.4,7.6,8.2,7.7
+Agoda,1620069,JW Marriott Hotel Singapore South Beach,"30 Beach Rd, Nicoll Hwy, City Hall, Singapore, Singapore, 189763",189763,1.2947,103.8555,1003,8.8,Excellent,9.3,9.0,9.2,7.6,8.2,8.8
+Agoda,10620,Sheraton Towers Singapore,"39 Scotts Road, Orchard, Singapore, Singapore, 228230",228230,1.312,103.8365,1392,8.1,Excellent,8.1,8.4,8.6,8.2,7.8,8.3
+Agoda,444270,Spacepod@lavender,"111J King George's Avenue, Kallang, Singapore, Singapore, 208559",208559,1.3104,103.8619,2253,8.4,Excellent,8.5,8.8,8.4,7.6,8.7,8.1
+Agoda,9167677,Hotel Soloha @ Chinatown,"Teck Lim Road, Chinatown, Singapore, Singapore, 088387",088387,1.2804,103.842,701,8.2,Excellent,8.8,8.5,8.4,7.6,8.0,7.7
+Agoda,7413757,ST Signature Chinatown,"273 South Bridge Road, Chinatown, Singapore, Singapore, 058822",058822,1.2818,103.8453,794,8.2,Excellent,9.1,8.2,8.4,7.6,8.2,7.9
+Agoda,30144561,Citadines Raffles Place Singapore,"88 Market Street, CBD, Singapore, Singapore, 48948",048948,1.2839,103.85,114,9.1,Exceptional,9.6,9.4,9.6,7.6,9.0,9.2
+Agoda,9381213,Wink @ McCallum Street,"2B McCallum Street, CBD, Singapore, Singapore, 069043",069043,1.2797,103.8475,727,8.6,Excellent,9.2,8.9,8.5,7.6,8.6,8.0
+Agoda,31504337,Bluewaters Pods @ Bugis,"2 Tan Quee Lan St, Bugis, Singapore, Singapore, 188091",188091,1.298,103.8569,741,7.9,Very Good,9.0,8.2,7.7,7.6,8.0,7.4
+Agoda,159284,ibis budget Singapore Mount Faber,"400 Telok Blangah Road,, HarbourFront, Singapore, Singapore, 098838",098838,1.2697,103.8139,2056,7.0,Very Good,7.5,7.2,7.3,6.7,7.0,6.4
+Agoda,22885101,"Wanderlust, The Unlimited Collection by Oakwood","Dickson Road, Little India, Singapore, Singapore, 209497",209497,1.3047,103.8544,443,9.0,Exceptional,9.0,9.6,9.6,7.6,8.9,8.8
+Agoda,46187318,Amrise Hotel Kitchener Short Overnight 11Hrs,"230 Jln Besar, Kallang, Singapore, Singapore, 208906",208906,1.3093,103.8581,75,7.1,Very Good,7.5,7.5,7.1,7.6,7.4,7.1
+Agoda,4641618,Atlantis Pods @ Little India,"622 Serangoon Road, Little India, Singapore, Singapore, 218222",218222,1.3157,103.8587,1021,7.2,Very Good,7.8,7.6,6.7,7.6,7.6,6.7
+Agoda,16066135,"ST Signature Tanjong Pagar, DAYUSE, 6 hours: 12PM-6PM","32 Tras Street, CBD, Singapore, Singapore, 078972",078972,1.2787,103.8443,103,7.8,Very Good,8.3,8.0,8.5,7.6,7.9,7.7
+Agoda,2987257,Courtyard Singapore Novena,"99 Irrawaddy Road, Novena, Singapore, Singapore, 329568",329568,1.3206,103.8432,300,8.6,Excellent,9.0,8.7,9.3,7.6,8.1,8.2
+Agoda,7496505,BEAT. Sports Hostel,"290A Jalan Besar, Little India, Singapore, Singapore, 208953",208953,1.3106,103.8589,1554,7.6,Very Good,8.1,7.9,7.2,7.6,7.9,7.4
+Agoda,1135765,Adamson Lodge,"6 Perak Road (Next to Rochor MRT Station Exit B), Little India, Singapore, Singapore, 208127",208127,1.3045,103.853,756,8.3,Excellent,9.1,8.6,8.5,9.0,8.3,7.5
+Agoda,6866393,Spacepod@hive,"624 Serangoon Road, Little India, Singapore, Singapore, 218223",218223,1.3157,103.8588,509,8.2,Excellent,8.3,8.7,8.0,7.6,8.4,7.9
+Agoda,1135169,Bright Star Hotel,"20 Lorong 17 Geylang, Geylang, Singapore, Singapore, 388575",388575,1.3135,103.8789,3317,7.7,Very Good,7.7,8.0,7.6,6.9,8.3,7.1
+Agoda,31323194,Coller Boutique Hostel,"259 Outram Road, Coller Boutique Hostel, #01-00, Chinatown, Singapore, Singapore, 169056",169056,1.285,103.8348,598,8.1,Excellent,8.2,8.7,8.1,7.6,8.3,7.8
+Agoda,1007,"PARKROYAL on Kitchener Road, Singapore","181 Kitchener Rd, Little India, Singapore, Singapore, 208533",208533,1.3105,103.8557,6234,7.9,Very Good,8.6,7.8,8.1,7.8,7.6,7.7
+Agoda,489841,The Westin Singapore,"12 Marina View, Asia Square Tower 2, CBD, Singapore, Singapore, 18961",018961,1.2783,103.8509,808,8.8,Excellent,8.6,9.0,9.4,9.1,8.3,9.1
+Agoda,14651995,"ST Signature Bugis Beach, DAYUSE, 5 hours: 4PM-9PM","85 Beach Road, SIngapore, Bugis, Singapore, Singapore, 189694",189694,1.2973,103.8566,270,7.2,Very Good,7.9,7.3,7.7,7.6,7.3,6.5
+Agoda,1622752,Thanksgiving Serviced Residence,"328 River Valley Road, Orchard, Singapore, Singapore, 238360",238360,1.2962,103.8409,476,8.5,Excellent,9.0,8.8,8.7,7.6,8.6,8.2
+Agoda,298765,Hotel 81 Balestier,"226 Balestier Road, Novena, Singapore, Singapore, 329688",329688,1.3214,103.8531,808,6.8,Good,7.4,7.1,6.7,6.3,6.9,6.2
+Agoda,1045,Hotel 81 Palace (SG Clean Certified and Staycation Approved),"25 Lorong 16 Geylang, Geylang, Singapore, Singapore, 398867",398867,1.3118,103.8801,387,8.6,Excellent,8.3,8.9,9.1,7.6,8.9,8.4
+Agoda,6675601,Q Loft Hotels@Bedok,"359A Bedok Road, East Coast, Singapore, Singapore, 469548",469548,1.3317,103.947,911,7.1,Very Good,7.4,7.7,7.2,7.6,7.1,6.5
+Agoda,6541182,"KeSa House, The Unlimited Collection by Oakwood","55 Keong Saik Road, Chinatown, Singapore, Singapore, 089158",089158,1.2806,103.8416,365,9.0,Exceptional,9.5,9.4,9.3,7.6,8.9,8.8
+Agoda,548576,Hotel NuVe Heritage,"13 Purvis Street, Bugis, Singapore, Singapore, 188592",188592,1.2966,103.8554,965,8.3,Excellent,8.9,8.7,8.4,8.2,8.0,7.5
+Agoda,294326,Fragrance Hotel - Balestier,"255 Balestier Road, Novena, Singapore, Singapore, 329710",329710,1.322,103.8527,2672,7.7,Very Good,7.8,8.2,7.7,7.2,8.0,7.1
+Agoda,6918887,Beary Best Kampong Glam,"64 Arab Street, Bugis, Singapore, Singapore, 199761",199761,1.3012,103.8594,436,7.3,Very Good,8.5,7.0,6.9,7.6,7.6,6.6
+Agoda,1155567,Jayleen Clarke Quay Hotel,"25 New Bridge Road, Clarke Quay, Singapore, Singapore, 059390",059390,1.2887,103.8475,1376,7.3,Very Good,9.0,7.7,6.8,8.0,7.0,6.3
+Agoda,32815138,JXIN HOTEL 嘉鑫酒店,"Lorong 10 Geylang, 9, Geylang, Singapore, Singapore",399042,1.3116,103.8778,284,7.6,Very Good,8.0,8.0,7.9,7.6,7.8,7.4
+Agoda,26044729,The Initial Residence,"355 Balestier Road, Novena, Singapore, Singapore, 329782",329782,1.3244,103.8509,249,8.7,Excellent,8.6,9.0,9.0,7.6,8.9,8.3
+Agoda,1409848,Champion Hotel City,"37 North Canal Road, Clarke Quay, Singapore, Singapore, 059293",059293,1.2871,103.8471,2255,8.2,Excellent,9.1,8.5,8.1,7.6,8.2,7.5
+Agoda,294328,Fragrance Hotel - Lavender,"51 Lavender Street, Kallang, Singapore, Singapore, 338710",338710,1.3098,103.8631,533,7.1,Very Good,8.1,7.3,7.0,6.0,7.0,6.7
+Agoda,186994,Resorts World Sentosa - Hotel Michael,"8 Sentosa Gateway, Sentosa, Singapore, Singapore, 098269",098269,1.2553,103.8203,7711,8.1,Excellent,8.8,8.2,8.4,8.2,7.8,7.9
+Agoda,1194490,Hotel Clover 7,"7 Hongkong Street, Singapore, Clarke Quay, Singapore, Singapore, 059650",059650,1.2875,103.8477,509,8.0,Excellent,8.8,8.2,8.4,7.6,7.6,7.1
+Agoda,17002855,Hotel Calmo Bugis,"95 Beach Road, Bugis, Singapore, Singapore, 189699",189699,1.2975,103.8567,1131,7.4,Very Good,8.7,7.4,7.2,7.6,7.3,6.6
+Agoda,3123799,The Quay Hotel,"57 South Bridge Road, Clarke Quay, Singapore, Singapore, 058688",058688,1.287,103.8483,1898,8.3,Excellent,8.9,8.5,8.5,7.6,8.2,7.6
+Agoda,5057,Hotel 81 Princess,"21 Lorong 12 Geylang , Geylang, Singapore, Singapore, 399001",399001,1.311,103.8786,462,8.0,Excellent,8.0,8.5,8.5,7.6,8.4,7.8
+Agoda,5816798,K2 Guest House,"15 South Buona Vista Road, HarbourFront, Singapore, Singapore, 118146",118146,1.2806,103.7864,385,7.7,Very Good,7.7,8.4,8.0,7.6,7.9,7.4
+Agoda,13349383,"ST Signature Bugis Beach, SHORT OVERNIGHT, 8 hours: 11PM-7AM","85 Beach Rd, Singapore, City Hall, Singapore, Singapore, 189694",189694,1.2973,103.8566,398,7.2,Very Good,7.8,7.6,7.6,7.6,7.4,6.7
+Agoda,37127755,ibis budget Singapore Gold,"123 Sims Avenue, Geylang, Singapore, Singapore, 387446",387446,1.3143,103.8778,255,8.5,Excellent,8.1,8.9,9.0,7.6,8.7,8.2
+Agoda,1623679,Sofitel Singapore City Centre,"9 Wallich Street, CBD, Singapore, Singapore, 078885",078885,1.2769,103.8451,759,9.1,Exceptional,9.4,9.3,9.5,7.6,8.7,9.1
+Agoda,186361,Perak Hotel,"12 Perak Road, Little India, Singapore, Singapore, 208133",208133,1.3048,103.8532,1041,7.6,Very Good,8.1,7.9,7.9,7.8,7.4,6.7
+Agoda,256533,Aliwal Park Hotel,"77/79 Aliwal Street, Bugis, Singapore, Singapore, 199948",199948,1.3034,103.8603,2682,6.6,Good,7.6,6.9,6.0,5.1,6.7,5.7
+Agoda,29851770,Lion Peak Hotel Hamilton,"35 Hamilton Road, Singapore, Kallang, Singapore, Singapore, 209204",209204,1.3118,103.8613,361,7.9,Very Good,8.3,7.5,8.2,7.6,8.1,7.5
+Agoda,21954049,K Hotel Aliwal (Premier),"10 Aliwal Street, Bugis, Singapore, Singapore, 199903",199903,1.302,103.8614,1179,6.0,Good,7.3,6.2,5.3,7.6,6.0,5.3
+Agoda,6377410,K Hotel 14,"14 Lorong 10 Geylang, Geylang, Singapore, Singapore, 399047",399047,1.3112,103.8775,1187,5.7,Below Expectation,6.3,6.0,5.3,7.6,5.7,5.0
+Agoda,32901963,Bluewaters Pods 38 Hongkong St,"38 Hongkong Street, 02-01, Clarke Quay, Singapore, Singapore, 059677",059677,1.2873,103.8473,696,7.9,Very Good,8.6,8.3,7.7,7.6,8.0,7.3
+Agoda,1105203,BEAT. Capsule Hostel @ Boat Quay,"50A Boat Quay, Clarke Quay, Singapore, Singapore, 049839",049839,1.287,103.8493,3127,8.4,Excellent,9.3,8.6,8.1,8.5,8.3,7.7
+Agoda,104067,Fragrance Hotel - Oasis,"435 Balestier Road, Novena, Singapore, Singapore",329816,1.3259,103.8486,3417,7.4,Very Good,7.7,7.7,7.7,7.1,7.7,6.7
+Agoda,291266,ibis budget Singapore Clarke Quay,"20 Hong Kong Street, Clarke Quay, Singapore, Singapore, 059663",059663,1.2879,103.8472,7359,7.5,Very Good,8.8,7.4,7.8,7.1,7.2,6.9
+Agoda,108938,Ascott Raffles Place Singapore,"No 2 Finlayson Green, CBD, Singapore, Singapore, 049247",049247,1.2821,103.8516,1271,8.6,Excellent,9.0,8.8,9.1,8.7,8.5,8.5
+Agoda,297131,Resorts World Sentosa - Equarius Villas,"8 Sentosa Gateway, Resorts World, Sentosa, Singapore, Singapore, 098269",098269,1.2553,103.8203,874,8.6,Excellent,8.6,8.9,9.1,9.0,8.0,8.8
+Agoda,255009,ibis Styles Singapore Albert,"175 Albert Street, Bugis, Singapore, Singapore, 189970",189970,1.3036,103.8512,6973,7.2,Very Good,7.9,7.3,7.7,6.9,7.1,6.9
+Agoda,14651992,"ST Signature Bugis Beach, DAYUSE, 5 hours: 9AM – 2PM","85 Beach Road, Singapore, Bugis, Singapore, Singapore, 189694",189694,1.2973,103.8566,219,7.1,Very Good,7.7,7.5,7.5,7.6,7.2,6.8
+Agoda,862136,Hotel Fuji,"22 Jalan Molek(Off Geylang Lorong 24), Geylang, Singapore, Singapore, 399541",399541,1.3117,103.8827,607,6.5,Good,6.5,6.9,6.7,4.0,6.7,6.0
+Agoda,32016967,GALAXY PODS CAPSULE HOTEL BOAT QUAY,"12 Circular Road, Clarke Quay, Singapore, Singapore, 049368",049368,1.2877,103.849,1054,8.4,Excellent,9.2,8.8,8.3,7.6,8.4,7.8
+Agoda,41581342,Pullman Singapore Hill Street,"1 HILL STREET, City Hall, Singapore, Singapore, 179949",179949,1.2939,103.8507,36,9.1,Exceptional,9.5,9.0,9.7,7.6,9.1,9.1
+Agoda,3580112,Galaxy Pods @ Chinatown,"27 Mosque Street, Chinatown, Singapore, Singapore, 059505",059505,1.2837,103.8456,2047,8.3,Excellent,9.1,8.5,8.0,7.6,8.3,7.7
+Agoda,37766984,"The Assembly at Stevens, Service Residences","58 Stevens Road, Orchard, Singapore, Singapore, 257871",257871,1.3164,103.8272,165,8.5,Excellent,8.7,8.7,8.5,7.6,8.8,8.0
+Agoda,38116726,Jyu Capsule Hotel,"46 Smith Street, 46, Level 2 - 3, Chinatown, Singapore, Singapore, 058956",058956,1.2828,103.8436,142,9.1,Exceptional,9.5,9.2,9.5,7.6,9.0,9.0
+Agoda,90401,Link Hotel,"50 Tiong Bahru Road, Chinatown, Singapore, Singapore, 168733",168733,1.2849,103.8343,1056,7.5,Very Good,7.9,7.9,7.7,6.8,7.4,6.8
+Agoda,287095,Rucksack Inn @ Temple Street,"52 Temple St, Chinatown, Singapore, Singapore, 058597",058597,1.2834,103.8436,1961,8.1,Excellent,8.1,8.5,8.0,8.3,8.5,7.7
+Agoda,34032622,L Hotel @ 51 Desker,"51 Desker Road Singapore 209645, Little India, Singapore, Singapore, 209645",209645,1.3091,103.8553,353,6.8,Good,7.9,7.0,6.3,7.6,6.7,6.0
+Agoda,445529,Royal Hostel Singapore,"73A Pagoda Street, Chinatown, Singapore, Singapore, 059225",059225,1.2838,103.844,1075,7.9,Very Good,9.0,8.1,7.8,7.6,8.0,7.0
+Agoda,30120420,Seaside Glamping @ Heritage Chalet,"Changi, Singapore, Singapore",519121,1.386,103.9416,157,6.7,Good,6.7,7.5,6.5,7.6,6.9,6.3
+Agoda,2640170,Cube Boutique Capsule Hotel @ Kampong Glam,"54, 55, 56 Bussorah Street, Bugis, Singapore, Singapore, 199471",199471,1.3016,103.8594,2944,8.6,Excellent,9.0,8.9,8.4,7.6,8.7,8.2
+Agoda,489889,AMOY by Far East Hospitality,"76 Telok Ayer Street, CBD, Singapore, Singapore, 048464",048464,1.283,103.8487,482,8.7,Excellent,9.4,9.5,9.1,8.7,8.3,8.1
+Agoda,548505,Philip Hotel,"65 Desker Road, Little India, Singapore, Singapore, 209598",209598,1.3089,103.8557,925,6.8,Good,7.8,7.2,6.6,7.1,6.7,5.8
+Agoda,100198,Somerset Bencoolen Singapore,"51 Bencoolen Street, Bugis, Singapore, Singapore, 189630",189630,1.2994,103.8504,903,8.5,Excellent,8.9,8.7,8.6,8.0,8.4,8.2
+Agoda,408519,BEAT. Arts Hostel @ Chinatown,"211A South Bridge Road, Chinatown, Singapore, Singapore, 058764",058764,1.283,103.8459,1701,7.6,Very Good,8.8,7.6,7.3,7.6,7.7,7.0
+Agoda,289342,Wink @ Mosque Street,"8A Mosque Street, Chinatown, Singapore, Singapore, 059488",059488,1.284,103.8441,2757,8.5,Excellent,9.3,8.7,8.3,8.5,8.4,8.1
+Agoda,6997619,7 Wonders Hostel @ Upper Dickson,"12 A Upper Dickson Road Little India, Little India, Singapore, Singapore, 207472",207472,1.3063,103.8524,614,7.9,Very Good,8.3,8.7,7.7,7.6,8.1,7.4
+Agoda,35241470,Glamping kaki singapore-Standard medium bell tent,"1500 East Coast Parkway Area G, East Coast, Singapore, Singapore, 468963",468963,1.3149,103.961,30,7.6,Very Good,7.8,8.3,7.8,7.6,7.4,7.5
+Agoda,3849636,Mandarin Oriental Singapore,"5 Raffles Avenue Marina Square, Marina Bay, Singapore, Singapore, 39797",039797,1.2906,103.8585,1214,8.9,Excellent,9.3,9.2,9.3,7.6,8.7,9.1
+Agoda,445619,Blanc Inn,"151, Tyrwhitt Road, 200m from Bendemeer MRT (or 400m from Lavender MRT), Kallang, Singapore, Singapore, 207564",207564,1.3118,103.8602,689,7.8,Very Good,7.9,8.5,8.2,7.3,7.8,7.7
+Agoda,10588,Four Seasons Hotel Singapore,"190 Orchard Boulevard, Orchard, Singapore, Singapore, 248646",248646,1.3052,103.8287,1333,9.1,Exceptional,9.1,9.4,9.5,9.2,8.7,9.1
+Agoda,523089,L Hotel @ Broadway,"195 Serangoon Road Sinapore 218067, Little India, Singapore, Singapore, 218067",218067,1.3092,103.8532,1719,7.0,Very Good,8.3,7.1,6.4,6.3,7.1,6.0
+Agoda,9764540,SeaGazers @ Marina Waterfront,"Punggol, Singapore, Singapore",828670,1.415,103.899,70,7.0,Very Good,7.5,7.7,6.7,7.6,7.0,6.7
+Agoda,187129,The Fullerton Bay Hotel,"80 Collyer quay, Marina Bay, Singapore, Singapore, 049326",049326,1.2835,103.8536,1004,9.2,Exceptional,9.4,9.4,9.6,9.3,8.6,9.2
+Agoda,16066298,"ST Signature Tanjong Pagar, SHORT OVERNIGHT, 14 hours: 8PM-10AM","CBD, Singapore, Singapore",078972,1.2787,103.8443,58,7.9,Very Good,8.6,7.8,8.2,7.6,7.7,7.8
+Agoda,6625436,Rucksack Inn @ Tyrwhitt,"153A Tyrwhitt Road, Kallang, Singapore, Singapore, 207566",207566,1.3119,103.8602,531,8.1,Excellent,8.4,8.5,8.1,7.6,8.1,7.8
+Agoda,35671451,Wink @ Upper Cross Street,"38, Upper Cross Street, Chinatown, Singapore, Singapore, 058341",058341,1.2842,103.8449,299,8.3,Excellent,9.2,8.5,8.4,7.6,8.2,7.8
+Agoda,41984142,ST Signature Bugis Middle,"21 Middle Road, Bugis, Singapore, Singapore, 188931",188931,1.2967,103.8559,64,8.8,Excellent,9.4,9.1,9.1,7.6,8.7,8.2
+Booking,1,Marina Bay Sands,"10 Bayfront Avenue, Marina Bay, 018956 Singapore, Singapore",018956,1.2824,103.8584,12661,9.2,Exceptional,9.6,9.4,9.5,9.5,8.0,9.4
+Booking,2,Carlton Hotel Singapore,"76 Bras Basah Road, City Hall, 189558 Singapore, Singapore",189558,1.2957,103.853,7322,8.4,Excellent,9.4,8.7,9.0,9.1,8.1,8.5
+Booking,3,YOTEL Singapore Orchard Road,"366 Orchard Road, Orchard, 238904 Singapore, Singapore",238904,1.3063,103.8313,5948,8.0,Excellent,9.2,8.6,8.4,8.4,7.7,8.1
+Booking,4,lyf Funan Singapore,"67 Hill Street, City Hall, 179370 Singapore, Singapore",179370,1.2916,103.8495,4575,8.5,Excellent,9.6,9.1,8.8,8.8,8.2,8.5
+Booking,5,"PARKROYAL COLLECTION Marina Bay, Singapore","6 Raffles Boulevard, Marina Square, Marina Bay, 039594 Singapore, Singapore",039594,1.2913,103.8575,4516,8.7,Excellent,9.3,9.1,9.1,9.1,8.3,9.0
+Booking,6,Paradox Singapore Merchant Court at Clarke Quay,"20 Merchant Road, Clarke Quay, 058281 Singapore, Singapore",058281,1.2882,103.8457,4315,8.4,Excellent,9.4,8.8,8.8,8.9,7.8,8.5
+Booking,7,JEN Singapore Orchardgateway by Shangri-La,"277 Orchard Road #10-01, Orchard, 238858 Singapore, Singapore",238858,1.3005,103.8395,4296,8.5,Excellent,9.4,8.8,8.9,9.0,7.9,8.7
+Booking,8,"Crowne Plaza Changi Airport, an IHG Hotel","75 Airport Boulevard (Terminal 3), Changi, 819664 Singapore, Singapore",819664,1.3587,103.988,3858,8.6,Excellent,9.4,9.1,9.2,9.2,7.6,8.9
+Booking,9,"PARKROYAL COLLECTION Pickering, Singapore","3 Upper Pickering Street, Chinatown, 058289 Singapore, Singapore",058289,1.2856,103.8463,3722,8.9,Excellent,9.4,9.1,9.3,9.4,8.3,9.1
+Booking,10,"Holiday Inn Express Singapore Clarke Quay, an IHG Hotel","2 Magazine Road, Clarke Quay, 059573 Singapore, Singapore",059573,1.2892,103.842,3526,8.3,Excellent,8.7,8.8,8.7,8.7,7.8,8.4
+Booking,11,"Aerotel Transit Hotel, Terminal 1 Airside","Above Gate D41, Level 3, Departure / Transit Area Terminal 1, Singapore Changi Airport, Changi, 819642 Singapore, Singapore",819642,1.362,103.9903,3394,7.8,Very Good,8.7,8.0,8.7,8.7,6.7,8.2
+Booking,12,"Shangri-La Rasa Sentosa, Singapore","101 Siloso Road, Sentosa Island, 098970 Singapore, Singapore",098970,1.2576,103.8101,2983,8.4,Excellent,8.9,8.9,8.8,8.8,7.7,8.7
+Booking,13,The Clan Hotel Singapore by Far East Hospitality,"10 Cross Street, 048417 Singapore, Singapore",048417,1.2827,103.8482,2960,8.9,Excellent,9.6,9.2,9.4,9.5,8.3,9.2
+Booking,14,lyf Farrer Park Singapore,"2 Perumal Road, Unit 01-01, Lavender, 218773 Singapore, Singapore",218773,1.3129,103.8556,2931,8.4,Excellent,9.1,9.0,8.7,8.7,8.2,8.6
+Booking,15,Swissotel The Stamford,"2 Stamford Road, City Hall, 178882 Singapore, Singapore",178882,1.2933,103.8534,2877,8.6,Excellent,9.5,8.9,9.0,9.1,7.9,8.8
+Booking,16,Citadines Rochor,"2 Serangoon Road, Little India, 218227 Singapore, Singapore",218227,1.3051,103.8514,2706,8.5,Excellent,8.7,8.9,9.0,8.9,8.1,8.7
+Booking,17,CapsulePod@Aljunied,"76A Lorong 27 Geylang, 388194 Singapore, Singapore",388194,1.3159,103.884,2678,8.1,Excellent,8.8,9.1,8.1,8.1,8.6,8.1
+Booking,18,Park Regis Singapore,"23 Merchant Road, Clarke Quay, 058268 Singapore, Singapore",058268,1.2881,103.8445,2586,7.9,Very Good,9.1,8.5,8.3,8.4,7.6,8.0
+Booking,19,Village Hotel Sentosa by Far East Hospitality,"10 Artillery Avenue #02-01, Sentosa Island, 099951 Singapore, Singapore",099951,1.2523,103.82,2464,8.4,Excellent,9.0,8.9,8.9,8.9,7.9,8.7
+Booking,20,D'Resort @ Downtown East,"1 Pasir Ris Close, 519599 Singapore, Singapore",519599,1.3772,103.9552,2394,7.7,Very Good,7.7,8.3,8.2,8.2,7.6,7.8
+Booking,21,"Oasia Hotel Downtown, Singapore by Far East Hospitality","100 Peck Seah Street, Chinatown, 079333 Singapore, Singapore",079333,1.2759,103.8443,2335,8.4,Excellent,9.3,8.8,8.9,9.0,7.9,8.5
+Booking,22,JEN Singapore Tanglin by Shangri-La,"1A Cuscaden Road, Orchard, 249716 Singapore, Singapore",249716,1.3043,103.8239,2327,8.2,Excellent,8.5,8.5,8.7,8.7,7.9,8.3
+Booking,23,Hotel Gin Bugis Singapore - previously Hotel G,"200 Middle Road , Bencoolen, 188980 Singapore, Singapore",188980,1.3009,103.8515,2302,7.9,Very Good,9.0,8.6,8.3,8.4,7.6,7.9
+Booking,24,Dao by Dorsett AMTD Singapore,"6 Shenton Way, Marina Bay, 068809 Singapore, Singapore",068809,1.2774,103.8486,2261,8.7,Excellent,8.9,9.0,9.2,9.3,8.3,9.1
+Booking,25,Hotel Traveltine,"700 Beach Road, 199598 Singapore, Singapore",199598,1.3024,103.8642,2237,7.7,Very Good,8.4,8.2,8.0,8.0,7.4,7.7
+Booking,26,Grand Copthorne Waterfront,"392 Havelock Road, Robertson Quay, 169663 Singapore, Singapore",169663,1.2903,103.8351,2226,7.4,Very Good,8.3,8.1,7.9,7.9,7.2,7.6
+Booking,27,Dusit Thani Laguna Singapore,"11 Laguna Golf Green, 488047 Singapore, Singapore",488047,1.3236,103.9627,2217,8.5,Excellent,7.7,8.9,9.2,9.2,7.9,8.9
+Booking,28,Pan Pacific Singapore,"7 Raffles Boulevard, Marina Square, Marina Bay, 039595 Singapore, Singapore",039595,1.2924,103.8588,2103,8.5,Excellent,9.2,8.8,8.9,8.9,8.0,8.7
+Booking,29,Ibis Singapore on Bencoolen,"170 Bencoolen Street, Bencoolen, 189657 Singapore, Singapore",189657,1.3011,103.8525,1992,7.9,Very Good,8.9,8.6,8.2,8.2,7.6,7.7
+Booking,30,Dorsett Singapore,"333 New Bridge Road, Chinatown, 088765 Singapore, Singapore",088765,1.2796,103.84,1933,7.5,Very Good,8.8,8.2,7.9,7.9,7.4,7.5
+Booking,31,Carlton City Hotel Singapore,"1 Gopeng Street, Chinatown, 078862 Singapore, Singapore",078862,1.276,103.8437,1893,8.5,Excellent,9.1,8.7,9.0,9.0,8.1,8.6
+Booking,32,Village Hotel Katong by Far East Hospitality,"25 Marine Parade, Katong, 449536 Singapore, Singapore",449536,1.3038,103.9029,1821,8.3,Excellent,8.5,9.1,8.8,8.8,8.2,8.4
+Booking,33,Orchard Hotel Singapore,"442 Orchard Road, Orchard, 238879  Singapore, Singapore",238879,1.3076,103.8284,1784,7.7,Very Good,8.6,8.1,8.2,8.2,7.4,7.9
+Booking,34,"Pan Pacific Serviced Suites Beach Road, Singapore","7500B Beach Road, 199592 Singapore, Singapore",199592,1.2998,103.8608,1748,8.4,Excellent,8.8,8.8,8.8,8.9,8.2,8.6
+Booking,35,The Fullerton Hotel Singapore,"1 Fullerton Square, Marina Bay, 049178 Singapore, Singapore",049178,1.2862,103.853,1718,8.9,Excellent,9.6,9.2,9.4,9.4,8.2,9.0
+Booking,36,Shangri-La Singapore,"22 Orange Grove Road, Orchard, 258350 Singapore, Singapore",258350,1.3112,103.8268,1714,8.7,Excellent,8.5,9.1,9.3,9.3,8.1,9.2
+Booking,37,One Farrer Hotel,"1 Farrer Park Station Road, Farrer Park, 217562 Singapore, Singapore",217562,1.3126,103.8539,1652,8.6,Excellent,8.9,9.0,9.1,9.1,8.3,8.8
+Booking,38,Fairmont Singapore,"80 Bras Basah Road, City Hall, 189560  Singapore, Singapore",189560,1.294,103.8537,1642,8.6,Excellent,9.5,9.1,9.1,9.1,8.0,8.8
+Booking,39,"Holiday Inn Singapore Orchard City Centre, an IHG Hotel","11 Cavenagh Road, Orchard, 229616 Singapore, Singapore",229616,1.3023,103.8411,1593,8.1,Excellent,9.0,8.8,8.4,8.5,7.6,8.2
+Booking,40,"Holiday Inn Express Singapore Katong, an IHG Hotel","88 East Coast Road, Katong, 423371 Singapore, Singapore",423371,1.3047,103.9047,1580,8.4,Excellent,8.4,9.1,8.9,8.8,8.1,8.5
+Booking,41,"Capri by Fraser Changi City, Singapore","3 Changi Business Park Central 1, Changi, 486037 Singapore, Singapore",486037,1.3342,103.9636,1538,8.3,Excellent,8.6,8.6,8.9,8.9,8.0,8.6
+Booking,42,Grand Mercure Singapore Roxy,"50 East Coast Road, Roxy Square, Katong, 428769 Singapore, Singapore",428769,1.3038,103.9044,1532,7.8,Very Good,8.2,8.6,8.3,8.2,7.7,7.9
+Booking,43,Mercure Singapore On Stevens,"Orchard District 28 Stevens Road, #01-02 Singapore - 257878, Orchard, 257878 Singapore, Singapore",257878,1.3139,103.8286,1527,7.6,Very Good,7.9,8.1,8.3,8.2,7.6,8.0
+Booking,44,Citadines Connect City Centre Singapore,"182 Clemenceau Avenue, Dhoby Ghaut, 239923 Singapore, Singapore",239923,1.2978,103.8441,1519,8.5,Excellent,9.2,9.1,8.9,8.9,8.1,8.6
+Booking,45,The Scarlet Singapore,"33 Erskine Road, Chinatown, 069333 Singapore, Singapore",069333,1.2808,103.8454,1494,8.4,Excellent,9.3,9.4,8.7,8.8,8.1,8.2
+Booking,46,Royal Plaza on Scotts,"25 Scotts Road, Orchard, 228220 Singapore, Singapore",228220,1.3073,103.8322,1490,8.0,Excellent,9.2,8.6,8.5,8.6,7.7,7.9
+Booking,47,"The Ritz-Carlton, Millenia Singapore","7 Raffles Avenue, Marina Bay, 039799 Singapore, Singapore",039799,1.2907,103.8601,1463,9.0,Exceptional,9.4,9.3,9.4,9.4,8.2,9.2
+Booking,48,"PARKROYAL on Beach Road, Singapore","7500A Beach Road, The Plaza, 199591 Singapore, Singapore",199591,1.2997,103.8606,1463,8.3,Excellent,8.9,8.7,8.9,9.0,8.0,8.6
+Booking,49,Naumi Hotel,"41 Seah Street, 188396 Singapore, Singapore",188396,1.2959,103.8552,1450,8.4,Excellent,9.3,9.0,8.9,9.0,7.9,8.5
+Booking,50,30 Bencoolen,"30 Bencoolen Street, Bencoolen, 189621 Singapore, Singapore",189621,1.2985,103.8504,1431,8.5,Excellent,9.3,8.8,9.0,9.0,8.1,8.4
+Booking,51,"Holiday Inn Express Singapore Orchard Road, an IHG Hotel","20 Bideford Road, Orchard, 229921 Singapore, Singapore",229921,1.3032,103.8367,1425,8.2,Excellent,9.5,8.8,8.5,8.6,7.8,8.0
+Booking,52,Wink at McCallum Street,"2b McCallum Street, Chinatown, 069043 Singapore, Singapore",069043,1.2797,103.8475,1409,7.9,Very Good,9.3,8.9,8.0,8.0,8.1,7.9
+Booking,53,Galaxy Pods Capsule Hotel Boat Quay,"12 Circular Road, Boat Quay, 049368 Singapore, Singapore",049368,1.2877,103.849,1404,7.7,Very Good,9.3,8.7,7.8,7.7,7.9,7.6
+Booking,54,MET A Space Pod at Arab Street,"56 Arab Street, Kampong Glam, 199753 Singapore, Singapore",199753,1.3009,103.8596,1403,7.7,Very Good,9.1,8.6,7.9,7.7,7.8,7.7
+Booking,55,Hilton Singapore Orchard,"333 Orchard Road, Orchard, 238867 Singapore, Singapore",238867,1.3021,103.8363,1391,8.4,Excellent,9.5,8.7,9.0,9.0,7.7,8.6
+Booking,56,"KēSa House, The Unlimited Collection managed by The Ascott Limited","55 Keong Saik Road , Chinatown, 089158 Singapore, Singapore",089158,1.2806,103.8416,1386,8.6,Excellent,9.5,9.4,9.1,9.1,8.3,8.8
+Booking,57,Orchard Rendezvous Hotel by Far East Hospitality,"1 Tanglin Road, Orchard, 247905 Singapore, Singapore",247905,1.3066,103.8278,1361,8.0,Excellent,9.0,8.8,8.5,8.5,7.9,7.9
+Booking,58,CUBE Boutique Capsule Hotel at Chinatown,"76, 78 Smith Street, Chinatown, 058972 Singapore, Singapore",058972,1.2832,103.843,1349,7.7,Very Good,9.2,8.3,7.9,7.9,7.7,7.8
+Booking,59,"Holiday Inn Singapore Little India, an IHG Hotel","10 Farrer Park Station Road, Farrer Park, 217564 Singapore, Singapore",217564,1.312,103.8548,1312,8.4,Excellent,9.1,8.8,8.7,8.7,7.9,8.5
+Booking,60,W Singapore - Sentosa Cove,"21 Ocean Way, Sentosa Island, 098372 Singapore, Singapore",098372,1.2467,103.8428,1296,8.7,Excellent,8.7,9.1,9.2,9.2,7.8,9.0
+Booking,61,Aqueen Hotel Paya Lebar,"33 Jalan Afifi, 409180 Singapore, Singapore",409180,1.3221,103.8917,1295,7.8,Very Good,8.3,8.3,8.3,8.2,7.9,7.8
+Booking,62,The Capitol Kempinski Hotel Singapore,"15 Stamford Road , City Hall, 178906 Singapore, Singapore",178906,1.2938,103.8513,1278,8.8,Excellent,9.4,9.4,9.3,9.3,8.1,8.7
+Booking,63,The Sultan,"101 Jalan Sultan, #01-01, Kampong Glam, 199002 Singapore, Singapore",199002,1.3032,103.861,1245,7.9,Very Good,8.8,8.8,8.3,8.2,7.7,7.8
+Booking,64,Four Seasons Hotel Singapore,"190 Orchard Boulevard, Orchard, 248646 Singapore, Singapore",248646,1.3052,103.8287,1235,9.1,Exceptional,9.2,9.5,9.5,9.5,8.5,9.1
+Booking,65,Hotel Classic by Venue,"12 Joo Chiat Road, 427353 Singapore, Singapore",427353,1.3156,103.8977,1226,8.0,Excellent,8.3,8.8,8.5,8.3,7.9,7.9
+Booking,66,M Hotel Singapore City Centre,"81 Anson Road, 079908 Singapore, Singapore",079908,1.2737,103.8451,1221,7.9,Very Good,8.5,8.2,8.4,8.5,7.4,8.0
+Booking,67,Hotel NuVe Urbane,"3 KING GEORGE AVENUE, Lavender, 208582 Singapore, Singapore",208582,1.3073,103.8588,1217,7.8,Very Good,8.2,8.4,8.3,8.3,7.7,8.0
+Booking,68,Ji Hotel Orchard Singapore,"11 Penang Lane, Dhoby Ghaut, 238485 Singapore, Singapore",238485,1.2977,103.8445,1202,8.1,Excellent,9.1,8.6,8.6,8.6,8.0,8.0
+Booking,69,The Outpost Hotel Sentosa by Far East Hospitality,"10 Artillery Avenue #03-01, Sentosa Island, Sentosa Island, 099951 Singapore, Singapore",099951,1.2523,103.82,1149,8.4,Excellent,8.6,8.9,9.1,9.1,7.9,8.8
+Booking,70,lyf one-north Singapore,"80 Nepal Park, 139409 Singapore, Singapore",139409,1.3011,103.7881,1136,8.4,Excellent,8.8,9.0,8.8,8.8,8.2,8.7
+Booking,71,Atelier,"259 South Bridge Road, Chinatown, 058808 Singapore, Singapore",058808,1.2821,103.8454,1116,8.5,Excellent,9.6,9.6,8.4,8.4,8.2,8.2
+Booking,72,Quincy Hotel Singapore by Far East Hospitality,"22 Mount Elizabeth, Orchard, 228517 Singapore, Singapore",228517,1.3078,103.8357,1112,8.6,Excellent,8.7,9.4,9.0,9.0,8.3,8.6
+Booking,73,Somerset Bencoolen Singapore,"51 Bencoolen Street, Bencoolen, 189630 Singapore, Singapore",189630,1.2994,103.8504,1105,8.5,Excellent,9.3,9.0,8.8,8.8,8.3,8.5
+Booking,74,Hotel 1900 Chinatown,"46-50 Mosque Street, Chinatown, 059526 Singapore, Singapore",059526,1.2842,103.8443,1102,7.9,Very Good,9.3,8.7,8.5,8.4,7.7,8.0
+Booking,75,"Wanderlust, The Unlimited Collection managed by The Ascott Limited","No 2 Dickson Road, Little India, 209494 Singapore, Singapore",209494,1.3051,103.8546,1089,8.8,Excellent,8.8,9.5,9.3,9.2,8.5,8.9
+Booking,76,Vibe Hotel Singapore Orchard,"24 Mount Elizabeth, Orchard, 228518 Singapore, Singapore",228518,1.3082,103.8358,1052,8.1,Excellent,8.4,9.0,8.5,8.5,7.9,8.0
+Booking,77,Hotel Telegraph,"35 Robinson Road, Marina Bay, 068898 Singapore, Singapore",068898,1.2801,103.8493,1039,8.3,Excellent,9.4,8.9,8.7,8.8,7.6,8.4
+Booking,78,Chic Capsule Otel,"13 Mosque Street, Chinatown, 059493 Singapore, Singapore",059493,1.2839,103.8443,1028,7.9,Very Good,9.4,9.2,7.9,7.8,7.8,7.6
+Booking,79,D'Hotel Singapore managed by The Ascott Limited,"231 Outram Road, Tiong Bahru, 169040 Singapore, Singapore",169040,1.2843,103.835,1007,8.0,Excellent,8.3,8.9,8.6,8.7,7.9,7.9
+Booking,80,Lloyd's Inn,"2 Lloyd road, 239091 Singapore, Singapore",239091,1.2973,103.8404,987,7.9,Very Good,8.5,8.9,8.3,8.4,7.7,7.9
+Booking,81,Andaz Singapore A Concept by Hyatt,"5 Fraser Street, 189354 Singapore, Singapore",189354,1.2992,103.8579,985,8.6,Excellent,9.2,8.8,9.2,9.2,8.0,8.9
+Booking,82,ST Signature Tanjong Pagar,"32 Tras Street, Chinatown, 078972 Singapore, Singapore",078972,1.2787,103.8443,981,7.8,Very Good,9.1,8.2,8.2,8.1,7.7,7.9
+Booking,83,Bliss Hotel Singapore,"62 - 64 Upper Cross Street, Chinatown, 058353 Singapore, Singapore",058353,1.2845,103.8443,979,7.9,Very Good,9.4,8.7,8.2,8.2,7.8,7.8
+Booking,84,"Holiday Inn Express Singapore Serangoon, an IHG Hotel","270 Jalan Besar, Lavender, 209019 Singapore, Singapore",209019,1.3102,103.8586,968,8.3,Excellent,8.2,9.1,8.9,8.7,7.8,8.3
+Booking,85,Citadines Raffles Place Singapore,"88 Market Street, 048940 Singapore, Singapore",048940,1.285,103.8502,957,8.7,Excellent,9.6,9.1,9.1,9.1,8.2,9.0
+Booking,86,Spacepod@hive,"624 Serangoon Road, Lavender, 218223 Singapore, Singapore",218223,1.3157,103.8588,949,7.9,Very Good,8.2,8.9,8.1,8.0,8.2,8.0
+Booking,87,Citadines Balestier,"207 Balestier Road, Novena, 329683 Singapore, Singapore",329683,1.321,103.8524,946,8.8,Excellent,8.4,9.0,9.1,9.2,8.6,9.0
+Booking,88,Genting Hotel Jurong,"2 Town Hall Link, Singapore 608516, Jurong East, 608516 Singapore, Singapore",608516,1.3315,103.7393,935,7.7,Very Good,8.0,8.4,8.4,8.3,7.1,7.9
+Booking,89,Mercure Singapore Tyrwhitt,"165 Tyrwhitt Road, Lavender, 207569 Singapore, Singapore",207569,1.3123,103.8606,926,7.6,Very Good,8.2,8.6,8.2,8.1,7.5,7.8
+Booking,90,Heritage Collection on Boat Quay - Quayside Wing - A Digital Hotel,"76 Boat Quay, Boat Quay, 049864 Singapore, Singapore",049864,1.2882,103.8492,899,8.7,Excellent,9.4,9.3,9.1,9.1,8.6,8.9
+Booking,91,Ascott Raffles Place Singapore,"No. 2 Finlayson Green, Marina Bay, 049247 Singapore, Singapore",049247,1.2821,103.8516,887,8.4,Excellent,9.2,8.9,8.8,8.9,8.2,8.4
+Booking,92,Habyt Cantonment - formerly Hmlet Cantonment,"150 Cantonment Road, 089762 Singapore, Singapore",089762,1.274,103.8406,887,8.1,Excellent,8.8,8.9,8.4,8.3,8.2,8.1
+Booking,93,"Holiday Inn Express & Suites Singapore Novena, an IHG Hotel","201 Balestier Road, Novena, 329926 Singapore, Singapore",329926,1.3201,103.8525,883,8.3,Excellent,7.8,9.1,9.0,8.9,8.1,8.4
+Booking,94,Mondrian Singapore Duxton,"16A Duxton Hill, Chinatown, 89970 Singapore, Singapore",089970,1.2789,103.8427,870,8.7,Excellent,9.3,9.0,9.2,9.2,8.2,8.9
+Booking,95,Hilton Garden Inn Singapore Serangoon,"3 Belilios Road   , Farrer Park,  219924 Singapore, Singapore",219924,1.3084,103.852,854,7.9,Very Good,8.1,8.6,8.6,8.5,7.5,8.0
+Booking,96,Resorts World Sentosa - Hotel Michael,"8 Sentosa Gateway, Sentosa Island, 098269 Singapore, Singapore",098269,1.2553,103.8203,840,7.6,Very Good,8.8,8.2,8.2,8.2,7.2,7.5
+Booking,97,Grand Park City Hall,"10 Coleman Street, City Hall, 179809 Singapore, Singapore",179809,1.2927,103.8502,829,7.8,Very Good,9.0,8.3,8.5,8.5,7.4,7.9
+Booking,98,Sofitel Singapore Sentosa Resort & Spa,"2 Bukit Manis Road, Sentosa, Sentosa Island, 099891 Singapore, Singapore",099891,1.2459,103.8277,821,7.4,Very Good,8.2,8.0,8.1,8.1,6.7,7.8
+Booking,99,Rest Bugis Hotel,"8 Jalan Kubor, Kampong Glam, 199207 Singapore, Singapore",199207,1.3041,103.8594,800,8.1,Excellent,8.8,8.8,8.7,8.7,8.1,8.3
+Booking,100,Orchard Grand Court,"131 Killiney Road, Orchard, 239571 Singapore, Singapore",239571,1.2973,103.8385,798,8.2,Excellent,9.1,8.8,8.5,8.5,7.9,8.2
+Booking,101,Goodwood Park Hotel,"22 Scotts Road, Orchard, 228221 Singapore, Singapore",228221,1.308,103.8345,789,8.3,Excellent,9.1,9.0,8.7,8.7,8.2,8.3
+Booking,102,Resorts World Sentosa - Equarius Hotel,"8 Sentosa Gateway, Sentosa Island, 098269 Singapore, Singapore",098269,1.2553,103.8203,781,7.9,Very Good,7.8,8.5,8.6,8.6,7.4,7.9
+Booking,103,Rendezvous Hotel Singapore by Far East Hospitality,"9 Bras Basah Road, Bencoolen, 189559 Singapore, Singapore",189559,1.2986,103.8493,765,8.0,Excellent,9.2,9.0,8.3,8.5,7.6,7.8
+Booking,104,Ascott Orchard Singapore,"11 Cairnhill Road, Orchard, 229724 Singapore, Singapore",229724,1.304,103.8372,745,8.6,Excellent,9.3,8.9,9.0,9.0,8.3,8.8
+Booking,105,"Capri by Fraser China Square, Singapore","181 South Bridge Road, Chinatown, 058743 Singapore, Singapore",058743,1.284,103.8471,744,8.5,Excellent,9.2,8.7,9.2,9.2,8.1,8.9
+Booking,106,"Holiday Inn Singapore Atrium, an IHG Hotel","317 Outram Road, Robertson Quay, 169075 Singapore, Singapore",169075,1.2889,103.8342,738,8.1,Excellent,8.6,8.7,8.5,8.5,7.6,8.2
+Booking,107,ONE15 Marina Sentosa Cove Singapore,"#01-01, 11 Cove Drive, Sentosa Cove, Sentosa Island, 098497 Singapore, Singapore",098497,1.2464,103.8389,732,7.9,Very Good,8.3,8.4,8.5,8.4,7.7,8.0
+Booking,108,hipstercity hostel,"9 Circular Road, Boat Quay, 049365 Singapore, Singapore",049365,1.2878,103.849,727,8.2,Excellent,9.3,9.2,8.4,8.3,8.1,8.1
+Booking,109,Oasia Resort Sentosa by Far East Hospitality,"23 Beach View, Sentosa, Sentosa Island, 098679 Singapore, Singapore",098679,1.2532,103.8196,704,8.3,Excellent,9.2,9.0,8.8,8.9,7.8,8.3
+Booking,110,Conrad Centennial Singapore,"Two Temasek Boulevard, Marina Bay, 038982 Singapore, Singapore",038982,1.2935,103.8588,703,8.8,Excellent,9.3,9.2,9.2,9.2,8.2,8.9
+Booking,111,Hotel Bencoolen at Hong Kong Street,"47 Hongkong Street, Boat Quay, 059685 Singapore, Singapore",059685,1.2871,103.8477,700,7.7,Very Good,9.2,8.8,8.0,8.0,7.9,7.6
+Booking,112,CUBE Boutique Capsule Hotel at Kampong Glam,"55 Bussorah Street, Kampong Glam, 338800 Singapore, Singapore",338800,1.3144,103.8603,658,7.7,Very Good,9.1,8.7,7.8,7.8,7.8,7.8
+Booking,113,"voco Orchard Singapore, an IHG Hotel","581 Orchard Road, Orchard, 238883 Singapore, Singapore",238883,1.3059,103.8295,648,8.2,Excellent,9.2,8.8,8.5,8.6,7.6,8.1
+Booking,114,Pan Pacific Orchard,"10 Claymore Road, Orchard, 229540 Singapore, Singapore",229540,1.3074,103.8299,629,8.5,Excellent,9.0,8.6,9.1,9.2,7.9,8.8
+Booking,115,Greatwood Residence at Devonshire,"17 Devonshire Road, Orchard, 239849 Singapore, Singapore",239849,1.298,103.8375,629,7.7,Very Good,9.3,8.5,7.7,7.8,8.0,7.3
+Booking,116,The Pod at Beach Road Boutique Capsule Hotel,"289 Beach Road, #03-01, Kampong Glam, 199552 Singapore, Singapore",199552,1.301,103.8606,625,7.7,Very Good,8.8,8.7,7.9,7.9,7.5,8.0
+Booking,117,The Bohemian,"40 Mosque Street, Chinatown, 059518 Singapore, Singapore",059518,1.2839,103.845,624,8.0,Excellent,9.4,9.3,8.0,8.0,7.8,7.8
+Booking,118,"InterContinental Singapore, an IHG Hotel","80 Middle Road, 188966 Singapore, Singapore",188966,1.2985,103.8549,620,8.7,Excellent,9.3,9.2,9.1,9.2,8.1,8.8
+Booking,119,"Hotel Indigo Singapore Katong, an IHG Hotel","86 East Coast Road, Katong, 428788 Singapore, Singapore",428788,1.3051,103.9043,612,9.0,Exceptional,9.0,9.6,9.5,9.5,8.5,9.2
+Booking,120,The Robertson House by The Crest Collection,"No 1 Unity Street, Robertson Quay, 237983 Singapore, Singapore",237983,1.2915,103.8423,601,8.5,Excellent,9.1,9.1,9.0,9.1,8.4,8.6
+Booking,121,Thanksgiving Serviced Residence,"328 River Valley Road, 238360 Singapore, Singapore",238360,1.2962,103.8409,600,8.3,Excellent,8.9,8.5,8.5,8.4,8.0,8.1
+Booking,122,Hotel Mi Rochor,"89 Short Street, Bencoolen, 188216 Singapore, Singapore",188216,1.3039,103.8514,582,7.9,Very Good,8.8,8.7,8.4,8.4,7.7,8.0
+Booking,123,The St. Regis Singapore,"29 Tanglin Road , Orchard, 247911 Singapore, Singapore",247911,1.3057,103.8261,567,8.6,Excellent,8.8,9.0,9.1,9.1,8.0,8.7
+Booking,124,ibis budget Singapore Gold,"123 Sims Avenue, 387446 Singapore, Singapore",387446,1.3143,103.8778,545,7.9,Very Good,7.6,8.6,8.4,8.5,8.0,8.1
+Booking,125,Novotel Singapore On Stevens,"Orchard District 28 Stevens Road, #01-01 Singapore - 257878, Orchard, 257878 Singapore, Singapore",257878,1.3139,103.8286,542,7.4,Very Good,7.7,8.0,8.1,8.2,7.4,8.0
+Booking,126,Owen House by Habyt,"2 Owen Road, Farrer Park, 218842 Singapore, Singapore",218842,1.3117,103.855,509,8.0,Excellent,9.0,9.2,8.5,8.4,8.0,8.0
+Booking,127,AMOY by Far East Hospitality,"76 Telok Ayer Street, Chinatown, 048464 Singapore, Singapore",048464,1.283,103.8487,505,8.7,Excellent,9.6,9.6,9.0,8.9,8.1,8.6
+Booking,128,Santa Grand Hotel East Coast a NuVe Group Collection,"171 East Coast Road , Katong, 428877 Singapore, Singapore",428877,1.3068,103.9059,502,8.0,Excellent,8.8,8.9,8.5,8.4,8.0,7.9
+Booking,129,Fraser Place Robertson Walk Singapore,"11 Unity Street, Robertson Quay, 237995 Singapore, Singapore",237995,1.292,103.8412,482,8.8,Excellent,9.4,9.4,9.1,9.2,8.4,8.8
+Booking,130,"Four Points by Sheraton Singapore, Riverview","382 Havelock Road, Robertson Quay, 169629 Singapore, Singapore",169629,1.2894,103.8366,476,8.1,Excellent,8.7,8.5,8.8,8.8,7.8,8.3
+Booking,131,Hotel Clover 769 North Bridge Road,"769 North Bridge Road, Kampong Glam, 198737 Singapore, Singapore",198737,1.3037,103.8596,472,7.9,Very Good,8.9,9.0,8.1,8.0,7.7,7.7
+Booking,132,Hotel NuVe Heritage,"13 Purvis street, 188592 Singapore, Singapore",188592,1.2966,103.8554,468,7.8,Very Good,8.9,8.7,8.2,8.3,7.6,7.8
+Booking,133,Jyu Capsule Hotel,"46 Smith Street Level 2 & 3, Chinatown, 058956 Singapore, Singapore",058956,1.2828,103.8436,466,8.8,Excellent,9.5,9.3,9.1,9.2,8.6,9.1
+Booking,134,Heritage Collection on Arab - A Digital Hotel,"78 Arab Street, Kampong Glam, 199775 Singapore, Singapore",199775,1.3014,103.8592,449,8.5,Excellent,9.4,9.2,8.8,8.7,8.4,8.7
+Booking,135,JW Marriott Hotel Singapore South Beach,"30 Beach Road, City Hall, 189763 Singapore, Singapore",189763,1.2947,103.8555,448,8.5,Excellent,9.3,9.0,9.0,9.0,7.7,8.8
+Booking,136,Treetops Executive Residences,"7 Orange Grove Road, Orchard, 258355 Singapore, Singapore",258355,1.308,103.8265,446,8.9,Excellent,9.3,9.3,9.2,9.3,8.7,9.0
+Booking,137,Park Avenue Changi,"2 Changi Business Park Avenue 1, Changi, 486015 Singapore, Singapore",486015,1.3358,103.9631,433,7.9,Very Good,8.6,8.3,8.5,8.5,7.9,8.0
+Booking,138,Heritage Collection on Chinatown - A Digital Hotel,"227 South Bridge Road, Chinatown, 058776 Singapore, Singapore",058776,1.2828,103.8457,425,8.8,Excellent,9.6,9.5,9.0,9.0,8.7,8.9
+Booking,139,"InterContinental Singapore Robertson Quay, an IHG Hotel","1 Nanson Road, Robertson Quay, 238909 Singapore, Singapore",238909,1.29,103.8386,392,8.4,Excellent,8.9,9.1,9.0,9.1,7.8,8.5
+Booking,140,Le Grove Serviced Residences,"32 Orange Grove Road, Orchard, 258354 Singapore, Singapore",258354,1.3134,103.8258,390,8.9,Excellent,8.3,9.1,9.2,9.2,8.7,9.0
+Booking,141,Citadines Fusionopolis Singapore,"3 Fusionopolis Way, Symbiosis Tower, 138633 Singapore, Singapore",138633,1.299,103.7876,389,8.4,Excellent,8.5,9.2,8.5,8.5,8.3,8.3
+Booking,142,Hotel Faber Park Singapore - Handwritten Collection,"448 Telok Blangah Road, 99593 Singapore, Singapore",099593,1.2703,103.8134,382,8.3,Excellent,8.3,9.0,8.9,8.9,8.2,8.4
+Booking,143,Dream Lodge,"172, tyrwhitt road, Lavender, 207574 Singapore, Singapore",207574,1.312,103.8608,378,8.7,Excellent,8.7,9.3,8.9,8.9,8.5,8.7
+Booking,144,Mercure Singapore Bugis,"122 Middle Road, Victoria, 188973 Singapore, Singapore",188973,1.2996,103.8531,372,7.6,Very Good,8.8,8.4,8.1,7.9,7.0,7.7
+Booking,145,Fraser Suites Singapore,"491A River Valley Road, 248372 Singapore, Singapore",248372,1.2931,103.8271,353,8.4,Excellent,8.5,8.9,8.8,8.8,8.0,8.6
+Booking,146,Sheraton Towers Singapore Hotel,"39 Scotts Road, Orchard, 228230 Singapore, Singapore",228230,1.312,103.8365,350,8.0,Excellent,8.3,8.6,8.5,8.5,7.4,8.2
+Booking,147,"Ann Siang House, The Unlimited Collection managed by The Ascott Limited","Ann Siang Road, Chinatown, 069708 Singapore, Singapore",069708,1.2808,103.8458,344,8.9,Excellent,9.6,9.4,9.2,9.4,8.4,8.6
+Booking,148,Heritage Collection on Clarke Quay - A Digital Hotel,"36 South Bridge Road, Boat Quay, 058670 Singapore, Singapore",058670,1.2881,103.8485,342,8.6,Excellent,9.4,9.4,8.9,9.0,8.8,8.7
+Booking,149,The Fullerton Bay Hotel Singapore,"80 Collyer Quay, Marina Bay, 049326 Singapore, Singapore",049326,1.2835,103.8536,339,9.1,Exceptional,9.7,9.3,9.6,9.6,8.1,9.4
+Booking,150,The Barracks Hotel Sentosa by Far East Hospitality,"2 Gunner Lane, Sentosa Island, 099567 Singapore, Singapore",099567,1.2528,103.8208,332,9.4,Exceptional,9.5,9.8,9.7,9.6,8.7,9.3
+Booking,151,Oakwood Studios Singapore,"18 Mount Elizabeth, Orchard, 228514 Singapore, Singapore",228514,1.307,103.8362,309,8.6,Excellent,9.2,9.2,8.9,9.0,8.2,8.7
+Booking,152,Heritage Collection on Pagoda - A Digital Hotel,"63 Pagoda Street, Chinatown, 059222 Singapore, Singapore",059222,1.2835,103.8439,300,9.1,Exceptional,9.8,9.7,9.3,9.4,8.9,9.2
+Booking,153,Sofitel Singapore City Centre,"9 Wallich Street, Tanjong Pagar, 078885 Singapore, Singapore",078885,1.2769,103.8451,287,8.7,Excellent,9.2,9.0,9.2,9.2,8.0,8.8
+Booking,154,Singapore Marriott Tang Plaza Hotel,"320 Orchard Road, Orchard, 238865 Singapore, Singapore",238865,1.305,103.833,285,8.2,Excellent,9.5,8.7,8.6,8.8,7.6,8.3
+Booking,155,Shangri-La Apartments,"1, Anderson Road, Orchard, 259983 Singapore, Singapore",259983,1.3096,103.8265,272,8.2,Excellent,8.9,9.0,8.5,8.4,7.7,8.1
+Booking,156,Citadines Connect Rochester Singapore,"1 Rochester Park, 139212 Singapore, Singapore",139212,1.305,103.7877,265,8.7,Excellent,8.4,9.3,9.2,9.4,8.2,8.9
+Booking,157,Fraser Residence Orchard Singapore,"31 Paterson Road, Orchard, 238522 Singapore, Singapore",238522,1.3017,103.83,264,9.1,Exceptional,9.5,9.5,9.4,9.4,8.5,9.0
+Booking,158,Pullman Singapore Orchard,"270 Orchard Road, Orchard, 238857 Singapore, Singapore",238857,1.3031,103.8362,257,8.0,Excellent,9.3,8.5,8.4,8.5,7.5,8.0
+Booking,159,Heritage Collection on Seah - A Digital Hotel,"39 Seah Street, 188395 Singapore, Singapore",188395,1.2959,103.8551,250,8.7,Excellent,9.6,9.3,9.1,9.0,8.9,8.9
+Booking,160,Orchid Country Club,"1 Orchid Club Road, 769162 Singapore, Singapore",769162,1.4121,103.845,248,8.3,Excellent,8.3,8.4,8.4,8.5,8.2,8.4
+Booking,161,RadZone Hostel,"26A Circular Road 02-00, Boat Quay, 489382 Singapore, Singapore",489382,1.3405,103.9547,246,8.6,Excellent,9.3,9.5,8.9,8.9,8.3,8.8
+Booking,162,Resorts World Sentosa - Equarius Villas,"8 Sentosa Gateway, Sentosa Island, 098269 Singapore, Singapore",098269,1.2553,103.8203,236,8.4,Excellent,8.6,9.0,8.7,8.9,7.4,8.4
+Booking,163,Raffles Singapore,"1 Beach Road, City Hall, 189673 Singapore, Singapore",189673,1.2949,103.8543,222,9.4,Exceptional,9.5,9.5,9.7,9.7,8.3,9.5
+Booking,164,Capella Singapore,"1 The Knolls Sentosa Island, Sentosa Island, 098297 Singapore, Singapore",098297,1.2495,103.8244,213,9.2,Exceptional,9.5,9.4,9.6,9.6,8.3,9.4
+Booking,165,"Oasia Hotel Novena, Singapore by Far East Hospitality","8 Sinaran Drive (Novena) , Novena, 307470 Singapore, Singapore",307470,1.32,103.8448,205,8.1,Excellent,8.7,8.7,8.7,8.7,7.9,8.4
+Booking,166,Park Avenue Clemenceau,"81A Clemenceau Avenue #05-18, UE Square, Robertson Quay, 239918 Singapore, Singapore",239918,1.292,103.8427,202,8.3,Excellent,9.5,8.8,8.5,8.6,8.2,8.3
+Booking,167,The Hive Singapore Hostel,"624A Serangoon Road, Lavender, 218223 Singapore, Singapore",218223,1.3157,103.8588,190,7.7,Very Good,8.1,8.9,7.8,7.9,8.1,7.9
+Booking,168,The Westin Singapore,"12 Marina View, Asia Square Tower 2, Marina Bay, 018961 Singapore, Singapore",018961,1.2783,103.8509,187,8.6,Excellent,8.6,9.1,9.1,9.2,7.9,8.8
+Booking,169,Republic of Singapore Yacht Club,"52 West Coast Ferry Road, 126887 Singapore, Singapore",126887,1.2927,103.7625,186,7.9,Very Good,7.2,8.1,8.5,8.4,8.0,8.2
+Booking,170,Momentus Serviced Residences Novena,"12 Shan Road, Novena, 328105 Singapore, Singapore",328105,1.3248,103.8464,182,8.2,Excellent,8.3,8.8,8.6,8.5,7.7,8.2
+Booking,171,Courtyard by Marriott Singapore Novena,"99 Irrawaddy Road, Novena, 329568 Singapore, Singapore",329568,1.3206,103.8432,156,8.0,Excellent,8.8,8.7,8.8,8.9,7.4,8.1
+Booking,172,Alocassia Serviced Apartments,"383, Bukit Timah Road, Off Robin Drive., Orchard, 259727 Singapore, Singapore",259727,1.3194,103.8273,154,8.7,Excellent,9.2,9.4,8.9,9.0,8.7,8.6
+Booking,173,Park Avenue Robertson,"80 Kim Yam Road, 239375 Singapore, Singapore",239375,1.2922,103.8404,124,8.6,Excellent,9.2,9.3,9.0,9.0,9.0,8.6
+Booking,174,ST Signature Bugis Middle,"21 Middle Road, 188931 Singapore, Singapore",188931,1.2967,103.8559,117,8.5,Excellent,9.4,9.3,9.0,9.1,8.5,8.5
+Booking,175,Cantonment Serviced Apartment,"237 Cantonment Road, Chinatown, 089767 Singapore, Singapore",089767,1.2751,103.8413,115,7.3,Very Good,8.7,7.8,7.5,7.3,7.6,7.6
+Booking,176,Wilby Central Serviced Apartments,"15 Queen Street, #01-01 Tan Chong Tower Wilby Central Serviced Apartments, Victoria, 188537 Singapore, Singapore",188537,1.298,103.8527,103,8.6,Excellent,9.6,9.3,9.1,9.1,8.6,8.8
+Booking,177,Resorts World Sentosa - Hotel Ora,"8 Sentosa Gateway, Sentosa Island, 098269 Singapore, Singapore",098269,1.2553,103.8203,98,8.1,Excellent,8.6,8.6,8.6,8.8,7.4,8.3
+Booking,178,"Pan Pacific Serviced Suites Orchard, Singapore","96 Somerset Road, Orchard, 238163 Singapore, Singapore",238163,1.3009,103.8379,96,8.9,Excellent,9.8,9.4,9.2,9.1,8.4,9.0
+Booking,179,Dream Chaser Boutique Capsule Hotel,"38 Sultan Gate, Kampong Glam, 198486 Singapore, Singapore",198486,1.3017,103.8609,94,8.8,Excellent,9.3,9.3,9.2,9.1,8.6,8.8
+Booking,180,Orchard Parksuites by Far East Hospitality,"11 Orchard Turn, Orchard, 238800 Singapore, Singapore",238800,1.303,103.8327,94,7.9,Very Good,9.6,9.0,8.1,8.2,7.5,7.7
+Booking,181,Adina Serviced Apartments Singapore Orchard,"121 Penang Road, Dhoby Ghaut, 238464 Singapore, Singapore",238464,1.2995,103.842,88,8.9,Excellent,9.5,9.5,9.3,9.1,8.3,8.8
+Booking,182,Heritage Collection on Boat Quay - South Bridge Wing,"80 Boat Quay, Boat Quay, 049868 Singapore, Singapore",049868,1.2884,103.8492,88,8.8,Excellent,9.3,9.5,8.7,8.7,8.5,8.9
+Booking,183,KINN Studios,"69 Keong Saik Road, Chinatown, 089165 Singapore, Singapore",089165,1.281,103.8416,87,8.7,Excellent,9.5,9.7,9.0,9.2,8.5,8.6
+Booking,184,"Lanson Place Winsland, Singapore","167 Penang Road, Orchard, 238462 Singapore, Singapore",238462,1.2995,103.8409,87,8.7,Excellent,9.5,9.6,9.1,9.2,8.4,9.0
+Booking,185,Shipping Container Hotel at Haw Par Villa GoogleMap Address 27 Zehnder Road Taxi and cars can only enter via Zehnder Road,"262 Pasir Panjang Rd, 118628 Singapore, Singapore",118628,1.2855,103.7831,77,8.6,Excellent,8.1,9.4,9.2,9.3,8.4,9.0
+Booking,186,Novotel Singapore on Kitchener,"181 Kitchener Road, Lavender, 208533 Singapore, Singapore",208533,1.3105,103.8557,72,8.2,Excellent,8.8,8.4,8.8,8.8,7.6,8.4
+Booking,187,Wink at Perak Road,"6 Perak Road, Little India, 208127 Singapore, Singapore",208127,1.3045,103.853,71,8.8,Excellent,9.4,9.5,9.3,9.1,9.0,8.9
+Booking,188,The Initial Residence,"355 Balestier Road, Novena, 329782 Singapore, Singapore",329782,1.3244,103.8509,66,8.3,Excellent,8.7,8.9,8.7,8.8,8.2,8.5
+Booking,189,hovoh homes Bugis Rochor,"153 Rochor Road, Victoria, 188428 Singapore, Singapore",188428,1.3009,103.8552,66,9.1,Exceptional,9.5,9.5,9.2,9.1,8.8,9.2
+Booking,190,Pullman Singapore Hill Street,"1 Hill Street, City Hall, 179949 Singapore, Singapore",179949,1.2939,103.8507,64,9.0,Exceptional,9.6,9.6,9.6,9.4,8.5,9.4
+Booking,191,"Mandarin Oriental, Singapore","5 Raffles Avenue, Marina Square, Marina Bay, 039797 Singapore, Singapore",039797,1.2906,103.8585,58,9.1,Exceptional,9.4,9.5,9.5,9.4,8.4,9.3
+Booking,192,"ST Signature Tanjong Pagar, SHORT OVERNIGHT, 14 hours: 8PM-10AM","32 Tras Street, Chinatown, 078972 Singapore, Singapore",078972,1.2787,103.8443,55,7.7,Very Good,8.9,8.1,8.2,8.2,8.0,7.8
+Booking,193,Aloft Singapore Novena,"16 Ah Hood Road, Novena, 329982 Singapore, Singapore",329982,1.327,103.8465,47,8.8,Excellent,8.4,9.5,9.1,9.1,8.2,8.5
+Booking,194,"Fraser Residence River Promenade, Singapore","5 Jiak Kim Street, Robertson Quay, 169425 Singapore, Singapore",169425,1.2916,103.8353,43,8.7,Excellent,9.0,9.2,9.6,9.4,9.2,9.2
+Booking,195,Garden Pod at Gardens by the Bay,"18 Marina Gardens Drive Near The Meadow Carpark at Gardens by the Bay, Marina Bay, 018953 Singapore, Singapore",018953,1.2829,103.8649,29,8.7,Excellent,9.3,9.1,8.7,9.0,8.2,8.7
+Booking,196,Great World Serviced Apartments,"2 Kim Seng Walk, Robertson Quay, 239404 Singapore, Singapore",239404,1.2945,103.8316,22,9.1,Exceptional,9.7,9.8,9.3,9.4,8.5,9.4
+Booking,197,Artyzen Singapore,"9 Cuscaden Road, Orchard, 249719 Singapore, Singapore",249719,1.3058,103.827,18,8.8,Excellent,9.3,9.2,9.3,9.6,8.5,8.8
+Booking,198,Conrad Singapore Orchard,"1 Cuscaden Rd, Orchard, 249715 Singapore, Singapore",249715,1.3047,103.8249,5,7.8,Very Good,9.0,10.0,9.5,10.0,8.5,8.5
+Booking,199,Wanderloft Capsule Hostel,"49a South Bridge Road, Boat Quay, 058681 Singapore, Singapore",058681,1.2873,103.8485,1276,7.9,Very Good,9.3,8.4,8.1,8.0,7.9,7.8
+Booking,200,7 Wonders Hostel at Upper Dickson,"12A Upper Dickson Road, Little India, 207472 Singapore, Singapore",207472,1.3063,103.8524,914,6.6,Good,7.8,8.3,6.8,6.8,7.1,6.5
+Booking,201,Campbell Inn,"50 Campbell Lane, Little India, 209922 Singapore, Singapore",209922,1.305,103.8526,622,5.0,Below Expectation,7.1,6.9,5.3,5.4,5.8,5.5
+Booking,202,CSW Hostel,"5 Banda Street, #02-82, Chinatown, 050005 Singapore, Singapore",050005,1.2812,103.8434,424,7.8,Very Good,9.1,9.2,8.3,7.9,8.0,7.4
+Booking,203,Snooze Inn @Dunlop Street,"28 Dunlop Street, Little India, 209356 Singapore, Singapore",209356,1.3047,103.854,190,5.3,Below Expectation,7.7,7.6,5.6,5.7,5.8,5.5
+Booking,204,River City Inn,"33C Hong Kong Street, Clarke Quay, Boat Quay, 059672 Singapore, Singapore",059672,1.2874,103.8471,251,6.9,Good,8.7,7.9,7.4,7.2,7.2,7.1
+Booking,205,BEAT Arts Hostel at Chinatown,"211A - 217A South Bridge Road, Chinatown, 058764 Singapore, Singapore",058764,1.283,103.8459,479,6.9,Good,9.0,7.7,7.1,7.0,7.3,6.9
+Booking,206,K Space Inn 569,"569 Serangoon Road, Lavender, 218184 Singapore, Singapore",218184,1.3156,103.8581,162,4.6,Below Expectation,6.3,6.2,5.2,5.5,5.4,5.2
+Booking,207,K2 Guesthouse,"15 South Buona Vista Road, 118146 Singapore, Singapore",118146,1.2806,103.7864,282,7.3,Very Good,7.6,8.5,7.8,7.7,7.3,7.3
+Booking,208,K2 Guesthouse Central,"134 Jalan Besar , 208852 Singapore, Singapore",208852,1.3067,103.8564,203,6.4,Good,8.2,7.6,6.8,6.8,6.7,6.5
+Booking,209,ibis budget Singapore Pearl,"No. 21, Geylang Lorong 14, 398 961 Singapore, Singapore",398961,1.3116,103.8793,1478,6.9,Good,7.2,8.0,7.4,7.2,7.2,7.0
+Booking,210,ibis budget Singapore Joo Chiat,"219 Joo Chiat Road, Katong, 427485 Singapore, Singapore",427485,1.3115,103.9012,1748,7.6,Very Good,7.9,8.5,8.1,8.0,7.9,7.5
+Booking,211,Hotel 81 Palace - NEWLY RENOVATED,"No. 25, Geylang Lorong 16, 398867 Singapore, Singapore",398867,1.3118,103.8801,310,7.9,Very Good,7.4,8.6,8.4,8.2,8.0,7.9
+Booking,212,Hotel 81 Premier Princess,"No. 21, Geylang Lorong 12, 399001 Singapore, Singapore",399001,1.311,103.8786,2250,7.9,Very Good,7.4,8.5,8.3,8.1,7.9,7.8
+Booking,213,ibis budget Singapore Emerald,"No. 20, Lorong 6, 399174 Singapore, Singapore",399174,1.311,103.8763,1164,7.4,Very Good,7.5,8.4,7.8,7.7,7.6,7.3
+Booking,214,KINN Capsule,"39 South Bridge Road, Boat Quay, 058673 Singapore, Singapore",058673,1.2875,103.8486,1959,8.6,Excellent,9.4,9.2,8.8,8.8,8.4,8.8
+Booking,215,Hotel 81 Gold,"20, Geylang Lorong 20 , 398738 Singapore, Singapore",398738,1.312,103.8811,942,7.1,Very Good,7.2,8.4,7.5,7.4,7.3,7.1
+Booking,216,Hotel 81 Lavender,"85 Lavender St., Singapore 338716, Lavender, 338716 Singapore, Singapore",338716,1.3108,103.8624,169,6.6,Good,7.9,7.7,7.1,7.2,7.1,7.0
+Booking,217,Hotel 81 Premier Star,"31 Lorong 18 Geylang, 398828 Singapore, Singapore",398828,1.3116,103.8809,1467,7.1,Very Good,7.2,8.3,7.5,7.4,7.3,7.3
+Booking,218,ibis budget Singapore Crystal,"No. 50, Lorong 18, 398824 Singapore, Singapore",398824,1.3106,103.8806,1191,7.6,Very Good,7.2,8.7,8.1,8.0,7.9,7.7
+Booking,219,Galaxy Pods @ Chinatown,"27 Mosque Street, Chinatown, 059505 Singapore, Singapore",059505,1.2837,103.8456,1434,7.3,Very Good,9.0,8.7,7.3,7.3,7.7,7.2
+Booking,220,Hotel 81 Orchid,"No. 21, Lorong 8 Geylang, 399090 Singapore, Singapore",399090,1.3112,103.8773,1717,6.7,Good,7.2,7.8,7.2,7.0,6.9,6.8
+Booking,221,Hotel 81 Bugis,"31 Middle Road, 188995 Singapore, Singapore",188995,1.2969,103.8556,686,6.3,Good,8.3,8.0,6.6,6.7,6.6,6.4
+Booking,222,Hotel 81 Dickson,"3 Dickson Road, Little India, 209530 Singapore, Singapore",209530,1.3049,103.8543,1287,5.9,Below Expectation,7.8,7.1,6.3,6.3,6.2,6.1
+Booking,223,ibis budget Singapore Ruby,"No. 10, Lorong 20 Geylang, 398730 Singapore, Singapore",398730,1.3122,103.8811,1772,7.2,Very Good,7.3,8.4,7.6,7.4,7.5,7.2
