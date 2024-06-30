@@ -1,0 +1,4766 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f4dc4fa7fc8c0197792b1825cc34549e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f4dc4fa7fc8c0197792b1825cc34549e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f4dc4fa7fc8c0197792b1825cc34549e = L.map(
+                "map_f4dc4fa7fc8c0197792b1825cc34549e",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cdb9f162ba5c8c147065700a8aff841e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cdb9f162ba5c8c147065700a8aff841e.addTo(map_f4dc4fa7fc8c0197792b1825cc34549e);
+        
+    
+            var marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_4d8f4a126282a1e59a13a82bc4285415 = L.marker(
+                [1.2824, 103.8584],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_970b26459812d14356f08f1cc6e5a48e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e88378e8917ef18b7edf91a5a908610f = $(`<div id="html_e88378e8917ef18b7edf91a5a908610f" style="width: 100.0%; height: 100.0%;">Marina Bay Sands</div>`)[0];
+                popup_970b26459812d14356f08f1cc6e5a48e.setContent(html_e88378e8917ef18b7edf91a5a908610f);
+            
+        
+
+        marker_4d8f4a126282a1e59a13a82bc4285415.bindPopup(popup_970b26459812d14356f08f1cc6e5a48e)
+        ;
+
+        
+    
+    
+            var marker_9a3b9c661417b800b01f704af31e339c = L.marker(
+                [1.2957, 103.853],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_1158f8a97946b2da0030e4620b441ae9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_779b0dbc960163620361582aeaf78dd7 = $(`<div id="html_779b0dbc960163620361582aeaf78dd7" style="width: 100.0%; height: 100.0%;">Carlton Hotel Singapore</div>`)[0];
+                popup_1158f8a97946b2da0030e4620b441ae9.setContent(html_779b0dbc960163620361582aeaf78dd7);
+            
+        
+
+        marker_9a3b9c661417b800b01f704af31e339c.bindPopup(popup_1158f8a97946b2da0030e4620b441ae9)
+        ;
+
+        
+    
+    
+            var marker_77704b401d8fe11be0d952df6d7bd827 = L.marker(
+                [1.3063, 103.8313],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_4288794f0abbb3005d8bb9ca769c2906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cfb26685bf6fa27da1d9b4ad484b091 = $(`<div id="html_5cfb26685bf6fa27da1d9b4ad484b091" style="width: 100.0%; height: 100.0%;">YOTEL Singapore Orchard Road</div>`)[0];
+                popup_4288794f0abbb3005d8bb9ca769c2906.setContent(html_5cfb26685bf6fa27da1d9b4ad484b091);
+            
+        
+
+        marker_77704b401d8fe11be0d952df6d7bd827.bindPopup(popup_4288794f0abbb3005d8bb9ca769c2906)
+        ;
+
+        
+    
+    
+            var marker_af98a5080e2839be948e5ea65ea8627e = L.marker(
+                [1.2916, 103.8495],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f5961f17fa3e966791a5c4e8e3372cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb8fc99d38feefd21214ec1d3fedf0ac = $(`<div id="html_eb8fc99d38feefd21214ec1d3fedf0ac" style="width: 100.0%; height: 100.0%;">lyf Funan Singapore</div>`)[0];
+                popup_f5961f17fa3e966791a5c4e8e3372cf0.setContent(html_eb8fc99d38feefd21214ec1d3fedf0ac);
+            
+        
+
+        marker_af98a5080e2839be948e5ea65ea8627e.bindPopup(popup_f5961f17fa3e966791a5c4e8e3372cf0)
+        ;
+
+        
+    
+    
+            var marker_b9fc910cf4ed632c09826a2267cbfbbb = L.marker(
+                [1.2913, 103.8575],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_43504dec9f73d5ba3acf605b93eb4aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e729d8266a0590c3bd77ee0751f8ae4 = $(`<div id="html_9e729d8266a0590c3bd77ee0751f8ae4" style="width: 100.0%; height: 100.0%;">PARKROYAL COLLECTION Marina Bay, Singapore</div>`)[0];
+                popup_43504dec9f73d5ba3acf605b93eb4aa0.setContent(html_9e729d8266a0590c3bd77ee0751f8ae4);
+            
+        
+
+        marker_b9fc910cf4ed632c09826a2267cbfbbb.bindPopup(popup_43504dec9f73d5ba3acf605b93eb4aa0)
+        ;
+
+        
+    
+    
+            var marker_72a758f698715a3fddf5ea975988894d = L.marker(
+                [1.2882, 103.8457],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_1e45da9147874ab6826f95fc8275c305 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_267c51779ca269e1a43496db6515e5ba = $(`<div id="html_267c51779ca269e1a43496db6515e5ba" style="width: 100.0%; height: 100.0%;">Paradox Singapore Merchant Court at Clarke Quay</div>`)[0];
+                popup_1e45da9147874ab6826f95fc8275c305.setContent(html_267c51779ca269e1a43496db6515e5ba);
+            
+        
+
+        marker_72a758f698715a3fddf5ea975988894d.bindPopup(popup_1e45da9147874ab6826f95fc8275c305)
+        ;
+
+        
+    
+    
+            var marker_9baeda2e6169bf73d47b6440a6fdb86e = L.marker(
+                [1.3005, 103.8395],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_09a7d75b9d06b505bf60ff6a78a12b24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f057c98ac42f519c3d953059383c44a = $(`<div id="html_6f057c98ac42f519c3d953059383c44a" style="width: 100.0%; height: 100.0%;">JEN Singapore Orchardgateway by Shangri-La</div>`)[0];
+                popup_09a7d75b9d06b505bf60ff6a78a12b24.setContent(html_6f057c98ac42f519c3d953059383c44a);
+            
+        
+
+        marker_9baeda2e6169bf73d47b6440a6fdb86e.bindPopup(popup_09a7d75b9d06b505bf60ff6a78a12b24)
+        ;
+
+        
+    
+    
+            var marker_ad3fb3c1ef5b5d0c7b64b1df3024b971 = L.marker(
+                [1.3587, 103.988],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6808e817f9708190b5098e60fe79bd93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5d22362343e2a8ec82f7aac622edd40 = $(`<div id="html_e5d22362343e2a8ec82f7aac622edd40" style="width: 100.0%; height: 100.0%;">Crowne Plaza Changi Airport, an IHG Hotel</div>`)[0];
+                popup_6808e817f9708190b5098e60fe79bd93.setContent(html_e5d22362343e2a8ec82f7aac622edd40);
+            
+        
+
+        marker_ad3fb3c1ef5b5d0c7b64b1df3024b971.bindPopup(popup_6808e817f9708190b5098e60fe79bd93)
+        ;
+
+        
+    
+    
+            var marker_150866114694fa27ce0e496cfadf12cf = L.marker(
+                [1.2856, 103.8463],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_371751ad79d33a284aca85e8efe4e024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b0fa0a984f1b65d525cfc3641e19e61 = $(`<div id="html_3b0fa0a984f1b65d525cfc3641e19e61" style="width: 100.0%; height: 100.0%;">PARKROYAL COLLECTION Pickering, Singapore</div>`)[0];
+                popup_371751ad79d33a284aca85e8efe4e024.setContent(html_3b0fa0a984f1b65d525cfc3641e19e61);
+            
+        
+
+        marker_150866114694fa27ce0e496cfadf12cf.bindPopup(popup_371751ad79d33a284aca85e8efe4e024)
+        ;
+
+        
+    
+    
+            var marker_9904f9b518730ce44f96f2f239eca333 = L.marker(
+                [1.2892, 103.842],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_7f3efea3a3a5546c80969e24738606af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f534cacf6f1182698ef02014c44bd558 = $(`<div id="html_f534cacf6f1182698ef02014c44bd558" style="width: 100.0%; height: 100.0%;">Holiday Inn Express Singapore Clarke Quay, an IHG Hotel</div>`)[0];
+                popup_7f3efea3a3a5546c80969e24738606af.setContent(html_f534cacf6f1182698ef02014c44bd558);
+            
+        
+
+        marker_9904f9b518730ce44f96f2f239eca333.bindPopup(popup_7f3efea3a3a5546c80969e24738606af)
+        ;
+
+        
+    
+    
+            var marker_5ff60117136a76af5f82a2fef0cadf85 = L.marker(
+                [1.362, 103.9903],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_378b28ef4a9febd39e0ef1615d5265b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a840370ff53e846dd99d557d875d36 = $(`<div id="html_48a840370ff53e846dd99d557d875d36" style="width: 100.0%; height: 100.0%;">Aerotel Transit Hotel, Terminal 1 Airside</div>`)[0];
+                popup_378b28ef4a9febd39e0ef1615d5265b9.setContent(html_48a840370ff53e846dd99d557d875d36);
+            
+        
+
+        marker_5ff60117136a76af5f82a2fef0cadf85.bindPopup(popup_378b28ef4a9febd39e0ef1615d5265b9)
+        ;
+
+        
+    
+    
+            var marker_f07cbd1f9a6130df83d5179a49df870f = L.marker(
+                [1.2576, 103.8101],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3e5b5eaa839f12ecb014d7f1368373b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4280e77277c70c83ab11621da08650d = $(`<div id="html_c4280e77277c70c83ab11621da08650d" style="width: 100.0%; height: 100.0%;">Shangri-La Rasa Sentosa, Singapore</div>`)[0];
+                popup_3e5b5eaa839f12ecb014d7f1368373b0.setContent(html_c4280e77277c70c83ab11621da08650d);
+            
+        
+
+        marker_f07cbd1f9a6130df83d5179a49df870f.bindPopup(popup_3e5b5eaa839f12ecb014d7f1368373b0)
+        ;
+
+        
+    
+    
+            var marker_2e295b88c514ec59e49fa3093053dfe7 = L.marker(
+                [1.2827, 103.8482],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_848e88fe482bc3274694795c53b950af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d88033c6a901658955c5c8287b649f6b = $(`<div id="html_d88033c6a901658955c5c8287b649f6b" style="width: 100.0%; height: 100.0%;">The Clan Hotel Singapore by Far East Hospitality</div>`)[0];
+                popup_848e88fe482bc3274694795c53b950af.setContent(html_d88033c6a901658955c5c8287b649f6b);
+            
+        
+
+        marker_2e295b88c514ec59e49fa3093053dfe7.bindPopup(popup_848e88fe482bc3274694795c53b950af)
+        ;
+
+        
+    
+    
+            var marker_cff4451f5b750a81049c4f7d2f53f9e7 = L.marker(
+                [1.3129, 103.8556],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3005167e507ab731bff2b26e75e6e736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85c932fd4d43ffbab64f016455f5a1a5 = $(`<div id="html_85c932fd4d43ffbab64f016455f5a1a5" style="width: 100.0%; height: 100.0%;">lyf Farrer Park Singapore</div>`)[0];
+                popup_3005167e507ab731bff2b26e75e6e736.setContent(html_85c932fd4d43ffbab64f016455f5a1a5);
+            
+        
+
+        marker_cff4451f5b750a81049c4f7d2f53f9e7.bindPopup(popup_3005167e507ab731bff2b26e75e6e736)
+        ;
+
+        
+    
+    
+            var marker_f90b3c0ffe500b7cbe2189b7267836d7 = L.marker(
+                [1.2933, 103.8534],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2de0b65adecb2fd5f7f2af899a920c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c19fec173e641300eeae5053da9dd9e = $(`<div id="html_7c19fec173e641300eeae5053da9dd9e" style="width: 100.0%; height: 100.0%;">Swissotel The Stamford</div>`)[0];
+                popup_2de0b65adecb2fd5f7f2af899a920c3c.setContent(html_7c19fec173e641300eeae5053da9dd9e);
+            
+        
+
+        marker_f90b3c0ffe500b7cbe2189b7267836d7.bindPopup(popup_2de0b65adecb2fd5f7f2af899a920c3c)
+        ;
+
+        
+    
+    
+            var marker_3c38164d137e5eaeff65268c3cb964ec = L.marker(
+                [1.3051, 103.8514],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f723e1ab543f909b747d4b5ac6eb9afa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0582b310659c3897d0c7caa920cb593f = $(`<div id="html_0582b310659c3897d0c7caa920cb593f" style="width: 100.0%; height: 100.0%;">Citadines Rochor</div>`)[0];
+                popup_f723e1ab543f909b747d4b5ac6eb9afa.setContent(html_0582b310659c3897d0c7caa920cb593f);
+            
+        
+
+        marker_3c38164d137e5eaeff65268c3cb964ec.bindPopup(popup_f723e1ab543f909b747d4b5ac6eb9afa)
+        ;
+
+        
+    
+    
+            var marker_8ea273621a37b30afbe10fa9e0361ce1 = L.marker(
+                [1.3159, 103.884],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ecf400099e7663183bee279f97f82103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6a3cef8ecb703420e9ca98277aaa65b = $(`<div id="html_d6a3cef8ecb703420e9ca98277aaa65b" style="width: 100.0%; height: 100.0%;">CapsulePod@Aljunied</div>`)[0];
+                popup_ecf400099e7663183bee279f97f82103.setContent(html_d6a3cef8ecb703420e9ca98277aaa65b);
+            
+        
+
+        marker_8ea273621a37b30afbe10fa9e0361ce1.bindPopup(popup_ecf400099e7663183bee279f97f82103)
+        ;
+
+        
+    
+    
+            var marker_f79db95e40b34b3a85f7b081b7612f7b = L.marker(
+                [1.2881, 103.8445],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_672a5b60d3349d74232fa94061430e91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3269ec136f74f97b14982fa4e34bee51 = $(`<div id="html_3269ec136f74f97b14982fa4e34bee51" style="width: 100.0%; height: 100.0%;">Park Regis Singapore</div>`)[0];
+                popup_672a5b60d3349d74232fa94061430e91.setContent(html_3269ec136f74f97b14982fa4e34bee51);
+            
+        
+
+        marker_f79db95e40b34b3a85f7b081b7612f7b.bindPopup(popup_672a5b60d3349d74232fa94061430e91)
+        ;
+
+        
+    
+    
+            var marker_10e09f52cbebfdcedc1ed3c316a6e02c = L.marker(
+                [1.2523, 103.82],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0796e0239d4c5a9b61f20d3346424b4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8de2a627b762c8827279dd24e93ba3f9 = $(`<div id="html_8de2a627b762c8827279dd24e93ba3f9" style="width: 100.0%; height: 100.0%;">Village Hotel Sentosa by Far East Hospitality</div>`)[0];
+                popup_0796e0239d4c5a9b61f20d3346424b4e.setContent(html_8de2a627b762c8827279dd24e93ba3f9);
+            
+        
+
+        marker_10e09f52cbebfdcedc1ed3c316a6e02c.bindPopup(popup_0796e0239d4c5a9b61f20d3346424b4e)
+        ;
+
+        
+    
+    
+            var marker_6037d89d352c8f75d647ecc3c380102e = L.marker(
+                [1.3772, 103.9552],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_eb60111a0f73603801281df1ac68e3c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6855ee30aaffcd4a589d88e70ddaa91a = $(`<div id="html_6855ee30aaffcd4a589d88e70ddaa91a" style="width: 100.0%; height: 100.0%;">D'Resort @ Downtown East</div>`)[0];
+                popup_eb60111a0f73603801281df1ac68e3c2.setContent(html_6855ee30aaffcd4a589d88e70ddaa91a);
+            
+        
+
+        marker_6037d89d352c8f75d647ecc3c380102e.bindPopup(popup_eb60111a0f73603801281df1ac68e3c2)
+        ;
+
+        
+    
+    
+            var marker_7bfbe9aca906f1dcb6cdbabc67a5f0bc = L.marker(
+                [1.2759, 103.8443],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f65df375fd38f5dfaaaa178ea1e6369a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ddecdf979058b50d8392bd2e6403615 = $(`<div id="html_9ddecdf979058b50d8392bd2e6403615" style="width: 100.0%; height: 100.0%;">Oasia Hotel Downtown, Singapore by Far East Hospitality</div>`)[0];
+                popup_f65df375fd38f5dfaaaa178ea1e6369a.setContent(html_9ddecdf979058b50d8392bd2e6403615);
+            
+        
+
+        marker_7bfbe9aca906f1dcb6cdbabc67a5f0bc.bindPopup(popup_f65df375fd38f5dfaaaa178ea1e6369a)
+        ;
+
+        
+    
+    
+            var marker_613fe43c6e66e84ec6959b3af41bda1f = L.marker(
+                [1.3043, 103.8239],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_8a106ee46e0bd7acc18aaac677d667f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76e1f9d2d94d83d5a0182c97c42c6b35 = $(`<div id="html_76e1f9d2d94d83d5a0182c97c42c6b35" style="width: 100.0%; height: 100.0%;">JEN Singapore Tanglin by Shangri-La</div>`)[0];
+                popup_8a106ee46e0bd7acc18aaac677d667f0.setContent(html_76e1f9d2d94d83d5a0182c97c42c6b35);
+            
+        
+
+        marker_613fe43c6e66e84ec6959b3af41bda1f.bindPopup(popup_8a106ee46e0bd7acc18aaac677d667f0)
+        ;
+
+        
+    
+    
+            var marker_6eebeb96be0bce846879e3418442da0b = L.marker(
+                [1.3009, 103.8515],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0d5d4edd55a20b901febc91a82a8c078 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d93c7e10aee8e13fcdffdf26cf0b6325 = $(`<div id="html_d93c7e10aee8e13fcdffdf26cf0b6325" style="width: 100.0%; height: 100.0%;">Hotel Gin Bugis Singapore - previously Hotel G</div>`)[0];
+                popup_0d5d4edd55a20b901febc91a82a8c078.setContent(html_d93c7e10aee8e13fcdffdf26cf0b6325);
+            
+        
+
+        marker_6eebeb96be0bce846879e3418442da0b.bindPopup(popup_0d5d4edd55a20b901febc91a82a8c078)
+        ;
+
+        
+    
+    
+            var marker_479b0821c46443c20d6e0f55c11a0b72 = L.marker(
+                [1.2774, 103.8486],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_62e61ae69edb6444cb348ae00fbfa247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6075778a638062032181e1e8b7f4e59c = $(`<div id="html_6075778a638062032181e1e8b7f4e59c" style="width: 100.0%; height: 100.0%;">Dao by Dorsett AMTD Singapore</div>`)[0];
+                popup_62e61ae69edb6444cb348ae00fbfa247.setContent(html_6075778a638062032181e1e8b7f4e59c);
+            
+        
+
+        marker_479b0821c46443c20d6e0f55c11a0b72.bindPopup(popup_62e61ae69edb6444cb348ae00fbfa247)
+        ;
+
+        
+    
+    
+            var marker_4c9df509bfcb31292735f478bd6b6e0b = L.marker(
+                [1.3024, 103.8642],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_49bc159e63d80a10e32d33841f7ae3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77ddc31f578739603ebcbc14f7c26677 = $(`<div id="html_77ddc31f578739603ebcbc14f7c26677" style="width: 100.0%; height: 100.0%;">Hotel Traveltine</div>`)[0];
+                popup_49bc159e63d80a10e32d33841f7ae3f3.setContent(html_77ddc31f578739603ebcbc14f7c26677);
+            
+        
+
+        marker_4c9df509bfcb31292735f478bd6b6e0b.bindPopup(popup_49bc159e63d80a10e32d33841f7ae3f3)
+        ;
+
+        
+    
+    
+            var marker_39abfc7f1a8339fb42a6b13f9855d797 = L.marker(
+                [1.2903, 103.8351],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a48805e958eff3d295b72bedcd033051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c3417f39e2e3f20f36d577eb5c3bbb2 = $(`<div id="html_2c3417f39e2e3f20f36d577eb5c3bbb2" style="width: 100.0%; height: 100.0%;">Grand Copthorne Waterfront</div>`)[0];
+                popup_a48805e958eff3d295b72bedcd033051.setContent(html_2c3417f39e2e3f20f36d577eb5c3bbb2);
+            
+        
+
+        marker_39abfc7f1a8339fb42a6b13f9855d797.bindPopup(popup_a48805e958eff3d295b72bedcd033051)
+        ;
+
+        
+    
+    
+            var marker_dfc863b0076bfc8d620695444abdf6c0 = L.marker(
+                [1.3236, 103.9627],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_99bbdcd9a4c741cfdb1c8186b2b1d5ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16f4064060441343ba745d4f77aa6c07 = $(`<div id="html_16f4064060441343ba745d4f77aa6c07" style="width: 100.0%; height: 100.0%;">Dusit Thani Laguna Singapore</div>`)[0];
+                popup_99bbdcd9a4c741cfdb1c8186b2b1d5ee.setContent(html_16f4064060441343ba745d4f77aa6c07);
+            
+        
+
+        marker_dfc863b0076bfc8d620695444abdf6c0.bindPopup(popup_99bbdcd9a4c741cfdb1c8186b2b1d5ee)
+        ;
+
+        
+    
+    
+            var marker_64f7c683fd839ca89c23410c2c068878 = L.marker(
+                [1.2924, 103.8588],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_49cb54787ff3f5183a7a8b6879c44081 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bf14508d6cf64181ad2507a365c3db0 = $(`<div id="html_1bf14508d6cf64181ad2507a365c3db0" style="width: 100.0%; height: 100.0%;">Pan Pacific Singapore</div>`)[0];
+                popup_49cb54787ff3f5183a7a8b6879c44081.setContent(html_1bf14508d6cf64181ad2507a365c3db0);
+            
+        
+
+        marker_64f7c683fd839ca89c23410c2c068878.bindPopup(popup_49cb54787ff3f5183a7a8b6879c44081)
+        ;
+
+        
+    
+    
+            var marker_dcfb83970e33150bdbc7ea55c64ac61e = L.marker(
+                [1.3011, 103.8525],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_003d2357307d2d612194404735830e6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_089a64dc5f5d8177b547b7ccbf968537 = $(`<div id="html_089a64dc5f5d8177b547b7ccbf968537" style="width: 100.0%; height: 100.0%;">Ibis Singapore on Bencoolen</div>`)[0];
+                popup_003d2357307d2d612194404735830e6d.setContent(html_089a64dc5f5d8177b547b7ccbf968537);
+            
+        
+
+        marker_dcfb83970e33150bdbc7ea55c64ac61e.bindPopup(popup_003d2357307d2d612194404735830e6d)
+        ;
+
+        
+    
+    
+            var marker_e9fe9cf8e9542a744c1f0224d4a1e5e4 = L.marker(
+                [1.2796, 103.84],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_86dd1c646c8edd9f60e9f546013a96ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7e4de2e7107c0b0dd25f6ff1d2cf39c = $(`<div id="html_e7e4de2e7107c0b0dd25f6ff1d2cf39c" style="width: 100.0%; height: 100.0%;">Dorsett Singapore</div>`)[0];
+                popup_86dd1c646c8edd9f60e9f546013a96ab.setContent(html_e7e4de2e7107c0b0dd25f6ff1d2cf39c);
+            
+        
+
+        marker_e9fe9cf8e9542a744c1f0224d4a1e5e4.bindPopup(popup_86dd1c646c8edd9f60e9f546013a96ab)
+        ;
+
+        
+    
+    
+            var marker_530f32cec4a0afc1426edc3576d0cd61 = L.marker(
+                [1.276, 103.8437],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ffc030a0714cbaba3300316eacac3d41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78cd8645715e06a11f9034d9b8288aad = $(`<div id="html_78cd8645715e06a11f9034d9b8288aad" style="width: 100.0%; height: 100.0%;">Carlton City Hotel Singapore</div>`)[0];
+                popup_ffc030a0714cbaba3300316eacac3d41.setContent(html_78cd8645715e06a11f9034d9b8288aad);
+            
+        
+
+        marker_530f32cec4a0afc1426edc3576d0cd61.bindPopup(popup_ffc030a0714cbaba3300316eacac3d41)
+        ;
+
+        
+    
+    
+            var marker_030ec4179571366ec4e2525707dfab55 = L.marker(
+                [1.3038, 103.9029],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6b1f23c9151334ebd8ba14a7c5ceccbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6cec9387c99daa1ff4dc71e6cba6a90 = $(`<div id="html_b6cec9387c99daa1ff4dc71e6cba6a90" style="width: 100.0%; height: 100.0%;">Village Hotel Katong by Far East Hospitality</div>`)[0];
+                popup_6b1f23c9151334ebd8ba14a7c5ceccbb.setContent(html_b6cec9387c99daa1ff4dc71e6cba6a90);
+            
+        
+
+        marker_030ec4179571366ec4e2525707dfab55.bindPopup(popup_6b1f23c9151334ebd8ba14a7c5ceccbb)
+        ;
+
+        
+    
+    
+            var marker_651f998e1bb68aa0b657cbeb1107552a = L.marker(
+                [1.3076, 103.8284],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_547d4ea3c43208c0e96ae2077725fbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03dff3ab228bd6b9fd936b9baac600a2 = $(`<div id="html_03dff3ab228bd6b9fd936b9baac600a2" style="width: 100.0%; height: 100.0%;">Orchard Hotel Singapore</div>`)[0];
+                popup_547d4ea3c43208c0e96ae2077725fbb1.setContent(html_03dff3ab228bd6b9fd936b9baac600a2);
+            
+        
+
+        marker_651f998e1bb68aa0b657cbeb1107552a.bindPopup(popup_547d4ea3c43208c0e96ae2077725fbb1)
+        ;
+
+        
+    
+    
+            var marker_b8f2b05e92cead4159a686179f8f0dd9 = L.marker(
+                [1.2998, 103.8608],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_82b51dac491fec9ca0e2a4b96c7dd69c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_225d8aa5da016f7d871d4b201ee0038f = $(`<div id="html_225d8aa5da016f7d871d4b201ee0038f" style="width: 100.0%; height: 100.0%;">Pan Pacific Serviced Suites Beach Road, Singapore</div>`)[0];
+                popup_82b51dac491fec9ca0e2a4b96c7dd69c.setContent(html_225d8aa5da016f7d871d4b201ee0038f);
+            
+        
+
+        marker_b8f2b05e92cead4159a686179f8f0dd9.bindPopup(popup_82b51dac491fec9ca0e2a4b96c7dd69c)
+        ;
+
+        
+    
+    
+            var marker_856e57fcb31f12e0a36247e4eec025ca = L.marker(
+                [1.2862, 103.853],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_5fb50e35ec8f697e702bae65d5aa510e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b06b8a827ab56acd8262578c1efbda = $(`<div id="html_81b06b8a827ab56acd8262578c1efbda" style="width: 100.0%; height: 100.0%;">The Fullerton Hotel Singapore</div>`)[0];
+                popup_5fb50e35ec8f697e702bae65d5aa510e.setContent(html_81b06b8a827ab56acd8262578c1efbda);
+            
+        
+
+        marker_856e57fcb31f12e0a36247e4eec025ca.bindPopup(popup_5fb50e35ec8f697e702bae65d5aa510e)
+        ;
+
+        
+    
+    
+            var marker_d4f0f9c71c2c1253a8b9b52c62f64394 = L.marker(
+                [1.3112, 103.8268],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a65c3ddc3de2956d0bbdc34845d6af03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18d4e8394e77af347337fa1aaf779d5d = $(`<div id="html_18d4e8394e77af347337fa1aaf779d5d" style="width: 100.0%; height: 100.0%;">Shangri-La Singapore</div>`)[0];
+                popup_a65c3ddc3de2956d0bbdc34845d6af03.setContent(html_18d4e8394e77af347337fa1aaf779d5d);
+            
+        
+
+        marker_d4f0f9c71c2c1253a8b9b52c62f64394.bindPopup(popup_a65c3ddc3de2956d0bbdc34845d6af03)
+        ;
+
+        
+    
+    
+            var marker_2b12657cdfde1227bd7a1bb07ce23423 = L.marker(
+                [1.3126, 103.8539],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0c5cfc51abc94e50777ceae4b57e7874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4636dfd31bc9cbd733f81e613ce68f2e = $(`<div id="html_4636dfd31bc9cbd733f81e613ce68f2e" style="width: 100.0%; height: 100.0%;">One Farrer Hotel</div>`)[0];
+                popup_0c5cfc51abc94e50777ceae4b57e7874.setContent(html_4636dfd31bc9cbd733f81e613ce68f2e);
+            
+        
+
+        marker_2b12657cdfde1227bd7a1bb07ce23423.bindPopup(popup_0c5cfc51abc94e50777ceae4b57e7874)
+        ;
+
+        
+    
+    
+            var marker_494adb71fda7bfea59cdeb939bd80123 = L.marker(
+                [1.294, 103.8537],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b8e0a11211b7fffe57d02d40d8ae4d65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a3f9629fd2e5d8c3ec9524522e2dc2e = $(`<div id="html_6a3f9629fd2e5d8c3ec9524522e2dc2e" style="width: 100.0%; height: 100.0%;">Fairmont Singapore</div>`)[0];
+                popup_b8e0a11211b7fffe57d02d40d8ae4d65.setContent(html_6a3f9629fd2e5d8c3ec9524522e2dc2e);
+            
+        
+
+        marker_494adb71fda7bfea59cdeb939bd80123.bindPopup(popup_b8e0a11211b7fffe57d02d40d8ae4d65)
+        ;
+
+        
+    
+    
+            var marker_edc30d2f31ff8c400a8a7e37dd8df2ab = L.marker(
+                [1.3023, 103.8411],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_052932f929232f0702c0a179c582d021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45fd4ec3db37a1994242a4a018bfb967 = $(`<div id="html_45fd4ec3db37a1994242a4a018bfb967" style="width: 100.0%; height: 100.0%;">Holiday Inn Singapore Orchard City Centre, an IHG Hotel</div>`)[0];
+                popup_052932f929232f0702c0a179c582d021.setContent(html_45fd4ec3db37a1994242a4a018bfb967);
+            
+        
+
+        marker_edc30d2f31ff8c400a8a7e37dd8df2ab.bindPopup(popup_052932f929232f0702c0a179c582d021)
+        ;
+
+        
+    
+    
+            var marker_28a94dbee475f77bb2cd2c360c9248c5 = L.marker(
+                [1.3047, 103.9047],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b8ba39010e0f2f280029eceb5805190f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ff9a85333d9c10d8fffab9dc255c38 = $(`<div id="html_e4ff9a85333d9c10d8fffab9dc255c38" style="width: 100.0%; height: 100.0%;">Holiday Inn Express Singapore Katong, an IHG Hotel</div>`)[0];
+                popup_b8ba39010e0f2f280029eceb5805190f.setContent(html_e4ff9a85333d9c10d8fffab9dc255c38);
+            
+        
+
+        marker_28a94dbee475f77bb2cd2c360c9248c5.bindPopup(popup_b8ba39010e0f2f280029eceb5805190f)
+        ;
+
+        
+    
+    
+            var marker_88f3d2d7aaf424c3bda992c06bbe50e6 = L.marker(
+                [1.3342, 103.9636],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2966f49c0ed9fcb75540e81673960a7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cb84d96cdf2e0cf0530e64e18546b82 = $(`<div id="html_1cb84d96cdf2e0cf0530e64e18546b82" style="width: 100.0%; height: 100.0%;">Capri by Fraser Changi City, Singapore</div>`)[0];
+                popup_2966f49c0ed9fcb75540e81673960a7c.setContent(html_1cb84d96cdf2e0cf0530e64e18546b82);
+            
+        
+
+        marker_88f3d2d7aaf424c3bda992c06bbe50e6.bindPopup(popup_2966f49c0ed9fcb75540e81673960a7c)
+        ;
+
+        
+    
+    
+            var marker_4aa914f82c30a5ab17c1ad2236e1c0a6 = L.marker(
+                [1.3038, 103.9044],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_eed287de5d26b01ba22a09c051f74604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4237a093107e0b16320998ef53a7d02 = $(`<div id="html_e4237a093107e0b16320998ef53a7d02" style="width: 100.0%; height: 100.0%;">Grand Mercure Singapore Roxy</div>`)[0];
+                popup_eed287de5d26b01ba22a09c051f74604.setContent(html_e4237a093107e0b16320998ef53a7d02);
+            
+        
+
+        marker_4aa914f82c30a5ab17c1ad2236e1c0a6.bindPopup(popup_eed287de5d26b01ba22a09c051f74604)
+        ;
+
+        
+    
+    
+            var marker_82f326c53cd271bf6c635bc7998fc625 = L.marker(
+                [1.3139, 103.8286],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_68c43c3ea9594f3e672a6f4fb2bd08dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_795c1d62373445fa749883085633cd35 = $(`<div id="html_795c1d62373445fa749883085633cd35" style="width: 100.0%; height: 100.0%;">Mercure Singapore On Stevens</div>`)[0];
+                popup_68c43c3ea9594f3e672a6f4fb2bd08dd.setContent(html_795c1d62373445fa749883085633cd35);
+            
+        
+
+        marker_82f326c53cd271bf6c635bc7998fc625.bindPopup(popup_68c43c3ea9594f3e672a6f4fb2bd08dd)
+        ;
+
+        
+    
+    
+            var marker_e1c69abc3d168a6bb0074c0be13d5dc1 = L.marker(
+                [1.2978, 103.8441],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ff15631e7375e780f59353ea50cde535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1d00da5e74ecaf43c5a16bbe964fcaf = $(`<div id="html_f1d00da5e74ecaf43c5a16bbe964fcaf" style="width: 100.0%; height: 100.0%;">Citadines Connect City Centre Singapore</div>`)[0];
+                popup_ff15631e7375e780f59353ea50cde535.setContent(html_f1d00da5e74ecaf43c5a16bbe964fcaf);
+            
+        
+
+        marker_e1c69abc3d168a6bb0074c0be13d5dc1.bindPopup(popup_ff15631e7375e780f59353ea50cde535)
+        ;
+
+        
+    
+    
+            var marker_2f9f8abcd3273664ae7b4d3bee031e29 = L.marker(
+                [1.2808, 103.8454],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_4fcea14debcd82f6fa13b3a6d4a79506 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68b44e57d6b330e1bbe52f2e901d202e = $(`<div id="html_68b44e57d6b330e1bbe52f2e901d202e" style="width: 100.0%; height: 100.0%;">The Scarlet Singapore</div>`)[0];
+                popup_4fcea14debcd82f6fa13b3a6d4a79506.setContent(html_68b44e57d6b330e1bbe52f2e901d202e);
+            
+        
+
+        marker_2f9f8abcd3273664ae7b4d3bee031e29.bindPopup(popup_4fcea14debcd82f6fa13b3a6d4a79506)
+        ;
+
+        
+    
+    
+            var marker_4d84eb67d468b974276711ed2c0af32d = L.marker(
+                [1.3073, 103.8322],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b8d4dffd6d4542e23b7956ae5796cd94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fea0e2966e1bce2c65abdeeaa3ec85d = $(`<div id="html_1fea0e2966e1bce2c65abdeeaa3ec85d" style="width: 100.0%; height: 100.0%;">Royal Plaza on Scotts</div>`)[0];
+                popup_b8d4dffd6d4542e23b7956ae5796cd94.setContent(html_1fea0e2966e1bce2c65abdeeaa3ec85d);
+            
+        
+
+        marker_4d84eb67d468b974276711ed2c0af32d.bindPopup(popup_b8d4dffd6d4542e23b7956ae5796cd94)
+        ;
+
+        
+    
+    
+            var marker_acf2bd93fc6b94766bd58d9d52f83e31 = L.marker(
+                [1.2907, 103.8601],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_9b09a8a8de261318a14aee32f8f6141b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5a128f1af506d08fed55dc854dc7fde = $(`<div id="html_d5a128f1af506d08fed55dc854dc7fde" style="width: 100.0%; height: 100.0%;">The Ritz-Carlton, Millenia Singapore</div>`)[0];
+                popup_9b09a8a8de261318a14aee32f8f6141b.setContent(html_d5a128f1af506d08fed55dc854dc7fde);
+            
+        
+
+        marker_acf2bd93fc6b94766bd58d9d52f83e31.bindPopup(popup_9b09a8a8de261318a14aee32f8f6141b)
+        ;
+
+        
+    
+    
+            var marker_a3797c9c08b8365e444645186fb3c2be = L.marker(
+                [1.2997, 103.8606],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2f6ae2d4d0dcc8dcfe1c632ea24d305e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6768adc21f4de52587538da5b46921c = $(`<div id="html_b6768adc21f4de52587538da5b46921c" style="width: 100.0%; height: 100.0%;">PARKROYAL on Beach Road, Singapore</div>`)[0];
+                popup_2f6ae2d4d0dcc8dcfe1c632ea24d305e.setContent(html_b6768adc21f4de52587538da5b46921c);
+            
+        
+
+        marker_a3797c9c08b8365e444645186fb3c2be.bindPopup(popup_2f6ae2d4d0dcc8dcfe1c632ea24d305e)
+        ;
+
+        
+    
+    
+            var marker_d0ff2d0bba57a910f512e9a93bce74b8 = L.marker(
+                [1.2959, 103.8552],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_30759c90b7ebf292aadb30809beb9f74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1453419de220e2c325179587d193d3d = $(`<div id="html_a1453419de220e2c325179587d193d3d" style="width: 100.0%; height: 100.0%;">Naumi Hotel</div>`)[0];
+                popup_30759c90b7ebf292aadb30809beb9f74.setContent(html_a1453419de220e2c325179587d193d3d);
+            
+        
+
+        marker_d0ff2d0bba57a910f512e9a93bce74b8.bindPopup(popup_30759c90b7ebf292aadb30809beb9f74)
+        ;
+
+        
+    
+    
+            var marker_caefe57e2bff4de9bff3ce42a17d2d2c = L.marker(
+                [1.2985, 103.8504],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6e3c4b7bf6bb0f4bd6d719e882411286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282aac73dca3dd162e912175e63170ae = $(`<div id="html_282aac73dca3dd162e912175e63170ae" style="width: 100.0%; height: 100.0%;">30 Bencoolen</div>`)[0];
+                popup_6e3c4b7bf6bb0f4bd6d719e882411286.setContent(html_282aac73dca3dd162e912175e63170ae);
+            
+        
+
+        marker_caefe57e2bff4de9bff3ce42a17d2d2c.bindPopup(popup_6e3c4b7bf6bb0f4bd6d719e882411286)
+        ;
+
+        
+    
+    
+            var marker_7b411f8bfc57e1f053d74d429fc6fe6d = L.marker(
+                [1.3032, 103.8367],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_9a7ce51a55da7205ac66717f429559ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f6e13536c879cd5e96c83b10cf443e5 = $(`<div id="html_4f6e13536c879cd5e96c83b10cf443e5" style="width: 100.0%; height: 100.0%;">Holiday Inn Express Singapore Orchard Road, an IHG Hotel</div>`)[0];
+                popup_9a7ce51a55da7205ac66717f429559ea.setContent(html_4f6e13536c879cd5e96c83b10cf443e5);
+            
+        
+
+        marker_7b411f8bfc57e1f053d74d429fc6fe6d.bindPopup(popup_9a7ce51a55da7205ac66717f429559ea)
+        ;
+
+        
+    
+    
+            var marker_4a17846ac9d1b524f5e3a02a042e5fe6 = L.marker(
+                [1.2797, 103.8475],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e8a2b879544c798c79bebd0987928369 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce0a113fcbb9144432d0f6526a7a32a0 = $(`<div id="html_ce0a113fcbb9144432d0f6526a7a32a0" style="width: 100.0%; height: 100.0%;">Wink at McCallum Street</div>`)[0];
+                popup_e8a2b879544c798c79bebd0987928369.setContent(html_ce0a113fcbb9144432d0f6526a7a32a0);
+            
+        
+
+        marker_4a17846ac9d1b524f5e3a02a042e5fe6.bindPopup(popup_e8a2b879544c798c79bebd0987928369)
+        ;
+
+        
+    
+    
+            var marker_7543ecd90748254b285ef037a85d8e39 = L.marker(
+                [1.2877, 103.849],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e070f9ed210bbea9b2a0634a9344c736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0352a8afd9f71210262c4021f8c823f1 = $(`<div id="html_0352a8afd9f71210262c4021f8c823f1" style="width: 100.0%; height: 100.0%;">Galaxy Pods Capsule Hotel Boat Quay</div>`)[0];
+                popup_e070f9ed210bbea9b2a0634a9344c736.setContent(html_0352a8afd9f71210262c4021f8c823f1);
+            
+        
+
+        marker_7543ecd90748254b285ef037a85d8e39.bindPopup(popup_e070f9ed210bbea9b2a0634a9344c736)
+        ;
+
+        
+    
+    
+            var marker_ab4f81072c8118a594339497945f9c52 = L.marker(
+                [1.3009, 103.8596],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e1824a7b7056bab6543d767b4d4b2719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_717f39131d3e070354a57dc67921130c = $(`<div id="html_717f39131d3e070354a57dc67921130c" style="width: 100.0%; height: 100.0%;">MET A Space Pod at Arab Street</div>`)[0];
+                popup_e1824a7b7056bab6543d767b4d4b2719.setContent(html_717f39131d3e070354a57dc67921130c);
+            
+        
+
+        marker_ab4f81072c8118a594339497945f9c52.bindPopup(popup_e1824a7b7056bab6543d767b4d4b2719)
+        ;
+
+        
+    
+    
+            var marker_9c43379474572113720594c894f80469 = L.marker(
+                [1.3021, 103.8363],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0ea5fb055ce61a2800c1cdfaf5b980fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8179bc83c2c5d96f931139603595b584 = $(`<div id="html_8179bc83c2c5d96f931139603595b584" style="width: 100.0%; height: 100.0%;">Hilton Singapore Orchard</div>`)[0];
+                popup_0ea5fb055ce61a2800c1cdfaf5b980fb.setContent(html_8179bc83c2c5d96f931139603595b584);
+            
+        
+
+        marker_9c43379474572113720594c894f80469.bindPopup(popup_0ea5fb055ce61a2800c1cdfaf5b980fb)
+        ;
+
+        
+    
+    
+            var marker_8add306987e31f96d7ca627e04640bb7 = L.marker(
+                [1.2806, 103.8416],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_60001b26ea84ea66b57eebc705e2d91b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab667f2bda7aef9fd72c6e2df43096b4 = $(`<div id="html_ab667f2bda7aef9fd72c6e2df43096b4" style="width: 100.0%; height: 100.0%;">KēSa House, The Unlimited Collection managed by The Ascott Limited</div>`)[0];
+                popup_60001b26ea84ea66b57eebc705e2d91b.setContent(html_ab667f2bda7aef9fd72c6e2df43096b4);
+            
+        
+
+        marker_8add306987e31f96d7ca627e04640bb7.bindPopup(popup_60001b26ea84ea66b57eebc705e2d91b)
+        ;
+
+        
+    
+    
+            var marker_ffd7b8b77c8b7873c492839dd7a5de05 = L.marker(
+                [1.3066, 103.8278],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f17265f27f2022416ff651c6954c32a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b987d2ef136d4a2cbe34610b83055e3 = $(`<div id="html_5b987d2ef136d4a2cbe34610b83055e3" style="width: 100.0%; height: 100.0%;">Orchard Rendezvous Hotel by Far East Hospitality</div>`)[0];
+                popup_f17265f27f2022416ff651c6954c32a0.setContent(html_5b987d2ef136d4a2cbe34610b83055e3);
+            
+        
+
+        marker_ffd7b8b77c8b7873c492839dd7a5de05.bindPopup(popup_f17265f27f2022416ff651c6954c32a0)
+        ;
+
+        
+    
+    
+            var marker_4e0364d408ccad778960c7a98853819c = L.marker(
+                [1.2832, 103.843],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e0cef5d5105c67ca4a8ac9a3bc7ac7dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fa23a0786a3bda087d4303230b13600 = $(`<div id="html_0fa23a0786a3bda087d4303230b13600" style="width: 100.0%; height: 100.0%;">CUBE Boutique Capsule Hotel at Chinatown</div>`)[0];
+                popup_e0cef5d5105c67ca4a8ac9a3bc7ac7dc.setContent(html_0fa23a0786a3bda087d4303230b13600);
+            
+        
+
+        marker_4e0364d408ccad778960c7a98853819c.bindPopup(popup_e0cef5d5105c67ca4a8ac9a3bc7ac7dc)
+        ;
+
+        
+    
+    
+            var marker_29a6f43719de8403a02b4f0d63a791b9 = L.marker(
+                [1.312, 103.8548],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_baadd66e25e247ed103a0eef50053d98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b4adf75bd0b4ff5ec9d5d880e944023 = $(`<div id="html_2b4adf75bd0b4ff5ec9d5d880e944023" style="width: 100.0%; height: 100.0%;">Holiday Inn Singapore Little India, an IHG Hotel</div>`)[0];
+                popup_baadd66e25e247ed103a0eef50053d98.setContent(html_2b4adf75bd0b4ff5ec9d5d880e944023);
+            
+        
+
+        marker_29a6f43719de8403a02b4f0d63a791b9.bindPopup(popup_baadd66e25e247ed103a0eef50053d98)
+        ;
+
+        
+    
+    
+            var marker_989ece4e9ed1cf1934926f5157f2e09b = L.marker(
+                [1.2467, 103.8428],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_46c72e610f65261b5285e1bf01e8f4c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bc4919ccba40fe90391854b6029037d = $(`<div id="html_3bc4919ccba40fe90391854b6029037d" style="width: 100.0%; height: 100.0%;">W Singapore - Sentosa Cove</div>`)[0];
+                popup_46c72e610f65261b5285e1bf01e8f4c5.setContent(html_3bc4919ccba40fe90391854b6029037d);
+            
+        
+
+        marker_989ece4e9ed1cf1934926f5157f2e09b.bindPopup(popup_46c72e610f65261b5285e1bf01e8f4c5)
+        ;
+
+        
+    
+    
+            var marker_d4e2b5026ce2b8a0710dcb12cc52f719 = L.marker(
+                [1.3221, 103.8917],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2a0bd9a74af5b11f28a906f5bb36483a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e7555d71031319907d590a05263cd3b = $(`<div id="html_0e7555d71031319907d590a05263cd3b" style="width: 100.0%; height: 100.0%;">Aqueen Hotel Paya Lebar</div>`)[0];
+                popup_2a0bd9a74af5b11f28a906f5bb36483a.setContent(html_0e7555d71031319907d590a05263cd3b);
+            
+        
+
+        marker_d4e2b5026ce2b8a0710dcb12cc52f719.bindPopup(popup_2a0bd9a74af5b11f28a906f5bb36483a)
+        ;
+
+        
+    
+    
+            var marker_ca59d58c89d1aa482e9662d68dccc719 = L.marker(
+                [1.2938, 103.8513],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_d23d296ade3c0a8502408522161343d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb6b466e89a41358a5550abb213b2e45 = $(`<div id="html_eb6b466e89a41358a5550abb213b2e45" style="width: 100.0%; height: 100.0%;">The Capitol Kempinski Hotel Singapore</div>`)[0];
+                popup_d23d296ade3c0a8502408522161343d8.setContent(html_eb6b466e89a41358a5550abb213b2e45);
+            
+        
+
+        marker_ca59d58c89d1aa482e9662d68dccc719.bindPopup(popup_d23d296ade3c0a8502408522161343d8)
+        ;
+
+        
+    
+    
+            var marker_9f59f8e00da831a6e9090ee0c1935214 = L.marker(
+                [1.3032, 103.861],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_02148d9c65fe75c62eadc2e09e5ce9ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27d3811e2d8fc646ae799d309164583d = $(`<div id="html_27d3811e2d8fc646ae799d309164583d" style="width: 100.0%; height: 100.0%;">The Sultan</div>`)[0];
+                popup_02148d9c65fe75c62eadc2e09e5ce9ac.setContent(html_27d3811e2d8fc646ae799d309164583d);
+            
+        
+
+        marker_9f59f8e00da831a6e9090ee0c1935214.bindPopup(popup_02148d9c65fe75c62eadc2e09e5ce9ac)
+        ;
+
+        
+    
+    
+            var marker_9b8b54244a943492225cc11376c9b852 = L.marker(
+                [1.3052, 103.8287],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f482d34b9cfaa45527e36bf49fb7818b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52b4a92efdf70854a0202a3eb57044e9 = $(`<div id="html_52b4a92efdf70854a0202a3eb57044e9" style="width: 100.0%; height: 100.0%;">Four Seasons Hotel Singapore</div>`)[0];
+                popup_f482d34b9cfaa45527e36bf49fb7818b.setContent(html_52b4a92efdf70854a0202a3eb57044e9);
+            
+        
+
+        marker_9b8b54244a943492225cc11376c9b852.bindPopup(popup_f482d34b9cfaa45527e36bf49fb7818b)
+        ;
+
+        
+    
+    
+            var marker_995fe70285055f9be22eaf9acc159ce9 = L.marker(
+                [1.3156, 103.8977],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a72ec99b98aff261c0189b2bc7ad5e43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3acf025fbadefe2d4d9c7aad6685f133 = $(`<div id="html_3acf025fbadefe2d4d9c7aad6685f133" style="width: 100.0%; height: 100.0%;">Hotel Classic by Venue</div>`)[0];
+                popup_a72ec99b98aff261c0189b2bc7ad5e43.setContent(html_3acf025fbadefe2d4d9c7aad6685f133);
+            
+        
+
+        marker_995fe70285055f9be22eaf9acc159ce9.bindPopup(popup_a72ec99b98aff261c0189b2bc7ad5e43)
+        ;
+
+        
+    
+    
+            var marker_38feaba413e82542edfc906a850ae3a1 = L.marker(
+                [1.2737, 103.8451],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_57d0b8f10994e2ca1d21ae61ca718772 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9ff3e0b1dccbabce7edfde6d026b052 = $(`<div id="html_c9ff3e0b1dccbabce7edfde6d026b052" style="width: 100.0%; height: 100.0%;">M Hotel Singapore City Centre</div>`)[0];
+                popup_57d0b8f10994e2ca1d21ae61ca718772.setContent(html_c9ff3e0b1dccbabce7edfde6d026b052);
+            
+        
+
+        marker_38feaba413e82542edfc906a850ae3a1.bindPopup(popup_57d0b8f10994e2ca1d21ae61ca718772)
+        ;
+
+        
+    
+    
+            var marker_48053705ef83b227dcafbb4e82685082 = L.marker(
+                [1.3073, 103.8588],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_50308ba5a7a08c87ea64f3e5dbc78939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa5d7d8607c01ad272c57da56d8a5f88 = $(`<div id="html_fa5d7d8607c01ad272c57da56d8a5f88" style="width: 100.0%; height: 100.0%;">Hotel NuVe Urbane</div>`)[0];
+                popup_50308ba5a7a08c87ea64f3e5dbc78939.setContent(html_fa5d7d8607c01ad272c57da56d8a5f88);
+            
+        
+
+        marker_48053705ef83b227dcafbb4e82685082.bindPopup(popup_50308ba5a7a08c87ea64f3e5dbc78939)
+        ;
+
+        
+    
+    
+            var marker_be072f4bce9f13d622c8324e7308a878 = L.marker(
+                [1.2977, 103.8445],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3cec3fb597f6f5641ec1309d42e2bb99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37241b66b9eed19fad457dbe6c41c8b4 = $(`<div id="html_37241b66b9eed19fad457dbe6c41c8b4" style="width: 100.0%; height: 100.0%;">Ji Hotel Orchard Singapore</div>`)[0];
+                popup_3cec3fb597f6f5641ec1309d42e2bb99.setContent(html_37241b66b9eed19fad457dbe6c41c8b4);
+            
+        
+
+        marker_be072f4bce9f13d622c8324e7308a878.bindPopup(popup_3cec3fb597f6f5641ec1309d42e2bb99)
+        ;
+
+        
+    
+    
+            var marker_8569cab0e4d3aef1132bc2607959f0b7 = L.marker(
+                [1.2523, 103.82],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_7db0dd0160b433d9c4727300da63cd1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea4c5c6d9cddf054c9958f765026997 = $(`<div id="html_aea4c5c6d9cddf054c9958f765026997" style="width: 100.0%; height: 100.0%;">The Outpost Hotel Sentosa by Far East Hospitality</div>`)[0];
+                popup_7db0dd0160b433d9c4727300da63cd1a.setContent(html_aea4c5c6d9cddf054c9958f765026997);
+            
+        
+
+        marker_8569cab0e4d3aef1132bc2607959f0b7.bindPopup(popup_7db0dd0160b433d9c4727300da63cd1a)
+        ;
+
+        
+    
+    
+            var marker_c77ac5d2e88ec66ba02af1ea9a1f5932 = L.marker(
+                [1.3011, 103.7881],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c77634c28b4131d32770e594f2661724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbb7aab056f16039bf11363027d1b50a = $(`<div id="html_fbb7aab056f16039bf11363027d1b50a" style="width: 100.0%; height: 100.0%;">lyf one-north Singapore</div>`)[0];
+                popup_c77634c28b4131d32770e594f2661724.setContent(html_fbb7aab056f16039bf11363027d1b50a);
+            
+        
+
+        marker_c77ac5d2e88ec66ba02af1ea9a1f5932.bindPopup(popup_c77634c28b4131d32770e594f2661724)
+        ;
+
+        
+    
+    
+            var marker_beb993377031513e9f50ca8eb637fddf = L.marker(
+                [1.2821, 103.8454],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_fdcd7298e3c39c38dfd0ffc053748131 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db9e841a0de29398c03c7c25b70c33d3 = $(`<div id="html_db9e841a0de29398c03c7c25b70c33d3" style="width: 100.0%; height: 100.0%;">Atelier</div>`)[0];
+                popup_fdcd7298e3c39c38dfd0ffc053748131.setContent(html_db9e841a0de29398c03c7c25b70c33d3);
+            
+        
+
+        marker_beb993377031513e9f50ca8eb637fddf.bindPopup(popup_fdcd7298e3c39c38dfd0ffc053748131)
+        ;
+
+        
+    
+    
+            var marker_9060e2409eb63160001db19d081a56e1 = L.marker(
+                [1.3078, 103.8357],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_abb197cf4705f32da74f2f83cea460eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1de4fca0cf83aed6c8950fe8f3ed048 = $(`<div id="html_b1de4fca0cf83aed6c8950fe8f3ed048" style="width: 100.0%; height: 100.0%;">Quincy Hotel Singapore by Far East Hospitality</div>`)[0];
+                popup_abb197cf4705f32da74f2f83cea460eb.setContent(html_b1de4fca0cf83aed6c8950fe8f3ed048);
+            
+        
+
+        marker_9060e2409eb63160001db19d081a56e1.bindPopup(popup_abb197cf4705f32da74f2f83cea460eb)
+        ;
+
+        
+    
+    
+            var marker_211de4ae0ee435133cf4a7ed7e4c7a14 = L.marker(
+                [1.2994, 103.8504],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_908a5f3f3fd537cadca254a9fa3aaa14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6173da5718f6bfb3c85999ef54c9aad3 = $(`<div id="html_6173da5718f6bfb3c85999ef54c9aad3" style="width: 100.0%; height: 100.0%;">Somerset Bencoolen Singapore</div>`)[0];
+                popup_908a5f3f3fd537cadca254a9fa3aaa14.setContent(html_6173da5718f6bfb3c85999ef54c9aad3);
+            
+        
+
+        marker_211de4ae0ee435133cf4a7ed7e4c7a14.bindPopup(popup_908a5f3f3fd537cadca254a9fa3aaa14)
+        ;
+
+        
+    
+    
+            var marker_26af96996d44950e8c9ec65fd41d69ec = L.marker(
+                [1.2842, 103.8443],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_328cb90feb9ac0d536626c283299ba77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f32397eb1266400cb9b33ee7b4acf23 = $(`<div id="html_5f32397eb1266400cb9b33ee7b4acf23" style="width: 100.0%; height: 100.0%;">Hotel 1900 Chinatown</div>`)[0];
+                popup_328cb90feb9ac0d536626c283299ba77.setContent(html_5f32397eb1266400cb9b33ee7b4acf23);
+            
+        
+
+        marker_26af96996d44950e8c9ec65fd41d69ec.bindPopup(popup_328cb90feb9ac0d536626c283299ba77)
+        ;
+
+        
+    
+    
+            var marker_b445ddd873cbd0089ac81adfa3ca417e = L.marker(
+                [1.3051, 103.8546],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_78989e4c620b311060749415a5465687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82704f824f357ce71b118e58a2d0c10d = $(`<div id="html_82704f824f357ce71b118e58a2d0c10d" style="width: 100.0%; height: 100.0%;">Wanderlust, The Unlimited Collection managed by The Ascott Limited</div>`)[0];
+                popup_78989e4c620b311060749415a5465687.setContent(html_82704f824f357ce71b118e58a2d0c10d);
+            
+        
+
+        marker_b445ddd873cbd0089ac81adfa3ca417e.bindPopup(popup_78989e4c620b311060749415a5465687)
+        ;
+
+        
+    
+    
+            var marker_5baf9ecd9f94a7a748a203baef022947 = L.marker(
+                [1.3082, 103.8358],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f60301b3ff2e34f2167d716ea3350b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e34bffbc98349823463fc44ee68cd8f = $(`<div id="html_4e34bffbc98349823463fc44ee68cd8f" style="width: 100.0%; height: 100.0%;">Vibe Hotel Singapore Orchard</div>`)[0];
+                popup_f60301b3ff2e34f2167d716ea3350b3e.setContent(html_4e34bffbc98349823463fc44ee68cd8f);
+            
+        
+
+        marker_5baf9ecd9f94a7a748a203baef022947.bindPopup(popup_f60301b3ff2e34f2167d716ea3350b3e)
+        ;
+
+        
+    
+    
+            var marker_11d4cf5792d5464b36039bb5f8691424 = L.marker(
+                [1.2801, 103.8493],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_d51885e976408ae00902d2d1d86f306b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fba7a33d7089fe7aece33652b5a0f2dd = $(`<div id="html_fba7a33d7089fe7aece33652b5a0f2dd" style="width: 100.0%; height: 100.0%;">Hotel Telegraph</div>`)[0];
+                popup_d51885e976408ae00902d2d1d86f306b.setContent(html_fba7a33d7089fe7aece33652b5a0f2dd);
+            
+        
+
+        marker_11d4cf5792d5464b36039bb5f8691424.bindPopup(popup_d51885e976408ae00902d2d1d86f306b)
+        ;
+
+        
+    
+    
+            var marker_f208eb72451c5b2bdb7fd1c378ff0b90 = L.marker(
+                [1.2839, 103.8443],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_240543d92e11c722309b22cecdd81d09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_815211980630b084e0b3213200a5f153 = $(`<div id="html_815211980630b084e0b3213200a5f153" style="width: 100.0%; height: 100.0%;">Chic Capsule Otel</div>`)[0];
+                popup_240543d92e11c722309b22cecdd81d09.setContent(html_815211980630b084e0b3213200a5f153);
+            
+        
+
+        marker_f208eb72451c5b2bdb7fd1c378ff0b90.bindPopup(popup_240543d92e11c722309b22cecdd81d09)
+        ;
+
+        
+    
+    
+            var marker_bd1ef087a5b4ade8067723b97726c0ec = L.marker(
+                [1.2843, 103.835],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_fd4758c73d0ac080e962f8ce5d66e169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8204b1916e117f03957a3ff2f5bc0a0 = $(`<div id="html_d8204b1916e117f03957a3ff2f5bc0a0" style="width: 100.0%; height: 100.0%;">D'Hotel Singapore managed by The Ascott Limited</div>`)[0];
+                popup_fd4758c73d0ac080e962f8ce5d66e169.setContent(html_d8204b1916e117f03957a3ff2f5bc0a0);
+            
+        
+
+        marker_bd1ef087a5b4ade8067723b97726c0ec.bindPopup(popup_fd4758c73d0ac080e962f8ce5d66e169)
+        ;
+
+        
+    
+    
+            var marker_743fa47dc00b775532588868cd05b990 = L.marker(
+                [1.2973, 103.8404],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_88abf1aebd2d238083a17f57dbe6f4da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c130066baf50592cbcaf14a511034b4d = $(`<div id="html_c130066baf50592cbcaf14a511034b4d" style="width: 100.0%; height: 100.0%;">Lloyd's Inn</div>`)[0];
+                popup_88abf1aebd2d238083a17f57dbe6f4da.setContent(html_c130066baf50592cbcaf14a511034b4d);
+            
+        
+
+        marker_743fa47dc00b775532588868cd05b990.bindPopup(popup_88abf1aebd2d238083a17f57dbe6f4da)
+        ;
+
+        
+    
+    
+            var marker_b718d99d4c2d11983ca92153da9e7421 = L.marker(
+                [1.2992, 103.8579],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2b069c86906673b68357a5070a9e0fee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd1221b43bdb8b84b713a2145c9f4dd8 = $(`<div id="html_dd1221b43bdb8b84b713a2145c9f4dd8" style="width: 100.0%; height: 100.0%;">Andaz Singapore A Concept by Hyatt</div>`)[0];
+                popup_2b069c86906673b68357a5070a9e0fee.setContent(html_dd1221b43bdb8b84b713a2145c9f4dd8);
+            
+        
+
+        marker_b718d99d4c2d11983ca92153da9e7421.bindPopup(popup_2b069c86906673b68357a5070a9e0fee)
+        ;
+
+        
+    
+    
+            var marker_ebd6179e1b6226de8b5f6e1a7e79e1d5 = L.marker(
+                [1.2787, 103.8443],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_bd57bd3627514614ab5907a645e40d26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de37b88f46e75677ac905844eff16e00 = $(`<div id="html_de37b88f46e75677ac905844eff16e00" style="width: 100.0%; height: 100.0%;">ST Signature Tanjong Pagar</div>`)[0];
+                popup_bd57bd3627514614ab5907a645e40d26.setContent(html_de37b88f46e75677ac905844eff16e00);
+            
+        
+
+        marker_ebd6179e1b6226de8b5f6e1a7e79e1d5.bindPopup(popup_bd57bd3627514614ab5907a645e40d26)
+        ;
+
+        
+    
+    
+            var marker_951fea54817a5d71383a1176b9bcebde = L.marker(
+                [1.2845, 103.8443],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3d08cea2b300e7274950ff10741e4d7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_602ca1f6a8dfe919f41b30c547a2e8aa = $(`<div id="html_602ca1f6a8dfe919f41b30c547a2e8aa" style="width: 100.0%; height: 100.0%;">Bliss Hotel Singapore</div>`)[0];
+                popup_3d08cea2b300e7274950ff10741e4d7f.setContent(html_602ca1f6a8dfe919f41b30c547a2e8aa);
+            
+        
+
+        marker_951fea54817a5d71383a1176b9bcebde.bindPopup(popup_3d08cea2b300e7274950ff10741e4d7f)
+        ;
+
+        
+    
+    
+            var marker_cdca8578d50542f0cf93972f0b199e55 = L.marker(
+                [1.3102, 103.8586],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_344985d26db379ca113f36626822e100 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f0ad0aaf9fd16e4948bcc730dcda351 = $(`<div id="html_5f0ad0aaf9fd16e4948bcc730dcda351" style="width: 100.0%; height: 100.0%;">Holiday Inn Express Singapore Serangoon, an IHG Hotel</div>`)[0];
+                popup_344985d26db379ca113f36626822e100.setContent(html_5f0ad0aaf9fd16e4948bcc730dcda351);
+            
+        
+
+        marker_cdca8578d50542f0cf93972f0b199e55.bindPopup(popup_344985d26db379ca113f36626822e100)
+        ;
+
+        
+    
+    
+            var marker_dd6d228c71f0d1e880e00ff99451b365 = L.marker(
+                [1.285, 103.8502],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_274981a07e06e7055248dbbabc557e17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e379c4127fa3db6571cda177113906a = $(`<div id="html_0e379c4127fa3db6571cda177113906a" style="width: 100.0%; height: 100.0%;">Citadines Raffles Place Singapore</div>`)[0];
+                popup_274981a07e06e7055248dbbabc557e17.setContent(html_0e379c4127fa3db6571cda177113906a);
+            
+        
+
+        marker_dd6d228c71f0d1e880e00ff99451b365.bindPopup(popup_274981a07e06e7055248dbbabc557e17)
+        ;
+
+        
+    
+    
+            var marker_151fe0f854de2e417753907d508b818a = L.marker(
+                [1.3157, 103.8588],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_28ae0c3f9f9dfd57b405ed5cc2f63710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff9b112f76b56df27eb7b0b56417c0f = $(`<div id="html_dff9b112f76b56df27eb7b0b56417c0f" style="width: 100.0%; height: 100.0%;">Spacepod@hive</div>`)[0];
+                popup_28ae0c3f9f9dfd57b405ed5cc2f63710.setContent(html_dff9b112f76b56df27eb7b0b56417c0f);
+            
+        
+
+        marker_151fe0f854de2e417753907d508b818a.bindPopup(popup_28ae0c3f9f9dfd57b405ed5cc2f63710)
+        ;
+
+        
+    
+    
+            var marker_789a68b0ce8d979d2267655832690db0 = L.marker(
+                [1.321, 103.8524],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e01387db762cda08ab36b5d310146649 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64885664d4302bff0752338703811b9f = $(`<div id="html_64885664d4302bff0752338703811b9f" style="width: 100.0%; height: 100.0%;">Citadines Balestier</div>`)[0];
+                popup_e01387db762cda08ab36b5d310146649.setContent(html_64885664d4302bff0752338703811b9f);
+            
+        
+
+        marker_789a68b0ce8d979d2267655832690db0.bindPopup(popup_e01387db762cda08ab36b5d310146649)
+        ;
+
+        
+    
+    
+            var marker_27ecdee5e7e3c34a6d5e4371e8225fd8 = L.marker(
+                [1.3315, 103.7393],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b2780c76f03edf5fda772180b3cf056a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f059ad36c94b1466185e85ff4b997011 = $(`<div id="html_f059ad36c94b1466185e85ff4b997011" style="width: 100.0%; height: 100.0%;">Genting Hotel Jurong</div>`)[0];
+                popup_b2780c76f03edf5fda772180b3cf056a.setContent(html_f059ad36c94b1466185e85ff4b997011);
+            
+        
+
+        marker_27ecdee5e7e3c34a6d5e4371e8225fd8.bindPopup(popup_b2780c76f03edf5fda772180b3cf056a)
+        ;
+
+        
+    
+    
+            var marker_71dbe1e61f78168338ba4bfe0f71a314 = L.marker(
+                [1.3123, 103.8606],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_8c60dd3b599e2531004464f0a9f363b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8c3f57d0888a61b21ac8005147f08ba = $(`<div id="html_c8c3f57d0888a61b21ac8005147f08ba" style="width: 100.0%; height: 100.0%;">Mercure Singapore Tyrwhitt</div>`)[0];
+                popup_8c60dd3b599e2531004464f0a9f363b4.setContent(html_c8c3f57d0888a61b21ac8005147f08ba);
+            
+        
+
+        marker_71dbe1e61f78168338ba4bfe0f71a314.bindPopup(popup_8c60dd3b599e2531004464f0a9f363b4)
+        ;
+
+        
+    
+    
+            var marker_091add39c01a1a07733be320a3a35687 = L.marker(
+                [1.2882, 103.8492],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a96646cdea6a85c343bdb037c7bd12a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1134a9263660bfb00993b0002bbc2792 = $(`<div id="html_1134a9263660bfb00993b0002bbc2792" style="width: 100.0%; height: 100.0%;">Heritage Collection on Boat Quay - Quayside Wing - A Digital Hotel</div>`)[0];
+                popup_a96646cdea6a85c343bdb037c7bd12a6.setContent(html_1134a9263660bfb00993b0002bbc2792);
+            
+        
+
+        marker_091add39c01a1a07733be320a3a35687.bindPopup(popup_a96646cdea6a85c343bdb037c7bd12a6)
+        ;
+
+        
+    
+    
+            var marker_d2ed93392846a2c1157fe12f1d96e897 = L.marker(
+                [1.2821, 103.8516],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e63da4bf27a34fcf5a3d89bc82018f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ae46fe80081bd31fb4764e12ae6f24b = $(`<div id="html_1ae46fe80081bd31fb4764e12ae6f24b" style="width: 100.0%; height: 100.0%;">Ascott Raffles Place Singapore</div>`)[0];
+                popup_e63da4bf27a34fcf5a3d89bc82018f81.setContent(html_1ae46fe80081bd31fb4764e12ae6f24b);
+            
+        
+
+        marker_d2ed93392846a2c1157fe12f1d96e897.bindPopup(popup_e63da4bf27a34fcf5a3d89bc82018f81)
+        ;
+
+        
+    
+    
+            var marker_93deb3487d2255242f9bb2697e30364f = L.marker(
+                [1.274, 103.8406],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_53bb05b6ae6bffa22e4b07a57c3b085c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d110e2ee85a36ca1f0478b540b91961 = $(`<div id="html_6d110e2ee85a36ca1f0478b540b91961" style="width: 100.0%; height: 100.0%;">Habyt Cantonment - formerly Hmlet Cantonment</div>`)[0];
+                popup_53bb05b6ae6bffa22e4b07a57c3b085c.setContent(html_6d110e2ee85a36ca1f0478b540b91961);
+            
+        
+
+        marker_93deb3487d2255242f9bb2697e30364f.bindPopup(popup_53bb05b6ae6bffa22e4b07a57c3b085c)
+        ;
+
+        
+    
+    
+            var marker_273ee8b07d19d7e0861e3ea551137335 = L.marker(
+                [1.3201, 103.8525],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_500fd0c35bfb8f38e8f3415a124a71d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec9252707fa9cf2b03e015a8b043298e = $(`<div id="html_ec9252707fa9cf2b03e015a8b043298e" style="width: 100.0%; height: 100.0%;">Holiday Inn Express & Suites Singapore Novena, an IHG Hotel</div>`)[0];
+                popup_500fd0c35bfb8f38e8f3415a124a71d2.setContent(html_ec9252707fa9cf2b03e015a8b043298e);
+            
+        
+
+        marker_273ee8b07d19d7e0861e3ea551137335.bindPopup(popup_500fd0c35bfb8f38e8f3415a124a71d2)
+        ;
+
+        
+    
+    
+            var marker_397b08bfd3107b2ae40994bc1824a89e = L.marker(
+                [1.2789, 103.8427],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_7aab5dde3dad27861a1c51d5c0e54cad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0193c36756189187bb42bc006c040849 = $(`<div id="html_0193c36756189187bb42bc006c040849" style="width: 100.0%; height: 100.0%;">Mondrian Singapore Duxton</div>`)[0];
+                popup_7aab5dde3dad27861a1c51d5c0e54cad.setContent(html_0193c36756189187bb42bc006c040849);
+            
+        
+
+        marker_397b08bfd3107b2ae40994bc1824a89e.bindPopup(popup_7aab5dde3dad27861a1c51d5c0e54cad)
+        ;
+
+        
+    
+    
+            var marker_dd3d35918cf61644e3e4118d2ec7c7b4 = L.marker(
+                [1.3084, 103.852],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6a4e6563a7c24e3b18d7e7fd2093177c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d1f39ecf25db363edd1ea0f1cd5b56c = $(`<div id="html_2d1f39ecf25db363edd1ea0f1cd5b56c" style="width: 100.0%; height: 100.0%;">Hilton Garden Inn Singapore Serangoon</div>`)[0];
+                popup_6a4e6563a7c24e3b18d7e7fd2093177c.setContent(html_2d1f39ecf25db363edd1ea0f1cd5b56c);
+            
+        
+
+        marker_dd3d35918cf61644e3e4118d2ec7c7b4.bindPopup(popup_6a4e6563a7c24e3b18d7e7fd2093177c)
+        ;
+
+        
+    
+    
+            var marker_f75c07fd9f5d42c8784e928cdc1f318d = L.marker(
+                [1.2553, 103.8203],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_fcbb60680c5af7f11420d5ff9ebe2e80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adaa114e9a69b004a117d88c8c9d8bed = $(`<div id="html_adaa114e9a69b004a117d88c8c9d8bed" style="width: 100.0%; height: 100.0%;">Resorts World Sentosa - Hotel Michael</div>`)[0];
+                popup_fcbb60680c5af7f11420d5ff9ebe2e80.setContent(html_adaa114e9a69b004a117d88c8c9d8bed);
+            
+        
+
+        marker_f75c07fd9f5d42c8784e928cdc1f318d.bindPopup(popup_fcbb60680c5af7f11420d5ff9ebe2e80)
+        ;
+
+        
+    
+    
+            var marker_7b7eab9e4600d01cefaf3835685be7ba = L.marker(
+                [1.2927, 103.8502],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_57375b9d6fd0bcaebbba0c6073382e03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57c9138918dd40d99ce5dada901b76b7 = $(`<div id="html_57c9138918dd40d99ce5dada901b76b7" style="width: 100.0%; height: 100.0%;">Grand Park City Hall</div>`)[0];
+                popup_57375b9d6fd0bcaebbba0c6073382e03.setContent(html_57c9138918dd40d99ce5dada901b76b7);
+            
+        
+
+        marker_7b7eab9e4600d01cefaf3835685be7ba.bindPopup(popup_57375b9d6fd0bcaebbba0c6073382e03)
+        ;
+
+        
+    
+    
+            var marker_83063d6004b4adafd0926ac2ad584e17 = L.marker(
+                [1.2459, 103.8277],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e628047bdaa51ba2b9bddad9af1ae847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e62b8df4a11bbe61aec9141c36e15d = $(`<div id="html_c5e62b8df4a11bbe61aec9141c36e15d" style="width: 100.0%; height: 100.0%;">Sofitel Singapore Sentosa Resort & Spa</div>`)[0];
+                popup_e628047bdaa51ba2b9bddad9af1ae847.setContent(html_c5e62b8df4a11bbe61aec9141c36e15d);
+            
+        
+
+        marker_83063d6004b4adafd0926ac2ad584e17.bindPopup(popup_e628047bdaa51ba2b9bddad9af1ae847)
+        ;
+
+        
+    
+    
+            var marker_bd93dc801222d63b1be722ccbe01e475 = L.marker(
+                [1.3041, 103.8594],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6166da20f3b4256f53ba6be4ae87b6dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29cbd9b85272170e1f5455b2d919c3b9 = $(`<div id="html_29cbd9b85272170e1f5455b2d919c3b9" style="width: 100.0%; height: 100.0%;">Rest Bugis Hotel</div>`)[0];
+                popup_6166da20f3b4256f53ba6be4ae87b6dc.setContent(html_29cbd9b85272170e1f5455b2d919c3b9);
+            
+        
+
+        marker_bd93dc801222d63b1be722ccbe01e475.bindPopup(popup_6166da20f3b4256f53ba6be4ae87b6dc)
+        ;
+
+        
+    
+    
+            var marker_bc1e6027c6491ab355efb6d74c5aee3b = L.marker(
+                [1.2973, 103.8385],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_668e1e9b300f4c127ad1440d00fe7031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6d679017830df63015a744af86d4f36 = $(`<div id="html_d6d679017830df63015a744af86d4f36" style="width: 100.0%; height: 100.0%;">Orchard Grand Court</div>`)[0];
+                popup_668e1e9b300f4c127ad1440d00fe7031.setContent(html_d6d679017830df63015a744af86d4f36);
+            
+        
+
+        marker_bc1e6027c6491ab355efb6d74c5aee3b.bindPopup(popup_668e1e9b300f4c127ad1440d00fe7031)
+        ;
+
+        
+    
+    
+            var marker_e0bd483dda92a349f5f212b6e79a6905 = L.marker(
+                [1.308, 103.8345],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a8867f126b13dfa543cbef3a093a1e56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05cb18efe2d9004d8028185396396f2f = $(`<div id="html_05cb18efe2d9004d8028185396396f2f" style="width: 100.0%; height: 100.0%;">Goodwood Park Hotel</div>`)[0];
+                popup_a8867f126b13dfa543cbef3a093a1e56.setContent(html_05cb18efe2d9004d8028185396396f2f);
+            
+        
+
+        marker_e0bd483dda92a349f5f212b6e79a6905.bindPopup(popup_a8867f126b13dfa543cbef3a093a1e56)
+        ;
+
+        
+    
+    
+            var marker_ed2bfb2e7a2a2c52ceba2b5dd5b4c934 = L.marker(
+                [1.2553, 103.8203],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_131aba19849c37802f46b0cce3c4dbfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5658f55c15e5874a47ec9ced78c6bfb5 = $(`<div id="html_5658f55c15e5874a47ec9ced78c6bfb5" style="width: 100.0%; height: 100.0%;">Resorts World Sentosa - Equarius Hotel</div>`)[0];
+                popup_131aba19849c37802f46b0cce3c4dbfb.setContent(html_5658f55c15e5874a47ec9ced78c6bfb5);
+            
+        
+
+        marker_ed2bfb2e7a2a2c52ceba2b5dd5b4c934.bindPopup(popup_131aba19849c37802f46b0cce3c4dbfb)
+        ;
+
+        
+    
+    
+            var marker_5fc1a073718af41d68e094b6903703be = L.marker(
+                [1.2986, 103.8493],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0bbb25aa7598eccf53cefb56c9bf3452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03c501c77f6215f66a9ea5a3b01f2df7 = $(`<div id="html_03c501c77f6215f66a9ea5a3b01f2df7" style="width: 100.0%; height: 100.0%;">Rendezvous Hotel Singapore by Far East Hospitality</div>`)[0];
+                popup_0bbb25aa7598eccf53cefb56c9bf3452.setContent(html_03c501c77f6215f66a9ea5a3b01f2df7);
+            
+        
+
+        marker_5fc1a073718af41d68e094b6903703be.bindPopup(popup_0bbb25aa7598eccf53cefb56c9bf3452)
+        ;
+
+        
+    
+    
+            var marker_7a6ea9fce6dd6baa71a7a1c1be13d98f = L.marker(
+                [1.304, 103.8372],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_14113ecd3e02f40e194fbc8a48bba0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d05cdb56bb1d8c9d01fecccf37982c4 = $(`<div id="html_4d05cdb56bb1d8c9d01fecccf37982c4" style="width: 100.0%; height: 100.0%;">Ascott Orchard Singapore</div>`)[0];
+                popup_14113ecd3e02f40e194fbc8a48bba0d9.setContent(html_4d05cdb56bb1d8c9d01fecccf37982c4);
+            
+        
+
+        marker_7a6ea9fce6dd6baa71a7a1c1be13d98f.bindPopup(popup_14113ecd3e02f40e194fbc8a48bba0d9)
+        ;
+
+        
+    
+    
+            var marker_cee3f9a76bd650f1a952fe430dc5f9e9 = L.marker(
+                [1.284, 103.8471],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f3a48f2838a874e4b66114109540b03e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de4f9efe190dd9e0448961ef1974b31c = $(`<div id="html_de4f9efe190dd9e0448961ef1974b31c" style="width: 100.0%; height: 100.0%;">Capri by Fraser China Square, Singapore</div>`)[0];
+                popup_f3a48f2838a874e4b66114109540b03e.setContent(html_de4f9efe190dd9e0448961ef1974b31c);
+            
+        
+
+        marker_cee3f9a76bd650f1a952fe430dc5f9e9.bindPopup(popup_f3a48f2838a874e4b66114109540b03e)
+        ;
+
+        
+    
+    
+            var marker_e44e9faaaacfeb6b24e6237fb83209d6 = L.marker(
+                [1.2889, 103.8342],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_9a7ed132bc4197070532f779b8cdb821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09a60699023c635f51e68dc6e9c7368d = $(`<div id="html_09a60699023c635f51e68dc6e9c7368d" style="width: 100.0%; height: 100.0%;">Holiday Inn Singapore Atrium, an IHG Hotel</div>`)[0];
+                popup_9a7ed132bc4197070532f779b8cdb821.setContent(html_09a60699023c635f51e68dc6e9c7368d);
+            
+        
+
+        marker_e44e9faaaacfeb6b24e6237fb83209d6.bindPopup(popup_9a7ed132bc4197070532f779b8cdb821)
+        ;
+
+        
+    
+    
+            var marker_1e65639d6ee43dfcdad3fc78bc99aa3b = L.marker(
+                [1.2464, 103.8389],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2e31520d2e1a187749b7e29c975b237f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73e70786e3968a46a8a0d9dff40b7fba = $(`<div id="html_73e70786e3968a46a8a0d9dff40b7fba" style="width: 100.0%; height: 100.0%;">ONE15 Marina Sentosa Cove Singapore</div>`)[0];
+                popup_2e31520d2e1a187749b7e29c975b237f.setContent(html_73e70786e3968a46a8a0d9dff40b7fba);
+            
+        
+
+        marker_1e65639d6ee43dfcdad3fc78bc99aa3b.bindPopup(popup_2e31520d2e1a187749b7e29c975b237f)
+        ;
+
+        
+    
+    
+            var marker_38b2412566011cd1d5b47bf0df6f64e5 = L.marker(
+                [1.2878, 103.849],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_1fdb5905c73c10bb9ed15e71cb44af99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e587b0f42c01ddbd0009b611fac9552d = $(`<div id="html_e587b0f42c01ddbd0009b611fac9552d" style="width: 100.0%; height: 100.0%;">hipstercity hostel</div>`)[0];
+                popup_1fdb5905c73c10bb9ed15e71cb44af99.setContent(html_e587b0f42c01ddbd0009b611fac9552d);
+            
+        
+
+        marker_38b2412566011cd1d5b47bf0df6f64e5.bindPopup(popup_1fdb5905c73c10bb9ed15e71cb44af99)
+        ;
+
+        
+    
+    
+            var marker_913b7b3eb21570ed80ee22d3c0014535 = L.marker(
+                [1.2532, 103.8196],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_5adba1a5b9fd713ef41f396cb1deb506 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d896097b08f535d8e26326edd06b7b9d = $(`<div id="html_d896097b08f535d8e26326edd06b7b9d" style="width: 100.0%; height: 100.0%;">Oasia Resort Sentosa by Far East Hospitality</div>`)[0];
+                popup_5adba1a5b9fd713ef41f396cb1deb506.setContent(html_d896097b08f535d8e26326edd06b7b9d);
+            
+        
+
+        marker_913b7b3eb21570ed80ee22d3c0014535.bindPopup(popup_5adba1a5b9fd713ef41f396cb1deb506)
+        ;
+
+        
+    
+    
+            var marker_7fc1799fbeeaed13467edc132106b993 = L.marker(
+                [1.2935, 103.8588],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c14af870778e965b3f5bec90e36bbd5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5242e8f069292eb689f899f51f364917 = $(`<div id="html_5242e8f069292eb689f899f51f364917" style="width: 100.0%; height: 100.0%;">Conrad Centennial Singapore</div>`)[0];
+                popup_c14af870778e965b3f5bec90e36bbd5f.setContent(html_5242e8f069292eb689f899f51f364917);
+            
+        
+
+        marker_7fc1799fbeeaed13467edc132106b993.bindPopup(popup_c14af870778e965b3f5bec90e36bbd5f)
+        ;
+
+        
+    
+    
+            var marker_f9cb74745b44dc0cb985bca0d57a756c = L.marker(
+                [1.2871, 103.8477],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3360bf091914c3a35c8bf8b619299731 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16713b3ad27e5026cbeda428657838ce = $(`<div id="html_16713b3ad27e5026cbeda428657838ce" style="width: 100.0%; height: 100.0%;">Hotel Bencoolen at Hong Kong Street</div>`)[0];
+                popup_3360bf091914c3a35c8bf8b619299731.setContent(html_16713b3ad27e5026cbeda428657838ce);
+            
+        
+
+        marker_f9cb74745b44dc0cb985bca0d57a756c.bindPopup(popup_3360bf091914c3a35c8bf8b619299731)
+        ;
+
+        
+    
+    
+            var marker_d219292d6124b4f4065223e91a71cec4 = L.marker(
+                [1.3144, 103.8603],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6bee0926d5ab0d454a7168bab9f9aa27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e906b60150fd73e6350a37e032fde8e = $(`<div id="html_3e906b60150fd73e6350a37e032fde8e" style="width: 100.0%; height: 100.0%;">CUBE Boutique Capsule Hotel at Kampong Glam</div>`)[0];
+                popup_6bee0926d5ab0d454a7168bab9f9aa27.setContent(html_3e906b60150fd73e6350a37e032fde8e);
+            
+        
+
+        marker_d219292d6124b4f4065223e91a71cec4.bindPopup(popup_6bee0926d5ab0d454a7168bab9f9aa27)
+        ;
+
+        
+    
+    
+            var marker_659b97a2d2fc527ad32b86650dc8c702 = L.marker(
+                [1.3059, 103.8295],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e2b59d364d328df9f3e1e9f1f293f77f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b50cbabcb75e52ea6734dafc79726410 = $(`<div id="html_b50cbabcb75e52ea6734dafc79726410" style="width: 100.0%; height: 100.0%;">voco Orchard Singapore, an IHG Hotel</div>`)[0];
+                popup_e2b59d364d328df9f3e1e9f1f293f77f.setContent(html_b50cbabcb75e52ea6734dafc79726410);
+            
+        
+
+        marker_659b97a2d2fc527ad32b86650dc8c702.bindPopup(popup_e2b59d364d328df9f3e1e9f1f293f77f)
+        ;
+
+        
+    
+    
+            var marker_7718128ba52f310a3c9fe01a02a2c233 = L.marker(
+                [1.3074, 103.8299],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_edc3e897c19cb1aed8a8c462d0d3a472 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_393650a61e40400ef3141dcc6c1562d7 = $(`<div id="html_393650a61e40400ef3141dcc6c1562d7" style="width: 100.0%; height: 100.0%;">Pan Pacific Orchard</div>`)[0];
+                popup_edc3e897c19cb1aed8a8c462d0d3a472.setContent(html_393650a61e40400ef3141dcc6c1562d7);
+            
+        
+
+        marker_7718128ba52f310a3c9fe01a02a2c233.bindPopup(popup_edc3e897c19cb1aed8a8c462d0d3a472)
+        ;
+
+        
+    
+    
+            var marker_eb50c6d4723359328b9f1271b21bf914 = L.marker(
+                [1.298, 103.8375],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a9739783886aa276bde1a7d97f3d5f2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2efd29eee97fe07cc93ad8aa0a3ccde4 = $(`<div id="html_2efd29eee97fe07cc93ad8aa0a3ccde4" style="width: 100.0%; height: 100.0%;">Greatwood Residence at Devonshire</div>`)[0];
+                popup_a9739783886aa276bde1a7d97f3d5f2f.setContent(html_2efd29eee97fe07cc93ad8aa0a3ccde4);
+            
+        
+
+        marker_eb50c6d4723359328b9f1271b21bf914.bindPopup(popup_a9739783886aa276bde1a7d97f3d5f2f)
+        ;
+
+        
+    
+    
+            var marker_30abe2776dcffad59b60ae464c6de6de = L.marker(
+                [1.301, 103.8606],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_8220940f4bb57276b88e35e022a4e7a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1946fb1050414dca0823d57bbeb8e5 = $(`<div id="html_2b1946fb1050414dca0823d57bbeb8e5" style="width: 100.0%; height: 100.0%;">The Pod at Beach Road Boutique Capsule Hotel</div>`)[0];
+                popup_8220940f4bb57276b88e35e022a4e7a7.setContent(html_2b1946fb1050414dca0823d57bbeb8e5);
+            
+        
+
+        marker_30abe2776dcffad59b60ae464c6de6de.bindPopup(popup_8220940f4bb57276b88e35e022a4e7a7)
+        ;
+
+        
+    
+    
+            var marker_6ca5596e90396aafebf62bb02dcd65ac = L.marker(
+                [1.2839, 103.845],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_bf89ca5012b5006a5cf227787dc1fe2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8efd2c61fd09bbbe1f9435ce0b3c58b2 = $(`<div id="html_8efd2c61fd09bbbe1f9435ce0b3c58b2" style="width: 100.0%; height: 100.0%;">The Bohemian</div>`)[0];
+                popup_bf89ca5012b5006a5cf227787dc1fe2b.setContent(html_8efd2c61fd09bbbe1f9435ce0b3c58b2);
+            
+        
+
+        marker_6ca5596e90396aafebf62bb02dcd65ac.bindPopup(popup_bf89ca5012b5006a5cf227787dc1fe2b)
+        ;
+
+        
+    
+    
+            var marker_a1630fc88aa623fb136ce91d85bf67f1 = L.marker(
+                [1.2985, 103.8549],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ef648999cb49ce69789321f053c56167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49a55448a59a69b329896c8d5d2c615c = $(`<div id="html_49a55448a59a69b329896c8d5d2c615c" style="width: 100.0%; height: 100.0%;">InterContinental Singapore, an IHG Hotel</div>`)[0];
+                popup_ef648999cb49ce69789321f053c56167.setContent(html_49a55448a59a69b329896c8d5d2c615c);
+            
+        
+
+        marker_a1630fc88aa623fb136ce91d85bf67f1.bindPopup(popup_ef648999cb49ce69789321f053c56167)
+        ;
+
+        
+    
+    
+            var marker_80ae9157cbcefbe92d8f6367f52518be = L.marker(
+                [1.3051, 103.9043],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3276a0289009927766a921e806704c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b0e3e8911abb0049a941d83c72e54de = $(`<div id="html_5b0e3e8911abb0049a941d83c72e54de" style="width: 100.0%; height: 100.0%;">Hotel Indigo Singapore Katong, an IHG Hotel</div>`)[0];
+                popup_3276a0289009927766a921e806704c2c.setContent(html_5b0e3e8911abb0049a941d83c72e54de);
+            
+        
+
+        marker_80ae9157cbcefbe92d8f6367f52518be.bindPopup(popup_3276a0289009927766a921e806704c2c)
+        ;
+
+        
+    
+    
+            var marker_00392b07d6b93853a78c5a7a8ca75c98 = L.marker(
+                [1.2915, 103.8423],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6079240d9a480a991a321fd54af3b676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9208395c611bc4773bcf3ced20091a9d = $(`<div id="html_9208395c611bc4773bcf3ced20091a9d" style="width: 100.0%; height: 100.0%;">The Robertson House by The Crest Collection</div>`)[0];
+                popup_6079240d9a480a991a321fd54af3b676.setContent(html_9208395c611bc4773bcf3ced20091a9d);
+            
+        
+
+        marker_00392b07d6b93853a78c5a7a8ca75c98.bindPopup(popup_6079240d9a480a991a321fd54af3b676)
+        ;
+
+        
+    
+    
+            var marker_014586950c23bbb55b55fc75f6e9fca3 = L.marker(
+                [1.2962, 103.8409],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_5b3c74513990cbf0980c808218273093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e6afba00ebaf6f6d20cbe258225f1f = $(`<div id="html_51e6afba00ebaf6f6d20cbe258225f1f" style="width: 100.0%; height: 100.0%;">Thanksgiving Serviced Residence</div>`)[0];
+                popup_5b3c74513990cbf0980c808218273093.setContent(html_51e6afba00ebaf6f6d20cbe258225f1f);
+            
+        
+
+        marker_014586950c23bbb55b55fc75f6e9fca3.bindPopup(popup_5b3c74513990cbf0980c808218273093)
+        ;
+
+        
+    
+    
+            var marker_8f8daaa2e3e45ca4d0ad31d3943fdf25 = L.marker(
+                [1.3039, 103.8514],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3353a3628bc352633a005cbfd02ba4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_939b3f75cb5790d7189919c40bc7cc50 = $(`<div id="html_939b3f75cb5790d7189919c40bc7cc50" style="width: 100.0%; height: 100.0%;">Hotel Mi Rochor</div>`)[0];
+                popup_3353a3628bc352633a005cbfd02ba4a6.setContent(html_939b3f75cb5790d7189919c40bc7cc50);
+            
+        
+
+        marker_8f8daaa2e3e45ca4d0ad31d3943fdf25.bindPopup(popup_3353a3628bc352633a005cbfd02ba4a6)
+        ;
+
+        
+    
+    
+            var marker_590b7329b07c050e2e95d770e60b3d61 = L.marker(
+                [1.3057, 103.8261],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2edd7e80e090dd30ee1783728e662190 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ec3e0d5039ac6d45377dc9ac6e1d7e1 = $(`<div id="html_7ec3e0d5039ac6d45377dc9ac6e1d7e1" style="width: 100.0%; height: 100.0%;">The St. Regis Singapore</div>`)[0];
+                popup_2edd7e80e090dd30ee1783728e662190.setContent(html_7ec3e0d5039ac6d45377dc9ac6e1d7e1);
+            
+        
+
+        marker_590b7329b07c050e2e95d770e60b3d61.bindPopup(popup_2edd7e80e090dd30ee1783728e662190)
+        ;
+
+        
+    
+    
+            var marker_d2462a65b1f8cdb9f58ea680158ea910 = L.marker(
+                [1.3143, 103.8778],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3186fb69715145dbf5fd123fb3e706ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07327b0ac967cf3f43c53d60e86429cf = $(`<div id="html_07327b0ac967cf3f43c53d60e86429cf" style="width: 100.0%; height: 100.0%;">ibis budget Singapore Gold</div>`)[0];
+                popup_3186fb69715145dbf5fd123fb3e706ee.setContent(html_07327b0ac967cf3f43c53d60e86429cf);
+            
+        
+
+        marker_d2462a65b1f8cdb9f58ea680158ea910.bindPopup(popup_3186fb69715145dbf5fd123fb3e706ee)
+        ;
+
+        
+    
+    
+            var marker_bfb3c1ba813a58af06397c41d0a7c300 = L.marker(
+                [1.3139, 103.8286],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_5feefee818ebeb45e967dec1ed8d9aa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25583e15276cd4caf4ca0ee3fcb4aa62 = $(`<div id="html_25583e15276cd4caf4ca0ee3fcb4aa62" style="width: 100.0%; height: 100.0%;">Novotel Singapore On Stevens</div>`)[0];
+                popup_5feefee818ebeb45e967dec1ed8d9aa3.setContent(html_25583e15276cd4caf4ca0ee3fcb4aa62);
+            
+        
+
+        marker_bfb3c1ba813a58af06397c41d0a7c300.bindPopup(popup_5feefee818ebeb45e967dec1ed8d9aa3)
+        ;
+
+        
+    
+    
+            var marker_57490b260709b6d4f86a20d94ca6fb40 = L.marker(
+                [1.3117, 103.855],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e3eafaa9d5e6281b06825b52bdff329c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d8c56f76616cabd48ef62ed7e9610e6 = $(`<div id="html_3d8c56f76616cabd48ef62ed7e9610e6" style="width: 100.0%; height: 100.0%;">Owen House by Habyt</div>`)[0];
+                popup_e3eafaa9d5e6281b06825b52bdff329c.setContent(html_3d8c56f76616cabd48ef62ed7e9610e6);
+            
+        
+
+        marker_57490b260709b6d4f86a20d94ca6fb40.bindPopup(popup_e3eafaa9d5e6281b06825b52bdff329c)
+        ;
+
+        
+    
+    
+            var marker_0dc92b38ecb5a4a7a5ad0c434fb644e0 = L.marker(
+                [1.283, 103.8487],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_45cf7f2e9e58f635d61291df3c1027a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2af2db81b5900a7245d3c9e065996d4 = $(`<div id="html_a2af2db81b5900a7245d3c9e065996d4" style="width: 100.0%; height: 100.0%;">AMOY by Far East Hospitality</div>`)[0];
+                popup_45cf7f2e9e58f635d61291df3c1027a2.setContent(html_a2af2db81b5900a7245d3c9e065996d4);
+            
+        
+
+        marker_0dc92b38ecb5a4a7a5ad0c434fb644e0.bindPopup(popup_45cf7f2e9e58f635d61291df3c1027a2)
+        ;
+
+        
+    
+    
+            var marker_fd70210c45c03809eaa206962844ce24 = L.marker(
+                [1.3068, 103.9059],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a0ea8e4ef8631460bd755f8e2925de81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7126f1f0eabaf5c58176bd7ceb10a83 = $(`<div id="html_c7126f1f0eabaf5c58176bd7ceb10a83" style="width: 100.0%; height: 100.0%;">Santa Grand Hotel East Coast a NuVe Group Collection</div>`)[0];
+                popup_a0ea8e4ef8631460bd755f8e2925de81.setContent(html_c7126f1f0eabaf5c58176bd7ceb10a83);
+            
+        
+
+        marker_fd70210c45c03809eaa206962844ce24.bindPopup(popup_a0ea8e4ef8631460bd755f8e2925de81)
+        ;
+
+        
+    
+    
+            var marker_b08821d8f4df359febcbf7765c2836cc = L.marker(
+                [1.292, 103.8412],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6f1b94107fb1483a36574c977af4b4dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dabc2b8af6a1f74c82133d19211c7be5 = $(`<div id="html_dabc2b8af6a1f74c82133d19211c7be5" style="width: 100.0%; height: 100.0%;">Fraser Place Robertson Walk Singapore</div>`)[0];
+                popup_6f1b94107fb1483a36574c977af4b4dd.setContent(html_dabc2b8af6a1f74c82133d19211c7be5);
+            
+        
+
+        marker_b08821d8f4df359febcbf7765c2836cc.bindPopup(popup_6f1b94107fb1483a36574c977af4b4dd)
+        ;
+
+        
+    
+    
+            var marker_46e4e87c6a95d7987ca5ad854829c53a = L.marker(
+                [1.2894, 103.8366],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b13c9c8a666937f5969ed34a5e370a35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d67fe10e1ad8947e2a0e19d89a357c4d = $(`<div id="html_d67fe10e1ad8947e2a0e19d89a357c4d" style="width: 100.0%; height: 100.0%;">Four Points by Sheraton Singapore, Riverview</div>`)[0];
+                popup_b13c9c8a666937f5969ed34a5e370a35.setContent(html_d67fe10e1ad8947e2a0e19d89a357c4d);
+            
+        
+
+        marker_46e4e87c6a95d7987ca5ad854829c53a.bindPopup(popup_b13c9c8a666937f5969ed34a5e370a35)
+        ;
+
+        
+    
+    
+            var marker_eaff08ddb154772fbb0e9dc1b86c16b6 = L.marker(
+                [1.3037, 103.8596],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f5ee642fde43af51ee0c6355b05e5293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c67d7982e1f45f32099c15377b3ce525 = $(`<div id="html_c67d7982e1f45f32099c15377b3ce525" style="width: 100.0%; height: 100.0%;">Hotel Clover 769 North Bridge Road</div>`)[0];
+                popup_f5ee642fde43af51ee0c6355b05e5293.setContent(html_c67d7982e1f45f32099c15377b3ce525);
+            
+        
+
+        marker_eaff08ddb154772fbb0e9dc1b86c16b6.bindPopup(popup_f5ee642fde43af51ee0c6355b05e5293)
+        ;
+
+        
+    
+    
+            var marker_a92bf5d079b3e0f565ee7171acf4949c = L.marker(
+                [1.2966, 103.8554],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_555b40c6b707444ee4339817db5a9c79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a68f3933c1bcf63962cc250ce7735092 = $(`<div id="html_a68f3933c1bcf63962cc250ce7735092" style="width: 100.0%; height: 100.0%;">Hotel NuVe Heritage</div>`)[0];
+                popup_555b40c6b707444ee4339817db5a9c79.setContent(html_a68f3933c1bcf63962cc250ce7735092);
+            
+        
+
+        marker_a92bf5d079b3e0f565ee7171acf4949c.bindPopup(popup_555b40c6b707444ee4339817db5a9c79)
+        ;
+
+        
+    
+    
+            var marker_4224e3a584518d621be6b769b5f03ff1 = L.marker(
+                [1.2828, 103.8436],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b076fb22424f07392100a28a86bde543 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5db91691c4c868faa217ed25e5d7d8e = $(`<div id="html_d5db91691c4c868faa217ed25e5d7d8e" style="width: 100.0%; height: 100.0%;">Jyu Capsule Hotel</div>`)[0];
+                popup_b076fb22424f07392100a28a86bde543.setContent(html_d5db91691c4c868faa217ed25e5d7d8e);
+            
+        
+
+        marker_4224e3a584518d621be6b769b5f03ff1.bindPopup(popup_b076fb22424f07392100a28a86bde543)
+        ;
+
+        
+    
+    
+            var marker_8c704a6f438fb06341f976efcbd54d45 = L.marker(
+                [1.3014, 103.8592],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f41807bc593c11ba05c1e551695c6557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_898131ca422310b180453cf07dac5e10 = $(`<div id="html_898131ca422310b180453cf07dac5e10" style="width: 100.0%; height: 100.0%;">Heritage Collection on Arab - A Digital Hotel</div>`)[0];
+                popup_f41807bc593c11ba05c1e551695c6557.setContent(html_898131ca422310b180453cf07dac5e10);
+            
+        
+
+        marker_8c704a6f438fb06341f976efcbd54d45.bindPopup(popup_f41807bc593c11ba05c1e551695c6557)
+        ;
+
+        
+    
+    
+            var marker_707b3d632c5f943969bfd6b39d438138 = L.marker(
+                [1.2947, 103.8555],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ec043708a5900295717761f61085a945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4a763305f56964fd21b5fedd149b734 = $(`<div id="html_c4a763305f56964fd21b5fedd149b734" style="width: 100.0%; height: 100.0%;">JW Marriott Hotel Singapore South Beach</div>`)[0];
+                popup_ec043708a5900295717761f61085a945.setContent(html_c4a763305f56964fd21b5fedd149b734);
+            
+        
+
+        marker_707b3d632c5f943969bfd6b39d438138.bindPopup(popup_ec043708a5900295717761f61085a945)
+        ;
+
+        
+    
+    
+            var marker_b9904f6b6455e5292532219d56dfd5d3 = L.marker(
+                [1.308, 103.8265],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_4c9a08c50e0de4a4eabf2490fc1b6411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ac2e78df80df571df442096a533b0fb = $(`<div id="html_5ac2e78df80df571df442096a533b0fb" style="width: 100.0%; height: 100.0%;">Treetops Executive Residences</div>`)[0];
+                popup_4c9a08c50e0de4a4eabf2490fc1b6411.setContent(html_5ac2e78df80df571df442096a533b0fb);
+            
+        
+
+        marker_b9904f6b6455e5292532219d56dfd5d3.bindPopup(popup_4c9a08c50e0de4a4eabf2490fc1b6411)
+        ;
+
+        
+    
+    
+            var marker_dba085cac9ad470f96b1f63797f54e94 = L.marker(
+                [1.3358, 103.9631],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e90a75d42969b98449a9e0b4c05333dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a15314d20b1f0a9830ac67c352d3c30 = $(`<div id="html_6a15314d20b1f0a9830ac67c352d3c30" style="width: 100.0%; height: 100.0%;">Park Avenue Changi</div>`)[0];
+                popup_e90a75d42969b98449a9e0b4c05333dd.setContent(html_6a15314d20b1f0a9830ac67c352d3c30);
+            
+        
+
+        marker_dba085cac9ad470f96b1f63797f54e94.bindPopup(popup_e90a75d42969b98449a9e0b4c05333dd)
+        ;
+
+        
+    
+    
+            var marker_722c02b18ced1e7aca1b5ba462d70346 = L.marker(
+                [1.2828, 103.8457],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_323c0945e648b38a83901bfcc8c08f7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8376f24a284263ea8bbbb7603c2224f = $(`<div id="html_f8376f24a284263ea8bbbb7603c2224f" style="width: 100.0%; height: 100.0%;">Heritage Collection on Chinatown - A Digital Hotel</div>`)[0];
+                popup_323c0945e648b38a83901bfcc8c08f7a.setContent(html_f8376f24a284263ea8bbbb7603c2224f);
+            
+        
+
+        marker_722c02b18ced1e7aca1b5ba462d70346.bindPopup(popup_323c0945e648b38a83901bfcc8c08f7a)
+        ;
+
+        
+    
+    
+            var marker_4cb6743737fa300c0f709d3217c13722 = L.marker(
+                [1.29, 103.8386],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_763b636abd449317bb8f82695644ac68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d51fb5d47bb98458d68796e9141f0ce3 = $(`<div id="html_d51fb5d47bb98458d68796e9141f0ce3" style="width: 100.0%; height: 100.0%;">InterContinental Singapore Robertson Quay, an IHG Hotel</div>`)[0];
+                popup_763b636abd449317bb8f82695644ac68.setContent(html_d51fb5d47bb98458d68796e9141f0ce3);
+            
+        
+
+        marker_4cb6743737fa300c0f709d3217c13722.bindPopup(popup_763b636abd449317bb8f82695644ac68)
+        ;
+
+        
+    
+    
+            var marker_20a9beaf664b8e498ac09ded91a1723c = L.marker(
+                [1.3134, 103.8258],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_7d22e09a70187ee9b44f4ec799115ecc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d53dc666a8e718d1d49637cad15f7f1 = $(`<div id="html_2d53dc666a8e718d1d49637cad15f7f1" style="width: 100.0%; height: 100.0%;">Le Grove Serviced Residences</div>`)[0];
+                popup_7d22e09a70187ee9b44f4ec799115ecc.setContent(html_2d53dc666a8e718d1d49637cad15f7f1);
+            
+        
+
+        marker_20a9beaf664b8e498ac09ded91a1723c.bindPopup(popup_7d22e09a70187ee9b44f4ec799115ecc)
+        ;
+
+        
+    
+    
+            var marker_f253ec26cce0cce5a6828932262492bf = L.marker(
+                [1.299, 103.7876],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_68995d29aa65a8303db4a7061e666ed8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98f485f140f80a707c4cbbc9d03d4a0 = $(`<div id="html_b98f485f140f80a707c4cbbc9d03d4a0" style="width: 100.0%; height: 100.0%;">Citadines Fusionopolis Singapore</div>`)[0];
+                popup_68995d29aa65a8303db4a7061e666ed8.setContent(html_b98f485f140f80a707c4cbbc9d03d4a0);
+            
+        
+
+        marker_f253ec26cce0cce5a6828932262492bf.bindPopup(popup_68995d29aa65a8303db4a7061e666ed8)
+        ;
+
+        
+    
+    
+            var marker_2ec21603f24bc09b887ef1f5e81cfc18 = L.marker(
+                [1.2703, 103.8134],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_82cbeb863949cf99612fcd694bfb6ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dec5b9c6388d367324ff892b3530eb8c = $(`<div id="html_dec5b9c6388d367324ff892b3530eb8c" style="width: 100.0%; height: 100.0%;">Hotel Faber Park Singapore - Handwritten Collection</div>`)[0];
+                popup_82cbeb863949cf99612fcd694bfb6ce0.setContent(html_dec5b9c6388d367324ff892b3530eb8c);
+            
+        
+
+        marker_2ec21603f24bc09b887ef1f5e81cfc18.bindPopup(popup_82cbeb863949cf99612fcd694bfb6ce0)
+        ;
+
+        
+    
+    
+            var marker_774953386da749846344515243c9f0f5 = L.marker(
+                [1.312, 103.8608],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c30cd3bd74cad68140b71704a0a2cc26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_389d033a2466d0b21d8f0568c1dec671 = $(`<div id="html_389d033a2466d0b21d8f0568c1dec671" style="width: 100.0%; height: 100.0%;">Dream Lodge</div>`)[0];
+                popup_c30cd3bd74cad68140b71704a0a2cc26.setContent(html_389d033a2466d0b21d8f0568c1dec671);
+            
+        
+
+        marker_774953386da749846344515243c9f0f5.bindPopup(popup_c30cd3bd74cad68140b71704a0a2cc26)
+        ;
+
+        
+    
+    
+            var marker_d6eadaa78b614e2b74fe14242cd51acb = L.marker(
+                [1.2996, 103.8531],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_d25d0c79585c83e0b36054ca2d8a955f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dce2d78520558e2417a39e9b8623f232 = $(`<div id="html_dce2d78520558e2417a39e9b8623f232" style="width: 100.0%; height: 100.0%;">Mercure Singapore Bugis</div>`)[0];
+                popup_d25d0c79585c83e0b36054ca2d8a955f.setContent(html_dce2d78520558e2417a39e9b8623f232);
+            
+        
+
+        marker_d6eadaa78b614e2b74fe14242cd51acb.bindPopup(popup_d25d0c79585c83e0b36054ca2d8a955f)
+        ;
+
+        
+    
+    
+            var marker_605e62cb7fb25447178cc85f4226e5cb = L.marker(
+                [1.2931, 103.8271],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_054edfa06582cca8877dd8c6b20113e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c517523ea1c5627c65d9db56ee659e7 = $(`<div id="html_9c517523ea1c5627c65d9db56ee659e7" style="width: 100.0%; height: 100.0%;">Fraser Suites Singapore</div>`)[0];
+                popup_054edfa06582cca8877dd8c6b20113e7.setContent(html_9c517523ea1c5627c65d9db56ee659e7);
+            
+        
+
+        marker_605e62cb7fb25447178cc85f4226e5cb.bindPopup(popup_054edfa06582cca8877dd8c6b20113e7)
+        ;
+
+        
+    
+    
+            var marker_ac9acbadd0435b48e6527961dc719a9b = L.marker(
+                [1.312, 103.8365],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_183e2a79d16e01cdc20b1dd13ccfc81a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5879d59a2d747a160ab57bca8dac1f0f = $(`<div id="html_5879d59a2d747a160ab57bca8dac1f0f" style="width: 100.0%; height: 100.0%;">Sheraton Towers Singapore Hotel</div>`)[0];
+                popup_183e2a79d16e01cdc20b1dd13ccfc81a.setContent(html_5879d59a2d747a160ab57bca8dac1f0f);
+            
+        
+
+        marker_ac9acbadd0435b48e6527961dc719a9b.bindPopup(popup_183e2a79d16e01cdc20b1dd13ccfc81a)
+        ;
+
+        
+    
+    
+            var marker_c9b7a4d067250be4266b5d0968b92f80 = L.marker(
+                [1.2808, 103.8458],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_4a47ca38664d985e715bb30d7f0840f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e424338e5b05b4916dffb56f09c8d589 = $(`<div id="html_e424338e5b05b4916dffb56f09c8d589" style="width: 100.0%; height: 100.0%;">Ann Siang House, The Unlimited Collection managed by The Ascott Limited</div>`)[0];
+                popup_4a47ca38664d985e715bb30d7f0840f4.setContent(html_e424338e5b05b4916dffb56f09c8d589);
+            
+        
+
+        marker_c9b7a4d067250be4266b5d0968b92f80.bindPopup(popup_4a47ca38664d985e715bb30d7f0840f4)
+        ;
+
+        
+    
+    
+            var marker_0a63cc64339dd5072ef8cc1adcea7883 = L.marker(
+                [1.2881, 103.8485],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c2976145c0ebd855450a4e6c70e106ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4563cd167702542c5b7a225137a138c4 = $(`<div id="html_4563cd167702542c5b7a225137a138c4" style="width: 100.0%; height: 100.0%;">Heritage Collection on Clarke Quay - A Digital Hotel</div>`)[0];
+                popup_c2976145c0ebd855450a4e6c70e106ff.setContent(html_4563cd167702542c5b7a225137a138c4);
+            
+        
+
+        marker_0a63cc64339dd5072ef8cc1adcea7883.bindPopup(popup_c2976145c0ebd855450a4e6c70e106ff)
+        ;
+
+        
+    
+    
+            var marker_45a71eaed8d372215da2737e321a3357 = L.marker(
+                [1.2835, 103.8536],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6572c0fbbd0a1c19c83783434920ef5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ce6f1c923562c220035cb5eb6d6b9db = $(`<div id="html_6ce6f1c923562c220035cb5eb6d6b9db" style="width: 100.0%; height: 100.0%;">The Fullerton Bay Hotel Singapore</div>`)[0];
+                popup_6572c0fbbd0a1c19c83783434920ef5a.setContent(html_6ce6f1c923562c220035cb5eb6d6b9db);
+            
+        
+
+        marker_45a71eaed8d372215da2737e321a3357.bindPopup(popup_6572c0fbbd0a1c19c83783434920ef5a)
+        ;
+
+        
+    
+    
+            var marker_90be2dc4da40197c41f6c1fd8a41c2b8 = L.marker(
+                [1.2528, 103.8208],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2501fdcfe9c72753727eff0f9429dfcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f779f2e0ec9033807cd56ca4b39a4b9 = $(`<div id="html_9f779f2e0ec9033807cd56ca4b39a4b9" style="width: 100.0%; height: 100.0%;">The Barracks Hotel Sentosa by Far East Hospitality</div>`)[0];
+                popup_2501fdcfe9c72753727eff0f9429dfcc.setContent(html_9f779f2e0ec9033807cd56ca4b39a4b9);
+            
+        
+
+        marker_90be2dc4da40197c41f6c1fd8a41c2b8.bindPopup(popup_2501fdcfe9c72753727eff0f9429dfcc)
+        ;
+
+        
+    
+    
+            var marker_33ba5c9c22da9f9fbed46e3c2e310db8 = L.marker(
+                [1.307, 103.8362],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_50e037c85af9497e54e2f3b7774023cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c8676a4172825aad4222ab27eee160f = $(`<div id="html_0c8676a4172825aad4222ab27eee160f" style="width: 100.0%; height: 100.0%;">Oakwood Studios Singapore</div>`)[0];
+                popup_50e037c85af9497e54e2f3b7774023cf.setContent(html_0c8676a4172825aad4222ab27eee160f);
+            
+        
+
+        marker_33ba5c9c22da9f9fbed46e3c2e310db8.bindPopup(popup_50e037c85af9497e54e2f3b7774023cf)
+        ;
+
+        
+    
+    
+            var marker_0854a44ac87ed5717620db62de0a17d6 = L.marker(
+                [1.2835, 103.8439],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c86b967610777018687c76638d2c8a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5094609e1a916f2932f6169f7576e6e0 = $(`<div id="html_5094609e1a916f2932f6169f7576e6e0" style="width: 100.0%; height: 100.0%;">Heritage Collection on Pagoda - A Digital Hotel</div>`)[0];
+                popup_c86b967610777018687c76638d2c8a51.setContent(html_5094609e1a916f2932f6169f7576e6e0);
+            
+        
+
+        marker_0854a44ac87ed5717620db62de0a17d6.bindPopup(popup_c86b967610777018687c76638d2c8a51)
+        ;
+
+        
+    
+    
+            var marker_e13bd07928ef6ffbef198a6d544840c6 = L.marker(
+                [1.2769, 103.8451],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_728bf0ff2f6923c6837da87289e012f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc4be6f4fbe7877ceea99e10421105e0 = $(`<div id="html_dc4be6f4fbe7877ceea99e10421105e0" style="width: 100.0%; height: 100.0%;">Sofitel Singapore City Centre</div>`)[0];
+                popup_728bf0ff2f6923c6837da87289e012f9.setContent(html_dc4be6f4fbe7877ceea99e10421105e0);
+            
+        
+
+        marker_e13bd07928ef6ffbef198a6d544840c6.bindPopup(popup_728bf0ff2f6923c6837da87289e012f9)
+        ;
+
+        
+    
+    
+            var marker_b767fe376ed53e4846c4e671261f2192 = L.marker(
+                [1.305, 103.833],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_9c0e9e4e46562227cb65acf02596c2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b2834603a057578cbe7cdeec22b414d = $(`<div id="html_1b2834603a057578cbe7cdeec22b414d" style="width: 100.0%; height: 100.0%;">Singapore Marriott Tang Plaza Hotel</div>`)[0];
+                popup_9c0e9e4e46562227cb65acf02596c2c2.setContent(html_1b2834603a057578cbe7cdeec22b414d);
+            
+        
+
+        marker_b767fe376ed53e4846c4e671261f2192.bindPopup(popup_9c0e9e4e46562227cb65acf02596c2c2)
+        ;
+
+        
+    
+    
+            var marker_ae15c13413c7471e5a1c447d04bd1362 = L.marker(
+                [1.3096, 103.8265],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_5b6811b3caa1c2f447602aaa273c5da3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_045affc279aae96b49ce9bf58e207a17 = $(`<div id="html_045affc279aae96b49ce9bf58e207a17" style="width: 100.0%; height: 100.0%;">Shangri-La Apartments</div>`)[0];
+                popup_5b6811b3caa1c2f447602aaa273c5da3.setContent(html_045affc279aae96b49ce9bf58e207a17);
+            
+        
+
+        marker_ae15c13413c7471e5a1c447d04bd1362.bindPopup(popup_5b6811b3caa1c2f447602aaa273c5da3)
+        ;
+
+        
+    
+    
+            var marker_f168c839036a9403dd4716c5e8f4e869 = L.marker(
+                [1.305, 103.7877],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_87eac5ec975d15b814f92e7ec183e1bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b363cdf5ef2608f47cab3fad444a1bb0 = $(`<div id="html_b363cdf5ef2608f47cab3fad444a1bb0" style="width: 100.0%; height: 100.0%;">Citadines Connect Rochester Singapore</div>`)[0];
+                popup_87eac5ec975d15b814f92e7ec183e1bd.setContent(html_b363cdf5ef2608f47cab3fad444a1bb0);
+            
+        
+
+        marker_f168c839036a9403dd4716c5e8f4e869.bindPopup(popup_87eac5ec975d15b814f92e7ec183e1bd)
+        ;
+
+        
+    
+    
+            var marker_7e8a1930ad6c104436d3b894d62976c6 = L.marker(
+                [1.3017, 103.83],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c6e2cff06c5db2b41f2bf4b74b529925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b88ae86cb16669d398471a4154fcbb = $(`<div id="html_03b88ae86cb16669d398471a4154fcbb" style="width: 100.0%; height: 100.0%;">Fraser Residence Orchard Singapore</div>`)[0];
+                popup_c6e2cff06c5db2b41f2bf4b74b529925.setContent(html_03b88ae86cb16669d398471a4154fcbb);
+            
+        
+
+        marker_7e8a1930ad6c104436d3b894d62976c6.bindPopup(popup_c6e2cff06c5db2b41f2bf4b74b529925)
+        ;
+
+        
+    
+    
+            var marker_c3af76c3a78c9e850f1fda2d9f23ea12 = L.marker(
+                [1.3031, 103.8362],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_cf349ed5d9685cc5e45be526b11169fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_728603b8de1110e043a8a4b7bd1f1ed2 = $(`<div id="html_728603b8de1110e043a8a4b7bd1f1ed2" style="width: 100.0%; height: 100.0%;">Pullman Singapore Orchard</div>`)[0];
+                popup_cf349ed5d9685cc5e45be526b11169fb.setContent(html_728603b8de1110e043a8a4b7bd1f1ed2);
+            
+        
+
+        marker_c3af76c3a78c9e850f1fda2d9f23ea12.bindPopup(popup_cf349ed5d9685cc5e45be526b11169fb)
+        ;
+
+        
+    
+    
+            var marker_d0fae0445b3a83311fd1d6979b9bad9e = L.marker(
+                [1.2959, 103.8551],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_56ff75a181ecbc864e993527ecf6aaf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62521141f1cbcbc0743c2d920ab63b23 = $(`<div id="html_62521141f1cbcbc0743c2d920ab63b23" style="width: 100.0%; height: 100.0%;">Heritage Collection on Seah - A Digital Hotel</div>`)[0];
+                popup_56ff75a181ecbc864e993527ecf6aaf1.setContent(html_62521141f1cbcbc0743c2d920ab63b23);
+            
+        
+
+        marker_d0fae0445b3a83311fd1d6979b9bad9e.bindPopup(popup_56ff75a181ecbc864e993527ecf6aaf1)
+        ;
+
+        
+    
+    
+            var marker_5eaed8ddf76260b3159aad0c903df7ba = L.marker(
+                [1.4121, 103.845],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_585c5dec149fe603400e63c475da131d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bea4d18fadf571124f25b4b4fa824793 = $(`<div id="html_bea4d18fadf571124f25b4b4fa824793" style="width: 100.0%; height: 100.0%;">Orchid Country Club</div>`)[0];
+                popup_585c5dec149fe603400e63c475da131d.setContent(html_bea4d18fadf571124f25b4b4fa824793);
+            
+        
+
+        marker_5eaed8ddf76260b3159aad0c903df7ba.bindPopup(popup_585c5dec149fe603400e63c475da131d)
+        ;
+
+        
+    
+    
+            var marker_97921b4c38b9f52a349f06bfeec656e5 = L.marker(
+                [1.3405, 103.9547],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_164e4385590a8566ad4e357ab21ca34b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64eed2b1e8007d3e4ba1131867fa3ba3 = $(`<div id="html_64eed2b1e8007d3e4ba1131867fa3ba3" style="width: 100.0%; height: 100.0%;">RadZone Hostel</div>`)[0];
+                popup_164e4385590a8566ad4e357ab21ca34b.setContent(html_64eed2b1e8007d3e4ba1131867fa3ba3);
+            
+        
+
+        marker_97921b4c38b9f52a349f06bfeec656e5.bindPopup(popup_164e4385590a8566ad4e357ab21ca34b)
+        ;
+
+        
+    
+    
+            var marker_11363401ab9a225d78ee301be8a638a8 = L.marker(
+                [1.2553, 103.8203],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_02fb391a391cf7c8f5f69a7a366295a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ae85414fba0be922daaee79d464c3c9 = $(`<div id="html_1ae85414fba0be922daaee79d464c3c9" style="width: 100.0%; height: 100.0%;">Resorts World Sentosa - Equarius Villas</div>`)[0];
+                popup_02fb391a391cf7c8f5f69a7a366295a3.setContent(html_1ae85414fba0be922daaee79d464c3c9);
+            
+        
+
+        marker_11363401ab9a225d78ee301be8a638a8.bindPopup(popup_02fb391a391cf7c8f5f69a7a366295a3)
+        ;
+
+        
+    
+    
+            var marker_d85c61b46f97181842b1adbdb92b8783 = L.marker(
+                [1.2949, 103.8543],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e413e0c55c01928fa40c1e7ddae9f203 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_520cf39defe87eb24e5bbc6c239b3d0a = $(`<div id="html_520cf39defe87eb24e5bbc6c239b3d0a" style="width: 100.0%; height: 100.0%;">Raffles Singapore</div>`)[0];
+                popup_e413e0c55c01928fa40c1e7ddae9f203.setContent(html_520cf39defe87eb24e5bbc6c239b3d0a);
+            
+        
+
+        marker_d85c61b46f97181842b1adbdb92b8783.bindPopup(popup_e413e0c55c01928fa40c1e7ddae9f203)
+        ;
+
+        
+    
+    
+            var marker_717b9500c59de9e710b5f2bdbedc71dd = L.marker(
+                [1.2495, 103.8244],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f3f0d0da09421f2d180c6f71dda85e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7df3c4de012000fbaa365096f2af076a = $(`<div id="html_7df3c4de012000fbaa365096f2af076a" style="width: 100.0%; height: 100.0%;">Capella Singapore</div>`)[0];
+                popup_f3f0d0da09421f2d180c6f71dda85e63.setContent(html_7df3c4de012000fbaa365096f2af076a);
+            
+        
+
+        marker_717b9500c59de9e710b5f2bdbedc71dd.bindPopup(popup_f3f0d0da09421f2d180c6f71dda85e63)
+        ;
+
+        
+    
+    
+            var marker_62a6424de8485137b467649eb96e0420 = L.marker(
+                [1.32, 103.8448],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_17bfe30d2d8a2717b8dc4b0f1f15fdae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e23bcda1094dddb79cd8342143a14f9e = $(`<div id="html_e23bcda1094dddb79cd8342143a14f9e" style="width: 100.0%; height: 100.0%;">Oasia Hotel Novena, Singapore by Far East Hospitality</div>`)[0];
+                popup_17bfe30d2d8a2717b8dc4b0f1f15fdae.setContent(html_e23bcda1094dddb79cd8342143a14f9e);
+            
+        
+
+        marker_62a6424de8485137b467649eb96e0420.bindPopup(popup_17bfe30d2d8a2717b8dc4b0f1f15fdae)
+        ;
+
+        
+    
+    
+            var marker_ae917a48bebaddef88a331f84d3cbebc = L.marker(
+                [1.292, 103.8427],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_23259746129db42a0b76fce4703edeb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de89e5a9aad60bee90d26c748be4c626 = $(`<div id="html_de89e5a9aad60bee90d26c748be4c626" style="width: 100.0%; height: 100.0%;">Park Avenue Clemenceau</div>`)[0];
+                popup_23259746129db42a0b76fce4703edeb7.setContent(html_de89e5a9aad60bee90d26c748be4c626);
+            
+        
+
+        marker_ae917a48bebaddef88a331f84d3cbebc.bindPopup(popup_23259746129db42a0b76fce4703edeb7)
+        ;
+
+        
+    
+    
+            var marker_47102b642ffec737bb3496beea80ee47 = L.marker(
+                [1.3157, 103.8588],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a223a3ae7784118214e47ca09647f6e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9cd418e342f37eac08fe90dbe0ba0e0 = $(`<div id="html_c9cd418e342f37eac08fe90dbe0ba0e0" style="width: 100.0%; height: 100.0%;">The Hive Singapore Hostel</div>`)[0];
+                popup_a223a3ae7784118214e47ca09647f6e2.setContent(html_c9cd418e342f37eac08fe90dbe0ba0e0);
+            
+        
+
+        marker_47102b642ffec737bb3496beea80ee47.bindPopup(popup_a223a3ae7784118214e47ca09647f6e2)
+        ;
+
+        
+    
+    
+            var marker_e5879fc4984f5faa3e947b521f9d2e6a = L.marker(
+                [1.2783, 103.8509],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_9a899317824579652e5f1d1da041658a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3237318f2706365f37a5bc55e576bf01 = $(`<div id="html_3237318f2706365f37a5bc55e576bf01" style="width: 100.0%; height: 100.0%;">The Westin Singapore</div>`)[0];
+                popup_9a899317824579652e5f1d1da041658a.setContent(html_3237318f2706365f37a5bc55e576bf01);
+            
+        
+
+        marker_e5879fc4984f5faa3e947b521f9d2e6a.bindPopup(popup_9a899317824579652e5f1d1da041658a)
+        ;
+
+        
+    
+    
+            var marker_148fabda761765a8c00c41680a3bc351 = L.marker(
+                [1.2927, 103.7625],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_c83a844da1173075bf6291b68e231d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a39e2e643ab04d26f5772789f67a9047 = $(`<div id="html_a39e2e643ab04d26f5772789f67a9047" style="width: 100.0%; height: 100.0%;">Republic of Singapore Yacht Club</div>`)[0];
+                popup_c83a844da1173075bf6291b68e231d4a.setContent(html_a39e2e643ab04d26f5772789f67a9047);
+            
+        
+
+        marker_148fabda761765a8c00c41680a3bc351.bindPopup(popup_c83a844da1173075bf6291b68e231d4a)
+        ;
+
+        
+    
+    
+            var marker_75013f01bb4d9e61690cf578af98f819 = L.marker(
+                [1.3248, 103.8464],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_d65c80691f28e0e509f4487880fb319c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cccadae78efa3d030795ec324db9209 = $(`<div id="html_0cccadae78efa3d030795ec324db9209" style="width: 100.0%; height: 100.0%;">Momentus Serviced Residences Novena</div>`)[0];
+                popup_d65c80691f28e0e509f4487880fb319c.setContent(html_0cccadae78efa3d030795ec324db9209);
+            
+        
+
+        marker_75013f01bb4d9e61690cf578af98f819.bindPopup(popup_d65c80691f28e0e509f4487880fb319c)
+        ;
+
+        
+    
+    
+            var marker_de096f4d21fbfadff4b5671460fb102d = L.marker(
+                [1.3206, 103.8432],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_aac8d87863a55d390af3452262f8e4e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d1ef68d1cbf6b029838b1549bbc76f7 = $(`<div id="html_9d1ef68d1cbf6b029838b1549bbc76f7" style="width: 100.0%; height: 100.0%;">Courtyard by Marriott Singapore Novena</div>`)[0];
+                popup_aac8d87863a55d390af3452262f8e4e1.setContent(html_9d1ef68d1cbf6b029838b1549bbc76f7);
+            
+        
+
+        marker_de096f4d21fbfadff4b5671460fb102d.bindPopup(popup_aac8d87863a55d390af3452262f8e4e1)
+        ;
+
+        
+    
+    
+            var marker_ac809cdc8e7adc4e384a3ff77e0c3cf6 = L.marker(
+                [1.3194, 103.8273],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_1c41a1c933ece5899372ba83673d7d51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c51f4812c176ddb5aaf6b3fec274feb = $(`<div id="html_6c51f4812c176ddb5aaf6b3fec274feb" style="width: 100.0%; height: 100.0%;">Alocassia Serviced Apartments</div>`)[0];
+                popup_1c41a1c933ece5899372ba83673d7d51.setContent(html_6c51f4812c176ddb5aaf6b3fec274feb);
+            
+        
+
+        marker_ac809cdc8e7adc4e384a3ff77e0c3cf6.bindPopup(popup_1c41a1c933ece5899372ba83673d7d51)
+        ;
+
+        
+    
+    
+            var marker_8443e0301a79324cdf2a036b99125c1e = L.marker(
+                [1.2922, 103.8404],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_067422a656d9dc39a99a48141d7bf663 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f312123c14298c4dd66bcdbba84191da = $(`<div id="html_f312123c14298c4dd66bcdbba84191da" style="width: 100.0%; height: 100.0%;">Park Avenue Robertson</div>`)[0];
+                popup_067422a656d9dc39a99a48141d7bf663.setContent(html_f312123c14298c4dd66bcdbba84191da);
+            
+        
+
+        marker_8443e0301a79324cdf2a036b99125c1e.bindPopup(popup_067422a656d9dc39a99a48141d7bf663)
+        ;
+
+        
+    
+    
+            var marker_7d0dcfae88b4f1478d54938e98234d43 = L.marker(
+                [1.2967, 103.8559],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_2af14dcc8956bb1e591c1442cd0d9738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac9c7e9ec329a45a2dc09794172bc867 = $(`<div id="html_ac9c7e9ec329a45a2dc09794172bc867" style="width: 100.0%; height: 100.0%;">ST Signature Bugis Middle</div>`)[0];
+                popup_2af14dcc8956bb1e591c1442cd0d9738.setContent(html_ac9c7e9ec329a45a2dc09794172bc867);
+            
+        
+
+        marker_7d0dcfae88b4f1478d54938e98234d43.bindPopup(popup_2af14dcc8956bb1e591c1442cd0d9738)
+        ;
+
+        
+    
+    
+            var marker_70c77d7f780f725befc44e0b610b9839 = L.marker(
+                [1.2751, 103.8413],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f9a7594c31cd09994f309096d4f5dee1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6c807a318f80c0d0e4a3a4c119c7819 = $(`<div id="html_a6c807a318f80c0d0e4a3a4c119c7819" style="width: 100.0%; height: 100.0%;">Cantonment Serviced Apartment</div>`)[0];
+                popup_f9a7594c31cd09994f309096d4f5dee1.setContent(html_a6c807a318f80c0d0e4a3a4c119c7819);
+            
+        
+
+        marker_70c77d7f780f725befc44e0b610b9839.bindPopup(popup_f9a7594c31cd09994f309096d4f5dee1)
+        ;
+
+        
+    
+    
+            var marker_47bc830d3b854206ff17533b2c4a4fe2 = L.marker(
+                [1.298, 103.8527],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_8fc6dd4beadb0271ec81f4f790439de9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62303f0e3addf24c769fcdae30b3e32d = $(`<div id="html_62303f0e3addf24c769fcdae30b3e32d" style="width: 100.0%; height: 100.0%;">Wilby Central Serviced Apartments</div>`)[0];
+                popup_8fc6dd4beadb0271ec81f4f790439de9.setContent(html_62303f0e3addf24c769fcdae30b3e32d);
+            
+        
+
+        marker_47bc830d3b854206ff17533b2c4a4fe2.bindPopup(popup_8fc6dd4beadb0271ec81f4f790439de9)
+        ;
+
+        
+    
+    
+            var marker_7a7e15ddb3cf7d3a87594b6ff8358f5c = L.marker(
+                [1.2553, 103.8203],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_9d5943708922959c0dc497b7c89b8941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e648f404e3ea21472b9a4cf3e830644a = $(`<div id="html_e648f404e3ea21472b9a4cf3e830644a" style="width: 100.0%; height: 100.0%;">Resorts World Sentosa - Hotel Ora</div>`)[0];
+                popup_9d5943708922959c0dc497b7c89b8941.setContent(html_e648f404e3ea21472b9a4cf3e830644a);
+            
+        
+
+        marker_7a7e15ddb3cf7d3a87594b6ff8358f5c.bindPopup(popup_9d5943708922959c0dc497b7c89b8941)
+        ;
+
+        
+    
+    
+            var marker_7d23069f6574f992e553c9e9002e8ff6 = L.marker(
+                [1.3009, 103.8379],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_dfe9cac3706e2059f74b5b5ae4c19382 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d08aecfa048695f0c073261c9fea0820 = $(`<div id="html_d08aecfa048695f0c073261c9fea0820" style="width: 100.0%; height: 100.0%;">Pan Pacific Serviced Suites Orchard, Singapore</div>`)[0];
+                popup_dfe9cac3706e2059f74b5b5ae4c19382.setContent(html_d08aecfa048695f0c073261c9fea0820);
+            
+        
+
+        marker_7d23069f6574f992e553c9e9002e8ff6.bindPopup(popup_dfe9cac3706e2059f74b5b5ae4c19382)
+        ;
+
+        
+    
+    
+            var marker_2c0c5cdb76a2559281310fe33c26c7c0 = L.marker(
+                [1.3017, 103.8609],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e7ddc29d5c625d38abea57bb18c20239 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c4e486d5c8db77f4557981aecd8b154 = $(`<div id="html_0c4e486d5c8db77f4557981aecd8b154" style="width: 100.0%; height: 100.0%;">Dream Chaser Boutique Capsule Hotel</div>`)[0];
+                popup_e7ddc29d5c625d38abea57bb18c20239.setContent(html_0c4e486d5c8db77f4557981aecd8b154);
+            
+        
+
+        marker_2c0c5cdb76a2559281310fe33c26c7c0.bindPopup(popup_e7ddc29d5c625d38abea57bb18c20239)
+        ;
+
+        
+    
+    
+            var marker_79428396ae45a5a7a545b8ebea992456 = L.marker(
+                [1.303, 103.8327],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6c348c93e2fa82faabcd76906ccd3059 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd1ad936bdf15281c780d742c270413 = $(`<div id="html_7cd1ad936bdf15281c780d742c270413" style="width: 100.0%; height: 100.0%;">Orchard Parksuites by Far East Hospitality</div>`)[0];
+                popup_6c348c93e2fa82faabcd76906ccd3059.setContent(html_7cd1ad936bdf15281c780d742c270413);
+            
+        
+
+        marker_79428396ae45a5a7a545b8ebea992456.bindPopup(popup_6c348c93e2fa82faabcd76906ccd3059)
+        ;
+
+        
+    
+    
+            var marker_beaaff0959c3fd8d9c0bbbf054fb5f41 = L.marker(
+                [1.2995, 103.842],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_fedbf7103254e1361232fa47f968f158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09a4961c35255c2d56d66d86b05b71fb = $(`<div id="html_09a4961c35255c2d56d66d86b05b71fb" style="width: 100.0%; height: 100.0%;">Adina Serviced Apartments Singapore Orchard</div>`)[0];
+                popup_fedbf7103254e1361232fa47f968f158.setContent(html_09a4961c35255c2d56d66d86b05b71fb);
+            
+        
+
+        marker_beaaff0959c3fd8d9c0bbbf054fb5f41.bindPopup(popup_fedbf7103254e1361232fa47f968f158)
+        ;
+
+        
+    
+    
+            var marker_af17ef017f0c0cdb93734ccf91b073ca = L.marker(
+                [1.2884, 103.8492],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_572d2d02633f6290bdc6c9994582136d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04c2b9200530924dc27cbd74b5ab30b1 = $(`<div id="html_04c2b9200530924dc27cbd74b5ab30b1" style="width: 100.0%; height: 100.0%;">Heritage Collection on Boat Quay - South Bridge Wing</div>`)[0];
+                popup_572d2d02633f6290bdc6c9994582136d.setContent(html_04c2b9200530924dc27cbd74b5ab30b1);
+            
+        
+
+        marker_af17ef017f0c0cdb93734ccf91b073ca.bindPopup(popup_572d2d02633f6290bdc6c9994582136d)
+        ;
+
+        
+    
+    
+            var marker_2fff1375aa48f65e207f8dd979159f6c = L.marker(
+                [1.281, 103.8416],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_50dafe3bf4460556acfde141ef46d597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e67ffcda60438c98dab73f883d4c3d07 = $(`<div id="html_e67ffcda60438c98dab73f883d4c3d07" style="width: 100.0%; height: 100.0%;">KINN Studios</div>`)[0];
+                popup_50dafe3bf4460556acfde141ef46d597.setContent(html_e67ffcda60438c98dab73f883d4c3d07);
+            
+        
+
+        marker_2fff1375aa48f65e207f8dd979159f6c.bindPopup(popup_50dafe3bf4460556acfde141ef46d597)
+        ;
+
+        
+    
+    
+            var marker_7f76efd832beff31c1528eaaa6a7abea = L.marker(
+                [1.2995, 103.8409],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0e4f0dd70b52053caa398c220303b0ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aae7d35cfa8a9578b3de53cb7c7ebab4 = $(`<div id="html_aae7d35cfa8a9578b3de53cb7c7ebab4" style="width: 100.0%; height: 100.0%;">Lanson Place Winsland, Singapore</div>`)[0];
+                popup_0e4f0dd70b52053caa398c220303b0ed.setContent(html_aae7d35cfa8a9578b3de53cb7c7ebab4);
+            
+        
+
+        marker_7f76efd832beff31c1528eaaa6a7abea.bindPopup(popup_0e4f0dd70b52053caa398c220303b0ed)
+        ;
+
+        
+    
+    
+            var marker_25002340261d2dc567c31236fbd2334b = L.marker(
+                [1.2855, 103.7831],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_db230eb6690fb464b54b735b7eda77d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b365eceb666d408f18c1e9f28469be5 = $(`<div id="html_1b365eceb666d408f18c1e9f28469be5" style="width: 100.0%; height: 100.0%;">Shipping Container Hotel at Haw Par Villa GoogleMap Address 27 Zehnder Road Taxi and cars can only enter via Zehnder Road</div>`)[0];
+                popup_db230eb6690fb464b54b735b7eda77d8.setContent(html_1b365eceb666d408f18c1e9f28469be5);
+            
+        
+
+        marker_25002340261d2dc567c31236fbd2334b.bindPopup(popup_db230eb6690fb464b54b735b7eda77d8)
+        ;
+
+        
+    
+    
+            var marker_5607818e31d5c571e390acd2c597eb10 = L.marker(
+                [1.3105, 103.8557],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_06c93c5180757bc2470b5cef3b548a55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3adf770600806045f0e12a0b61ba1882 = $(`<div id="html_3adf770600806045f0e12a0b61ba1882" style="width: 100.0%; height: 100.0%;">Novotel Singapore on Kitchener</div>`)[0];
+                popup_06c93c5180757bc2470b5cef3b548a55.setContent(html_3adf770600806045f0e12a0b61ba1882);
+            
+        
+
+        marker_5607818e31d5c571e390acd2c597eb10.bindPopup(popup_06c93c5180757bc2470b5cef3b548a55)
+        ;
+
+        
+    
+    
+            var marker_1beb24bc8c5fbe063bb2ed02c6dbd0fe = L.marker(
+                [1.3045, 103.853],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_6f0e57cf4fcb78bbb64e386dc477692b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9387ec8b7e494b0775b19125577d870d = $(`<div id="html_9387ec8b7e494b0775b19125577d870d" style="width: 100.0%; height: 100.0%;">Wink at Perak Road</div>`)[0];
+                popup_6f0e57cf4fcb78bbb64e386dc477692b.setContent(html_9387ec8b7e494b0775b19125577d870d);
+            
+        
+
+        marker_1beb24bc8c5fbe063bb2ed02c6dbd0fe.bindPopup(popup_6f0e57cf4fcb78bbb64e386dc477692b)
+        ;
+
+        
+    
+    
+            var marker_dfbb854ff0045a1b7f4f8d0339e2ba7f = L.marker(
+                [1.3244, 103.8509],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3d51aee61d3ff8b1167c977bac8df309 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_076289624b252d6609fdc0bc3e20fc23 = $(`<div id="html_076289624b252d6609fdc0bc3e20fc23" style="width: 100.0%; height: 100.0%;">The Initial Residence</div>`)[0];
+                popup_3d51aee61d3ff8b1167c977bac8df309.setContent(html_076289624b252d6609fdc0bc3e20fc23);
+            
+        
+
+        marker_dfbb854ff0045a1b7f4f8d0339e2ba7f.bindPopup(popup_3d51aee61d3ff8b1167c977bac8df309)
+        ;
+
+        
+    
+    
+            var marker_685c667fa9176623c266a9c1205d82a3 = L.marker(
+                [1.3009, 103.8552],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f02819c3f4266f1f44989f8b5e7c976f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7f9ee4b42e29dba036bff87864729f7 = $(`<div id="html_b7f9ee4b42e29dba036bff87864729f7" style="width: 100.0%; height: 100.0%;">hovoh homes Bugis Rochor</div>`)[0];
+                popup_f02819c3f4266f1f44989f8b5e7c976f.setContent(html_b7f9ee4b42e29dba036bff87864729f7);
+            
+        
+
+        marker_685c667fa9176623c266a9c1205d82a3.bindPopup(popup_f02819c3f4266f1f44989f8b5e7c976f)
+        ;
+
+        
+    
+    
+            var marker_34f3a4359d7b427e5ea779fb5c75728f = L.marker(
+                [1.2939, 103.8507],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0d7770b7d38bbb531c10f9a9ae8a33d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_690bc9e19128f27fbe3323a4266821d0 = $(`<div id="html_690bc9e19128f27fbe3323a4266821d0" style="width: 100.0%; height: 100.0%;">Pullman Singapore Hill Street</div>`)[0];
+                popup_0d7770b7d38bbb531c10f9a9ae8a33d0.setContent(html_690bc9e19128f27fbe3323a4266821d0);
+            
+        
+
+        marker_34f3a4359d7b427e5ea779fb5c75728f.bindPopup(popup_0d7770b7d38bbb531c10f9a9ae8a33d0)
+        ;
+
+        
+    
+    
+            var marker_a351785ae92930c3c45016eb0d5ace7b = L.marker(
+                [1.2906, 103.8585],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_59f6d9b1548ab230b7a1cca9f7e8e3f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33a0fe04080c999feefbbde0cee38b44 = $(`<div id="html_33a0fe04080c999feefbbde0cee38b44" style="width: 100.0%; height: 100.0%;">Mandarin Oriental, Singapore</div>`)[0];
+                popup_59f6d9b1548ab230b7a1cca9f7e8e3f0.setContent(html_33a0fe04080c999feefbbde0cee38b44);
+            
+        
+
+        marker_a351785ae92930c3c45016eb0d5ace7b.bindPopup(popup_59f6d9b1548ab230b7a1cca9f7e8e3f0)
+        ;
+
+        
+    
+    
+            var marker_bce4e4c362af0c8a1201829e6cc8c63f = L.marker(
+                [1.2787, 103.8443],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_36ce39f53badc27317bc57287f94e9fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba71849d049b73a5fcd6582213114a82 = $(`<div id="html_ba71849d049b73a5fcd6582213114a82" style="width: 100.0%; height: 100.0%;">ST Signature Tanjong Pagar, SHORT OVERNIGHT, 14 hours: 8PM-10AM</div>`)[0];
+                popup_36ce39f53badc27317bc57287f94e9fc.setContent(html_ba71849d049b73a5fcd6582213114a82);
+            
+        
+
+        marker_bce4e4c362af0c8a1201829e6cc8c63f.bindPopup(popup_36ce39f53badc27317bc57287f94e9fc)
+        ;
+
+        
+    
+    
+            var marker_13b2c16304d07c51ed7b6a8f330b6ce6 = L.marker(
+                [1.327, 103.8465],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_59c78dff29af12ca1d8966e159f8f031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca4fead0aff39e107ed9f69c8d7d437d = $(`<div id="html_ca4fead0aff39e107ed9f69c8d7d437d" style="width: 100.0%; height: 100.0%;">Aloft Singapore Novena</div>`)[0];
+                popup_59c78dff29af12ca1d8966e159f8f031.setContent(html_ca4fead0aff39e107ed9f69c8d7d437d);
+            
+        
+
+        marker_13b2c16304d07c51ed7b6a8f330b6ce6.bindPopup(popup_59c78dff29af12ca1d8966e159f8f031)
+        ;
+
+        
+    
+    
+            var marker_b54647f6da5632fcc124e18abf3f2862 = L.marker(
+                [1.2916, 103.8353],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_7442bab4934fea5babb06ac1f09d757b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2356c466fd83935b92f9db46defa0e53 = $(`<div id="html_2356c466fd83935b92f9db46defa0e53" style="width: 100.0%; height: 100.0%;">Fraser Residence River Promenade, Singapore</div>`)[0];
+                popup_7442bab4934fea5babb06ac1f09d757b.setContent(html_2356c466fd83935b92f9db46defa0e53);
+            
+        
+
+        marker_b54647f6da5632fcc124e18abf3f2862.bindPopup(popup_7442bab4934fea5babb06ac1f09d757b)
+        ;
+
+        
+    
+    
+            var marker_9e3317c48c4c1180566f336ee26bc3f1 = L.marker(
+                [1.2829, 103.8649],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_769db9e8ccebce68bf5de6796eb04420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fda0c7c6a895e4e621361d679d079831 = $(`<div id="html_fda0c7c6a895e4e621361d679d079831" style="width: 100.0%; height: 100.0%;">Garden Pod at Gardens by the Bay</div>`)[0];
+                popup_769db9e8ccebce68bf5de6796eb04420.setContent(html_fda0c7c6a895e4e621361d679d079831);
+            
+        
+
+        marker_9e3317c48c4c1180566f336ee26bc3f1.bindPopup(popup_769db9e8ccebce68bf5de6796eb04420)
+        ;
+
+        
+    
+    
+            var marker_9c051bdc22742ddc386c63e39111175a = L.marker(
+                [1.2945, 103.8316],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_5fc25fc63688bd183fca71a41c70bc32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b604a3e5d493397a05b25a89d2782061 = $(`<div id="html_b604a3e5d493397a05b25a89d2782061" style="width: 100.0%; height: 100.0%;">Great World Serviced Apartments</div>`)[0];
+                popup_5fc25fc63688bd183fca71a41c70bc32.setContent(html_b604a3e5d493397a05b25a89d2782061);
+            
+        
+
+        marker_9c051bdc22742ddc386c63e39111175a.bindPopup(popup_5fc25fc63688bd183fca71a41c70bc32)
+        ;
+
+        
+    
+    
+            var marker_29e26338342295fe7571765890a017d0 = L.marker(
+                [1.3058, 103.827],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_593890b23b45225a1fde2779f6b9be3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d4e51834e30ba8429958866eb3d8580 = $(`<div id="html_0d4e51834e30ba8429958866eb3d8580" style="width: 100.0%; height: 100.0%;">Artyzen Singapore</div>`)[0];
+                popup_593890b23b45225a1fde2779f6b9be3a.setContent(html_0d4e51834e30ba8429958866eb3d8580);
+            
+        
+
+        marker_29e26338342295fe7571765890a017d0.bindPopup(popup_593890b23b45225a1fde2779f6b9be3a)
+        ;
+
+        
+    
+    
+            var marker_7b0a682a68ea1ea6a0eb380cd16852ae = L.marker(
+                [1.3047, 103.8249],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_fa79ffb577719b1b5ef774eca742e235 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cd1589b6e4aea8f71207b4b05d2865a = $(`<div id="html_3cd1589b6e4aea8f71207b4b05d2865a" style="width: 100.0%; height: 100.0%;">Conrad Singapore Orchard</div>`)[0];
+                popup_fa79ffb577719b1b5ef774eca742e235.setContent(html_3cd1589b6e4aea8f71207b4b05d2865a);
+            
+        
+
+        marker_7b0a682a68ea1ea6a0eb380cd16852ae.bindPopup(popup_fa79ffb577719b1b5ef774eca742e235)
+        ;
+
+        
+    
+    
+            var marker_75588c4766386ce6071cf2526cc9ff8e = L.marker(
+                [1.2873, 103.8485],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_383498ac85000ac16a22b6ec73d24a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5413c2f1f6c22656f54ff9acb84631af = $(`<div id="html_5413c2f1f6c22656f54ff9acb84631af" style="width: 100.0%; height: 100.0%;">Wanderloft Capsule Hostel</div>`)[0];
+                popup_383498ac85000ac16a22b6ec73d24a82.setContent(html_5413c2f1f6c22656f54ff9acb84631af);
+            
+        
+
+        marker_75588c4766386ce6071cf2526cc9ff8e.bindPopup(popup_383498ac85000ac16a22b6ec73d24a82)
+        ;
+
+        
+    
+    
+            var marker_e7646b72dfb046ab020a44fc22f508bd = L.marker(
+                [1.3063, 103.8524],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_d04fbc67ff34e50b396da150650c5998 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d6b7bd26e70fb553e43f89ab262fab2 = $(`<div id="html_7d6b7bd26e70fb553e43f89ab262fab2" style="width: 100.0%; height: 100.0%;">7 Wonders Hostel at Upper Dickson</div>`)[0];
+                popup_d04fbc67ff34e50b396da150650c5998.setContent(html_7d6b7bd26e70fb553e43f89ab262fab2);
+            
+        
+
+        marker_e7646b72dfb046ab020a44fc22f508bd.bindPopup(popup_d04fbc67ff34e50b396da150650c5998)
+        ;
+
+        
+    
+    
+            var marker_6cd63839c86a5684dce1c6cc6b674e20 = L.marker(
+                [1.305, 103.8526],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_3b1557b234f4701c45542c6fcc613a6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0a598603d614834b6260d035ba124cd = $(`<div id="html_f0a598603d614834b6260d035ba124cd" style="width: 100.0%; height: 100.0%;">Campbell Inn</div>`)[0];
+                popup_3b1557b234f4701c45542c6fcc613a6c.setContent(html_f0a598603d614834b6260d035ba124cd);
+            
+        
+
+        marker_6cd63839c86a5684dce1c6cc6b674e20.bindPopup(popup_3b1557b234f4701c45542c6fcc613a6c)
+        ;
+
+        
+    
+    
+            var marker_6c9f848b05a4e6c558a89313daa43a9e = L.marker(
+                [1.2812, 103.8434],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_545a4e65e43502520f3665ba70192859 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c1ec71f7187669efc9398d7d2c4a097 = $(`<div id="html_3c1ec71f7187669efc9398d7d2c4a097" style="width: 100.0%; height: 100.0%;">CSW Hostel</div>`)[0];
+                popup_545a4e65e43502520f3665ba70192859.setContent(html_3c1ec71f7187669efc9398d7d2c4a097);
+            
+        
+
+        marker_6c9f848b05a4e6c558a89313daa43a9e.bindPopup(popup_545a4e65e43502520f3665ba70192859)
+        ;
+
+        
+    
+    
+            var marker_79d7b13d0bd88243457409b042ca7649 = L.marker(
+                [1.3047, 103.854],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ac7262a3f2c1cb2a667af3262f91d7fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc985f76d3906a86cf3f47c1ab69dfee = $(`<div id="html_fc985f76d3906a86cf3f47c1ab69dfee" style="width: 100.0%; height: 100.0%;">Snooze Inn @Dunlop Street</div>`)[0];
+                popup_ac7262a3f2c1cb2a667af3262f91d7fe.setContent(html_fc985f76d3906a86cf3f47c1ab69dfee);
+            
+        
+
+        marker_79d7b13d0bd88243457409b042ca7649.bindPopup(popup_ac7262a3f2c1cb2a667af3262f91d7fe)
+        ;
+
+        
+    
+    
+            var marker_1efc3fdc02ca12e4b82a011690967a2e = L.marker(
+                [1.2874, 103.8471],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_02d93c53d37a9533493d66771c56bb6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed8d0f60eb4f30e27e8a337b35ea5a8 = $(`<div id="html_8ed8d0f60eb4f30e27e8a337b35ea5a8" style="width: 100.0%; height: 100.0%;">River City Inn</div>`)[0];
+                popup_02d93c53d37a9533493d66771c56bb6d.setContent(html_8ed8d0f60eb4f30e27e8a337b35ea5a8);
+            
+        
+
+        marker_1efc3fdc02ca12e4b82a011690967a2e.bindPopup(popup_02d93c53d37a9533493d66771c56bb6d)
+        ;
+
+        
+    
+    
+            var marker_dd5250931f1d3e05d6b12c2f6a96a07c = L.marker(
+                [1.283, 103.8459],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_4893a1db584eac41edc2e8c68594136a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b27c0db0a66da738b8b7a1b0d1649b = $(`<div id="html_14b27c0db0a66da738b8b7a1b0d1649b" style="width: 100.0%; height: 100.0%;">BEAT Arts Hostel at Chinatown</div>`)[0];
+                popup_4893a1db584eac41edc2e8c68594136a.setContent(html_14b27c0db0a66da738b8b7a1b0d1649b);
+            
+        
+
+        marker_dd5250931f1d3e05d6b12c2f6a96a07c.bindPopup(popup_4893a1db584eac41edc2e8c68594136a)
+        ;
+
+        
+    
+    
+            var marker_1de2ac62687a73f0d6f3aaedbc87dfcc = L.marker(
+                [1.3156, 103.8581],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_a5eb53067c6fcca4633c117de9469a64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c34c8a92779c22ff8b60ff09ca193861 = $(`<div id="html_c34c8a92779c22ff8b60ff09ca193861" style="width: 100.0%; height: 100.0%;">K Space Inn 569</div>`)[0];
+                popup_a5eb53067c6fcca4633c117de9469a64.setContent(html_c34c8a92779c22ff8b60ff09ca193861);
+            
+        
+
+        marker_1de2ac62687a73f0d6f3aaedbc87dfcc.bindPopup(popup_a5eb53067c6fcca4633c117de9469a64)
+        ;
+
+        
+    
+    
+            var marker_d07664cedaab8c3dba0c9d89ba09b957 = L.marker(
+                [1.2806, 103.7864],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ddd6ee449403a62c260fa41973486acc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1560958b08435adf2376b05d79298bdb = $(`<div id="html_1560958b08435adf2376b05d79298bdb" style="width: 100.0%; height: 100.0%;">K2 Guesthouse</div>`)[0];
+                popup_ddd6ee449403a62c260fa41973486acc.setContent(html_1560958b08435adf2376b05d79298bdb);
+            
+        
+
+        marker_d07664cedaab8c3dba0c9d89ba09b957.bindPopup(popup_ddd6ee449403a62c260fa41973486acc)
+        ;
+
+        
+    
+    
+            var marker_bea8026bec35341f387529170e749db8 = L.marker(
+                [1.3067, 103.8564],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_15a18e188c9034c8a7a44394eef2ec55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48f2fbf99bd660e7dd4be15f9b40f95b = $(`<div id="html_48f2fbf99bd660e7dd4be15f9b40f95b" style="width: 100.0%; height: 100.0%;">K2 Guesthouse Central</div>`)[0];
+                popup_15a18e188c9034c8a7a44394eef2ec55.setContent(html_48f2fbf99bd660e7dd4be15f9b40f95b);
+            
+        
+
+        marker_bea8026bec35341f387529170e749db8.bindPopup(popup_15a18e188c9034c8a7a44394eef2ec55)
+        ;
+
+        
+    
+    
+            var marker_46e25c5071ea1aba7173e0f351be267d = L.marker(
+                [1.3116, 103.8793],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_654921af0c81eaf89e9db8e7acadc595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_278dacc964d1b82e10ac3d7df1b8a863 = $(`<div id="html_278dacc964d1b82e10ac3d7df1b8a863" style="width: 100.0%; height: 100.0%;">ibis budget Singapore Pearl</div>`)[0];
+                popup_654921af0c81eaf89e9db8e7acadc595.setContent(html_278dacc964d1b82e10ac3d7df1b8a863);
+            
+        
+
+        marker_46e25c5071ea1aba7173e0f351be267d.bindPopup(popup_654921af0c81eaf89e9db8e7acadc595)
+        ;
+
+        
+    
+    
+            var marker_6a4d63c08a2e6bc039ce009350677e5a = L.marker(
+                [1.3115, 103.9012],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_23640657ad8d72a2fd28ca84aa7f2daa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f20a2684b935e3fd42e712756196691 = $(`<div id="html_1f20a2684b935e3fd42e712756196691" style="width: 100.0%; height: 100.0%;">ibis budget Singapore Joo Chiat</div>`)[0];
+                popup_23640657ad8d72a2fd28ca84aa7f2daa.setContent(html_1f20a2684b935e3fd42e712756196691);
+            
+        
+
+        marker_6a4d63c08a2e6bc039ce009350677e5a.bindPopup(popup_23640657ad8d72a2fd28ca84aa7f2daa)
+        ;
+
+        
+    
+    
+            var marker_c8f12bf374ca52d1e5e41251f566a2ff = L.marker(
+                [1.3118, 103.8801],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_b0da08e0c08adc173f7a71eba4d41aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6355635a61a69923901489ee47f29f4 = $(`<div id="html_a6355635a61a69923901489ee47f29f4" style="width: 100.0%; height: 100.0%;">Hotel 81 Palace - NEWLY RENOVATED</div>`)[0];
+                popup_b0da08e0c08adc173f7a71eba4d41aa2.setContent(html_a6355635a61a69923901489ee47f29f4);
+            
+        
+
+        marker_c8f12bf374ca52d1e5e41251f566a2ff.bindPopup(popup_b0da08e0c08adc173f7a71eba4d41aa2)
+        ;
+
+        
+    
+    
+            var marker_fd08928ffd3d5db2063779761910192b = L.marker(
+                [1.311, 103.8786],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_729349892487ed827275657c2f140004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c82fc26332a907768a620e880943fdb3 = $(`<div id="html_c82fc26332a907768a620e880943fdb3" style="width: 100.0%; height: 100.0%;">Hotel 81 Premier Princess</div>`)[0];
+                popup_729349892487ed827275657c2f140004.setContent(html_c82fc26332a907768a620e880943fdb3);
+            
+        
+
+        marker_fd08928ffd3d5db2063779761910192b.bindPopup(popup_729349892487ed827275657c2f140004)
+        ;
+
+        
+    
+    
+            var marker_644192732c75370c9b79e7bd6af5d158 = L.marker(
+                [1.311, 103.8763],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_26c223b5773d7abfd4952621ae527677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2b8818cff3a3c4474f802918335fa9c = $(`<div id="html_b2b8818cff3a3c4474f802918335fa9c" style="width: 100.0%; height: 100.0%;">ibis budget Singapore Emerald</div>`)[0];
+                popup_26c223b5773d7abfd4952621ae527677.setContent(html_b2b8818cff3a3c4474f802918335fa9c);
+            
+        
+
+        marker_644192732c75370c9b79e7bd6af5d158.bindPopup(popup_26c223b5773d7abfd4952621ae527677)
+        ;
+
+        
+    
+    
+            var marker_4a82cf5644ebdbcca4685992dfdc8116 = L.marker(
+                [1.2875, 103.8486],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_0028ec4fa68d338d15846c4af2bf8e2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ad4d75f8afcfef202ce4e2c86f5d2c = $(`<div id="html_e4ad4d75f8afcfef202ce4e2c86f5d2c" style="width: 100.0%; height: 100.0%;">KINN Capsule</div>`)[0];
+                popup_0028ec4fa68d338d15846c4af2bf8e2e.setContent(html_e4ad4d75f8afcfef202ce4e2c86f5d2c);
+            
+        
+
+        marker_4a82cf5644ebdbcca4685992dfdc8116.bindPopup(popup_0028ec4fa68d338d15846c4af2bf8e2e)
+        ;
+
+        
+    
+    
+            var marker_58def92c0cfb2d89a51fc3cbc140d5a9 = L.marker(
+                [1.312, 103.8811],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_738aee5b6aab1d83ea4640490d0287fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25f4227c5d4b59d0ef3972f00d3b27d2 = $(`<div id="html_25f4227c5d4b59d0ef3972f00d3b27d2" style="width: 100.0%; height: 100.0%;">Hotel 81 Gold</div>`)[0];
+                popup_738aee5b6aab1d83ea4640490d0287fd.setContent(html_25f4227c5d4b59d0ef3972f00d3b27d2);
+            
+        
+
+        marker_58def92c0cfb2d89a51fc3cbc140d5a9.bindPopup(popup_738aee5b6aab1d83ea4640490d0287fd)
+        ;
+
+        
+    
+    
+            var marker_8f4a3baf1580de31def0a54d3ea6aa64 = L.marker(
+                [1.3108, 103.8624],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_74604fa32fb1b3b2770d08c47866f81a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c3698e8b987e4c1a8c7557f1081e5d9 = $(`<div id="html_9c3698e8b987e4c1a8c7557f1081e5d9" style="width: 100.0%; height: 100.0%;">Hotel 81 Lavender</div>`)[0];
+                popup_74604fa32fb1b3b2770d08c47866f81a.setContent(html_9c3698e8b987e4c1a8c7557f1081e5d9);
+            
+        
+
+        marker_8f4a3baf1580de31def0a54d3ea6aa64.bindPopup(popup_74604fa32fb1b3b2770d08c47866f81a)
+        ;
+
+        
+    
+    
+            var marker_a33c278f7cf2ae50fae7234b2a1bae98 = L.marker(
+                [1.3116, 103.8809],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_f7c5b557b34b4a0f3ce9402cce1ca4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd954ec421e39203583668d20b894026 = $(`<div id="html_cd954ec421e39203583668d20b894026" style="width: 100.0%; height: 100.0%;">Hotel 81 Premier Star</div>`)[0];
+                popup_f7c5b557b34b4a0f3ce9402cce1ca4ab.setContent(html_cd954ec421e39203583668d20b894026);
+            
+        
+
+        marker_a33c278f7cf2ae50fae7234b2a1bae98.bindPopup(popup_f7c5b557b34b4a0f3ce9402cce1ca4ab)
+        ;
+
+        
+    
+    
+            var marker_ad18e0927dd4421b959ae20d849f2038 = L.marker(
+                [1.3106, 103.8806],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_341bb4c9398c13bf4cdd9948e363d9b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8203869d251d21c2c339d962ea409659 = $(`<div id="html_8203869d251d21c2c339d962ea409659" style="width: 100.0%; height: 100.0%;">ibis budget Singapore Crystal</div>`)[0];
+                popup_341bb4c9398c13bf4cdd9948e363d9b9.setContent(html_8203869d251d21c2c339d962ea409659);
+            
+        
+
+        marker_ad18e0927dd4421b959ae20d849f2038.bindPopup(popup_341bb4c9398c13bf4cdd9948e363d9b9)
+        ;
+
+        
+    
+    
+            var marker_cc636bdaf05bd663acd5100131236b7f = L.marker(
+                [1.2837, 103.8456],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_fb5a903ce546b8168706e3a89aa5fb96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f297f7ffa24bd9273010ad5745fd7d59 = $(`<div id="html_f297f7ffa24bd9273010ad5745fd7d59" style="width: 100.0%; height: 100.0%;">Galaxy Pods @ Chinatown</div>`)[0];
+                popup_fb5a903ce546b8168706e3a89aa5fb96.setContent(html_f297f7ffa24bd9273010ad5745fd7d59);
+            
+        
+
+        marker_cc636bdaf05bd663acd5100131236b7f.bindPopup(popup_fb5a903ce546b8168706e3a89aa5fb96)
+        ;
+
+        
+    
+    
+            var marker_416d3b678df3523f28e14847f9e82a6b = L.marker(
+                [1.3112, 103.8773],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_26005fe6ffd122b7d9551dbbff9073af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52c5ba02abe47db5c885a70031f69428 = $(`<div id="html_52c5ba02abe47db5c885a70031f69428" style="width: 100.0%; height: 100.0%;">Hotel 81 Orchid</div>`)[0];
+                popup_26005fe6ffd122b7d9551dbbff9073af.setContent(html_52c5ba02abe47db5c885a70031f69428);
+            
+        
+
+        marker_416d3b678df3523f28e14847f9e82a6b.bindPopup(popup_26005fe6ffd122b7d9551dbbff9073af)
+        ;
+
+        
+    
+    
+            var marker_d7f21e40d54451b729ac76db002f3be9 = L.marker(
+                [1.2969, 103.8556],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_99dee9d246098af1682d2d16e67b447e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3b63a0f4be88a2c88a44c868f81bf9b = $(`<div id="html_e3b63a0f4be88a2c88a44c868f81bf9b" style="width: 100.0%; height: 100.0%;">Hotel 81 Bugis</div>`)[0];
+                popup_99dee9d246098af1682d2d16e67b447e.setContent(html_e3b63a0f4be88a2c88a44c868f81bf9b);
+            
+        
+
+        marker_d7f21e40d54451b729ac76db002f3be9.bindPopup(popup_99dee9d246098af1682d2d16e67b447e)
+        ;
+
+        
+    
+    
+            var marker_857abc6067419bab0a56ca6dbce11ae7 = L.marker(
+                [1.3049, 103.8543],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_e9c711cb8003f514cb46f1dbf50c45e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d259ff4499973638f0851f77002a44af = $(`<div id="html_d259ff4499973638f0851f77002a44af" style="width: 100.0%; height: 100.0%;">Hotel 81 Dickson</div>`)[0];
+                popup_e9c711cb8003f514cb46f1dbf50c45e4.setContent(html_d259ff4499973638f0851f77002a44af);
+            
+        
+
+        marker_857abc6067419bab0a56ca6dbce11ae7.bindPopup(popup_e9c711cb8003f514cb46f1dbf50c45e4)
+        ;
+
+        
+    
+    
+            var marker_2dda454edd19e11e12175c3b67d86fca = L.marker(
+                [1.3122, 103.8811],
+                {}
+            ).addTo(marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a);
+        
+    
+        var popup_ca154f243030f3af8b4f983fc673199e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ac832b1553247db0d8ce3d8abbe065 = $(`<div id="html_d1ac832b1553247db0d8ce3d8abbe065" style="width: 100.0%; height: 100.0%;">ibis budget Singapore Ruby</div>`)[0];
+                popup_ca154f243030f3af8b4f983fc673199e.setContent(html_d1ac832b1553247db0d8ce3d8abbe065);
+            
+        
+
+        marker_2dda454edd19e11e12175c3b67d86fca.bindPopup(popup_ca154f243030f3af8b4f983fc673199e)
+        ;
+
+        
+    
+    
+            marker_cluster_94b4a63d0b69b56a98bfd22a9b2aa57a.addTo(map_f4dc4fa7fc8c0197792b1825cc34549e);
+        
+</script>
+</html>
